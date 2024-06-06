@@ -1,0 +1,16 @@
+[
+  {
+    "sapCode": "SJ20",
+    "partnerBrand": "POST",
+    "availablePickupPoints": [
+      {
+        "pickupPointId": "abbc213b-2a4f-4d46-8800-82af91158fb6",
+        "leadTimeMin": "leadTime",
+        "leadTimeMax": "leadTime",
+        "latitude": 55.882071,
+        "longitude": 37.57351,
+        "pickupPointType": "PICKUP_POINT"
+      }
+    ]
+  }
+]

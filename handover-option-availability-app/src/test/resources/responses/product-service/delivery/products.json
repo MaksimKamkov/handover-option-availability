@@ -1,0 +1,96 @@
+[
+  {
+    "productId": "50044074",
+    "flags": {
+      "isDigitalCode": false,
+      "isService": false,
+      "isDelivery": false,
+      "isInventoryControl": true
+    },
+    "groupIds": {
+      "sapGroupId": "503030101"
+    },
+    "sapAttributes": {
+      "constants": {
+        "m_volumeMeasure": "СМ3",
+        "m_dimensionsMeasure": "СМ",
+        "m_warranty": "2 г",
+        "m_articleType": "ACSS",
+        "rating": "4.703703703703703",
+        "m_brand": "Logitech",
+        "m_materialModel": "K380 Dark Gray (920-007584)",
+        "m_measureUnitISO": "796",
+        "m_country": "Китай",
+        "trivialProductName": "Клавиатура беспроводная",
+        "reviewCount": "54",
+        "m_width": "3.000",
+        "m_volume": "1371.750",
+        "m_brandId": "770",
+        "mc_source": "ERP",
+        "m_enablePPO": "Y",
+        "m_length": "29.500",
+        "m_materialType": "00",
+        "reviewPercent": "91.0",
+        "m_codeNDS": "1",
+        "m_retireWithoutApprovement": "G",
+        "AM_Filtering_Flag": "1",
+        "m_weight": "0.540",
+        "m_enablePPK": "Y",
+        "m_calcCode": "Т",
+        "m_sendToSLC": "G",
+        "m_measureUnit": "ШТ",
+        "ONLINEONLY": "INET",
+        "m_height": "15.500",
+        "m_weightMeasure": "КГ"
+      },
+      "calendars": {}
+    }
+  },
+  {
+    "productId": "50044075",
+    "flags": {
+      "isDigitalCode": false,
+      "isService": false,
+      "isDelivery": false,
+      "isInventoryControl": true
+    },
+    "groupIds": {
+      "sapGroupId": "503030101"
+    },
+    "sapAttributes": {
+      "constants": {
+        "m_volumeMeasure": "СМ3",
+        "m_dimensionsMeasure": "СМ",
+        "m_warranty": "2 г",
+        "m_articleType": "ACSS",
+        "rating": "4.703703703703703",
+        "m_brand": "Logitech",
+        "m_materialModel": "K380 Dark Gray (920-007584)",
+        "m_measureUnitISO": "796",
+        "m_country": "Китай",
+        "trivialProductName": "Клавиатура беспроводная",
+        "reviewCount": "54",
+        "m_width": "3.000",
+        "m_volume": "1371.750",
+        "m_brandId": "770",
+        "mc_source": "ERP",
+        "m_enablePPO": "Y",
+        "m_length": "29.500",
+        "m_materialType": "00",
+        "reviewPercent": "91.0",
+        "m_codeNDS": "1",
+        "m_retireWithoutApprovement": "G",
+        "AM_Filtering_Flag": "1",
+        "m_weight": "0.540",
+        "m_enablePPK": "Y",
+        "m_calcCode": "Т",
+        "m_sendToSLC": "G",
+        "m_measureUnit": "ШТ",
+        "ONLINEONLY": "INET",
+        "m_height": "15.500",
+        "m_weightMeasure": "КГ"
+      },
+      "calendars": {}
+    }
+  }
+]

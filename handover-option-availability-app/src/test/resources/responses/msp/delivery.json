@@ -1,0 +1,401 @@
+{
+  "ResponseHeader": {
+    "clientId": "TEP",
+    "interfaceVersion": "2.0",
+    "responseDate": "2021-10-19 9:20:6",
+    "responseCode": 200,
+    "responseMessage": "OK",
+    "headerErrors": [
+      {
+        "errorCode": "1004",
+        "errorLevel": "ERROR",
+        "errorMessage": "Object SJ99 not found! Can not get object brand and type",
+        "errorLink": "SJ99"
+      }
+    ]
+  },
+  "ResponseBody": {
+    "availabilityOptions": [
+      {
+        "material": "50044074",
+        "handoverType": "PICKUP",
+        "handoverObject": "S229",
+        "stockObject": "C033",
+        "stockObjectPriority": 0,
+        "availableStock": 0,
+        "showCaseStock": 0,
+        "prepaidOnly": false,
+        "availabilityDates": [
+          {
+            "availableDate": "2021-10-20",
+            "validTo": "19.10.2021 17:00:00"
+          },
+          {
+            "availableDate": "2021-10-21",
+            "validTo": "20.10.2021 17:00:00"
+          }
+        ]
+      },
+      {
+        "material": "50044074",
+        "handoverType": "PICKUP",
+        "handoverObject": "S229",
+        "stockObject": "C025",
+        "stockObjectPriority": 1,
+        "availableStock": 910,
+        "showCaseStock": 0,
+        "prepaidOnly": false,
+        "availabilityDates": [
+          {
+            "availableDate": "2021-10-20",
+            "validTo": "19.10.2021 17:00:00"
+          },
+          {
+            "availableDate": "2021-10-21",
+            "validTo": "20.10.2021 17:00:00"
+          }
+        ]
+      },
+      {
+        "material": "50044074",
+        "handoverType": "PICKUP",
+        "handoverObject": "S229",
+        "stockObject": "C095",
+        "stockObjectPriority": 2,
+        "availableStock": 10004,
+        "showCaseStock": 0,
+        "prepaidOnly": false,
+        "availabilityDates": [
+          {
+            "availableDate": "2021-10-20",
+            "validTo": "19.10.2021 17:00:00"
+          },
+          {
+            "availableDate": "2021-10-21",
+            "validTo": "20.10.2021 17:00:00"
+          }
+        ]
+      },
+      {
+        "material": "50044074",
+        "handoverType": "PICKUP",
+        "handoverObject": "SJ00",
+        "stockObject": "C095",
+        "stockObjectPriority": 0,
+        "availableStock": 10004,
+        "showCaseStock": 0,
+        "prepaidOnly": true,
+        "availabilityDates": [
+          {
+            "availableDate": "2021-10-21",
+            "validTo": "19.10.2021 15:00:00"
+          },
+          {
+            "availableDate": "2021-10-22",
+            "validTo": "20.10.2021 15:00:00"
+          }
+        ]
+      },
+      {
+        "material": "50044074",
+        "handoverType": "PICKUP",
+        "handoverObject": "SJ00",
+        "stockObject": "C025",
+        "stockObjectPriority": 1,
+        "availableStock": 910,
+        "showCaseStock": 0,
+        "prepaidOnly": true,
+        "availabilityDates": [
+          {
+            "availableDate": "2021-10-21",
+            "validTo": "19.10.2021 15:00:00"
+          },
+          {
+            "availableDate": "2021-10-22",
+            "validTo": "20.10.2021 15:00:00"
+          }
+        ]
+      },
+      {
+        "material": "50044074",
+        "handoverType": "PICKUP",
+        "handoverObject": "S205",
+        "stockObject": "C033",
+        "stockObjectPriority": 0,
+        "availableStock": 0,
+        "showCaseStock": 0,
+        "prepaidOnly": false,
+        "availabilityDates": [
+          {
+            "availableDate": "2021-10-20",
+            "validTo": "19.10.2021 17:00:00"
+          },
+          {
+            "availableDate": "2021-10-21",
+            "validTo": "20.10.2021 17:00:00"
+          }
+        ]
+      },
+      {
+        "material": "50044074",
+        "handoverType": "PICKUP",
+        "handoverObject": "S205",
+        "stockObject": "C025",
+        "stockObjectPriority": 1,
+        "availableStock": 910,
+        "showCaseStock": 0,
+        "prepaidOnly": false,
+        "availabilityDates": [
+          {
+            "availableDate": "2021-10-20",
+            "validTo": "19.10.2021 17:00:00"
+          },
+          {
+            "availableDate": "2021-10-21",
+            "validTo": "20.10.2021 17:00:00"
+          }
+        ]
+      },
+      {
+        "material": "50044074",
+        "handoverType": "PICKUP",
+        "handoverObject": "S205",
+        "stockObject": "C095",
+        "stockObjectPriority": 2,
+        "availableStock": 10004,
+        "showCaseStock": 0,
+        "prepaidOnly": false,
+        "availabilityDates": [
+          {
+            "availableDate": "2021-10-20",
+            "validTo": "19.10.2021 17:00:00"
+          },
+          {
+            "availableDate": "2021-10-21",
+            "validTo": "20.10.2021 17:00:00"
+          }
+        ]
+      },
+      {
+        "material": "50044074",
+        "handoverType": "PICKUP",
+        "handoverObject": "S789",
+        "stockObject": "C033",
+        "stockObjectPriority": 0,
+        "availableStock": 0,
+        "showCaseStock": 0,
+        "prepaidOnly": false,
+        "availabilityDates": [
+          {
+            "availableDate": "2021-10-20",
+            "validTo": "19.10.2021 17:00:00"
+          },
+          {
+            "availableDate": "2021-10-21",
+            "validTo": "20.10.2021 17:00:00"
+          }
+        ]
+      },
+      {
+        "material": "50044074",
+        "handoverType": "PICKUP",
+        "handoverObject": "S789",
+        "stockObject": "C025",
+        "stockObjectPriority": 1,
+        "availableStock": 910,
+        "showCaseStock": 0,
+        "prepaidOnly": false,
+        "availabilityDates": [
+          {
+            "availableDate": "2021-10-20",
+            "validTo": "19.10.2021 17:00:00"
+          },
+          {
+            "availableDate": "2021-10-21",
+            "validTo": "20.10.2021 17:00:00"
+          }
+        ]
+      },
+      {
+        "material": "50044074",
+        "handoverType": "PICKUP",
+        "handoverObject": "S789",
+        "stockObject": "C095",
+        "stockObjectPriority": 2,
+        "availableStock": 10004,
+        "showCaseStock": 0,
+        "prepaidOnly": false,
+        "availabilityDates": [
+          {
+            "availableDate": "2021-10-20",
+            "validTo": "19.10.2021 17:00:00"
+          },
+          {
+            "availableDate": "2021-10-21",
+            "validTo": "20.10.2021 17:00:00"
+          }
+        ]
+      },
+      {
+        "material": "50044074",
+        "handoverType": "PICKUP",
+        "handoverObject": "SJ20",
+        "stockObject": "C095",
+        "stockObjectPriority": 0,
+        "availableStock": 10004,
+        "showCaseStock": 0,
+        "prepaidOnly": true,
+        "availabilityDates": [
+          {
+            "availableDate": "2021-10-21",
+            "validTo": "19.10.2021 23:30:00"
+          },
+          {
+            "availableDate": "2021-10-22",
+            "validTo": "20.10.2021 23:30:00"
+          }
+        ]
+      },
+      {
+        "material": "50044074",
+        "handoverType": "PICKUP",
+        "handoverObject": "SJ20",
+        "stockObject": "C025",
+        "stockObjectPriority": 1,
+        "availableStock": 910,
+        "showCaseStock": 0,
+        "prepaidOnly": true,
+        "availabilityDates": [
+          {
+            "availableDate": "2021-10-21",
+            "validTo": "19.10.2021 23:30:00"
+          },
+          {
+            "availableDate": "2021-10-22",
+            "validTo": "20.10.2021 23:30:00"
+          }
+        ]
+      },
+      {
+        "material": "50044074",
+        "handoverType": "PICKUP",
+        "handoverObject": "S797",
+        "stockObject": "C033",
+        "stockObjectPriority": 0,
+        "availableStock": 0,
+        "showCaseStock": 0,
+        "prepaidOnly": true,
+        "availabilityDates": [
+          {
+            "availableDate": "2021-10-20",
+            "validTo": "19.10.2021 17:00:00"
+          },
+          {
+            "availableDate": "2021-10-21",
+            "validTo": "20.10.2021 17:00:00"
+          }
+        ]
+      },
+      {
+        "material": "50044074",
+        "handoverType": "PICKUP",
+        "handoverObject": "S797",
+        "stockObject": "C025",
+        "stockObjectPriority": 1,
+        "availableStock": 910,
+        "showCaseStock": 0,
+        "prepaidOnly": true,
+        "availabilityDates": [
+          {
+            "availableDate": "2021-10-20",
+            "validTo": "19.10.2021 17:00:00"
+          },
+          {
+            "availableDate": "2021-10-21",
+            "validTo": "20.10.2021 17:00:00"
+          }
+        ]
+      },
+      {
+        "material": "50044074",
+        "handoverType": "PICKUP",
+        "handoverObject": "S797",
+        "stockObject": "C095",
+        "stockObjectPriority": 2,
+        "availableStock": 10004,
+        "showCaseStock": 0,
+        "prepaidOnly": true,
+        "availabilityDates": [
+          {
+            "availableDate": "2021-10-20",
+            "validTo": "19.10.2021 17:00:00"
+          },
+          {
+            "availableDate": "2021-10-21",
+            "validTo": "20.10.2021 17:00:00"
+          }
+        ]
+      },
+      {
+        "material": "50044074",
+        "handoverType": "PICKUP",
+        "handoverObject": "S499",
+        "stockObject": "C033",
+        "stockObjectPriority": 0,
+        "availableStock": 0,
+        "showCaseStock": 0,
+        "prepaidOnly": false,
+        "availabilityDates": [
+          {
+            "availableDate": "2021-10-20",
+            "validTo": "19.10.2021 17:00:00"
+          },
+          {
+            "availableDate": "2021-10-21",
+            "validTo": "20.10.2021 17:00:00"
+          }
+        ]
+      },
+      {
+        "material": "50044074",
+        "handoverType": "PICKUP",
+        "handoverObject": "S018",
+        "stockObject": "S018",
+        "stockObjectPriority": 1,
+        "availableStock": 910,
+        "showCaseStock": 0,
+        "prepaidOnly": false,
+        "availabilityDates": [
+          {
+            "availableDate": "availableDateToday",
+            "validTo": "validToToday 23:59:59"
+          },
+          {
+            "availableDate": "availableDateTomorrow",
+            "validTo": "validToTomorrow 23:59:59"
+          }
+        ]
+      },
+      {
+        "material": "50044074",
+        "handoverType": "PICKUP",
+        "handoverObject": "S499",
+        "stockObject": "C095",
+        "stockObjectPriority": 2,
+        "availableStock": 10004,
+        "showCaseStock": 0,
+        "prepaidOnly": false,
+        "availabilityDates": [
+          {
+            "availableDate": "2021-10-20",
+            "validTo": "19.10.2021 17:00:00"
+          },
+          {
+            "availableDate": "2021-10-21",
+            "validTo": "20.10.2021 17:00:00"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,2202 @@
+[
+  {
+    "name": "Владивосток",
+    "brand": "ELDORADO",
+    "id": "A720",
+    "attributes": [
+      {
+        "name": "creditApprovalLeadTime",
+        "value": "1440"
+      }
+    ]
+  },
+  {
+    "name": "Петрозаводск",
+    "brand": "ELDORADO",
+    "id": "A874",
+    "attributes": [
+      {
+        "name": "creditApprovalLeadTime",
+        "value": "1440"
+      }
+    ]
+  },
+  {
+    "name": "Пермь",
+    "brand": "ELDORADO",
+    "id": "A704",
+    "attributes": [
+      {
+        "name": "creditApprovalLeadTime",
+        "value": "1440"
+      }
+    ]
+  },
+  {
+    "name": "Екатеринбург",
+    "brand": "ELDORADO",
+    "id": "A666",
+    "attributes": [
+      {
+        "name": "creditApprovalLeadTime",
+        "value": "1440"
+      }
+    ]
+  },
+  {
+    "name": "Тюмень",
+    "brand": "ELDORADO",
+    "id": "A687",
+    "attributes": [
+      {
+        "name": "creditApprovalLeadTime",
+        "value": "1440"
+      }
+    ]
+  },
+  {
+    "name": "Салехард",
+    "brand": "ELDORADO",
+    "id": "A919",
+    "attributes": [
+      {
+        "name": "creditApprovalLeadTime",
+        "value": "1440"
+      }
+    ]
+  },
+  {
+    "name": "Уфа",
+    "brand": "ELDORADO",
+    "id": "A678",
+    "attributes": [
+      {
+        "name": "creditApprovalLeadTime",
+        "value": "1440"
+      }
+    ]
+  },
+  {
+    "name": "Архангельск",
+    "brand": "ELDORADO",
+    "id": "A785",
+    "attributes": [
+      {
+        "name": "creditApprovalLeadTime",
+        "value": "1440"
+      }
+    ]
+  },
+  {
+    "name": "Набережные Челны",
+    "brand": "ELDORADO",
+    "id": "A707",
+    "attributes": [
+      {
+        "name": "creditApprovalLeadTime",
+        "value": "1440"
+      }
+    ]
+  },
+  {
+    "name": "Томск",
+    "brand": "ELDORADO",
+    "id": "A732",
+    "attributes": [
+      {
+        "name": "creditApprovalLeadTime",
+        "value": "1440"
+      }
+    ]
+  },
+  {
+    "name": "Ульяновск",
+    "brand": "ELDORADO",
+    "id": "A709",
+    "attributes": [
+      {
+        "name": "creditApprovalLeadTime",
+        "value": "1440"
+      }
+    ]
+  },
+  {
+    "name": "Оренбург",
+    "brand": "ELDORADO",
+    "id": "A749",
+    "attributes": [
+      {
+        "name": "creditApprovalLeadTime",
+        "value": "1440"
+      }
+    ]
+  },
+  {
+    "name": "Казань",
+    "brand": "ELDORADO",
+    "id": "A664",
+    "attributes": [
+      {
+        "name": "creditApprovalLeadTime",
+        "value": "1440"
+      }
+    ]
+  },
+  {
+    "name": "Нижний Новгород",
+    "brand": "ELDORADO",
+    "id": "A679",
+    "attributes": [
+      {
+        "name": "creditApprovalLeadTime",
+        "value": "1440"
+      }
+    ]
+  },
+  {
+    "name": "Саранск",
+    "brand": "ELDORADO",
+    "id": "A787",
+    "attributes": [
+      {
+        "name": "creditApprovalLeadTime",
+        "value": "1440"
+      }
+    ]
+  },
+  {
+    "name": "Москва и Подмосковье",
+    "brand": "ELDORADO",
+    "id": "A408",
+    "attributes": [
+      {
+        "name": "creditApprovalLeadTime",
+        "value": "1440"
+      }
+    ]
+  },
+  {
+    "name": "Рязань",
+    "brand": "ELDORADO",
+    "id": "A716",
+    "attributes": [
+      {
+        "name": "creditApprovalLeadTime",
+        "value": "1440"
+      }
+    ]
+  },
+  {
+    "name": "Великий Новгород",
+    "brand": "ELDORADO",
+    "id": "A833",
+    "attributes": [
+      {
+        "name": "creditApprovalLeadTime",
+        "value": "1440"
+      }
+    ]
+  },
+  {
+    "name": "Мурманск",
+    "brand": "ELDORADO",
+    "id": "A782",
+    "attributes": [
+      {
+        "name": "creditApprovalLeadTime",
+        "value": "1440"
+      }
+    ]
+  },
+  {
+    "name": "Тверь",
+    "brand": "ELDORADO",
+    "id": "A778",
+    "attributes": [
+      {
+        "name": "creditApprovalLeadTime",
+        "value": "1440"
+      }
+    ]
+  },
+  {
+    "name": "Владимир",
+    "brand": "ELDORADO",
+    "id": "A705",
+    "attributes": [
+      {
+        "name": "creditApprovalLeadTime",
+        "value": "1440"
+      }
+    ]
+  },
+  {
+    "name": "Смоленск",
+    "brand": "ELDORADO",
+    "id": "A769",
+    "attributes": [
+      {
+        "name": "creditApprovalLeadTime",
+        "value": "1440"
+      }
+    ]
+  },
+  {
+    "name": "Ярославль",
+    "brand": "ELDORADO",
+    "id": "A729",
+    "attributes": [
+      {
+        "name": "creditApprovalLeadTime",
+        "value": "1440"
+      }
+    ]
+  },
+  {
+    "name": "Калуга",
+    "brand": "ELDORADO",
+    "id": "A771",
+    "attributes": [
+      {
+        "name": "creditApprovalLeadTime",
+        "value": "1440"
+      }
+    ]
+  },
+  {
+    "name": "Белгород",
+    "brand": "ELDORADO",
+    "id": "A762",
+    "attributes": [
+      {
+        "name": "creditApprovalLeadTime",
+        "value": "1440"
+      }
+    ]
+  },
+  {
+    "name": "Тула",
+    "brand": "ELDORADO",
+    "id": "A717",
+    "attributes": [
+      {
+        "name": "creditApprovalLeadTime",
+        "value": "1440"
+      }
+    ]
+  },
+  {
+    "name": "Пенза",
+    "brand": "ELDORADO",
+    "id": "A734",
+    "attributes": [
+      {
+        "name": "creditApprovalLeadTime",
+        "value": "1440"
+      }
+    ]
+  },
+  {
+    "name": "Саратов",
+    "brand": "ELDORADO",
+    "id": "A710",
+    "attributes": [
+      {
+        "name": "creditApprovalLeadTime",
+        "value": "1440"
+      }
+    ]
+  },
+  {
+    "name": "Волгоград",
+    "brand": "ELDORADO",
+    "id": "A677",
+    "attributes": [
+      {
+        "name": "creditApprovalLeadTime",
+        "value": "1440"
+      }
+    ]
+  },
+  {
+    "name": "Ростов-на-Дону",
+    "brand": "ELDORADO",
+    "id": "A674",
+    "attributes": [
+      {
+        "name": "creditApprovalLeadTime",
+        "value": "1440"
+      }
+    ]
+  },
+  {
+    "name": "Краснодар",
+    "brand": "ELDORADO",
+    "id": "A711",
+    "attributes": [
+      {
+        "name": "creditApprovalLeadTime",
+        "value": "1440"
+      }
+    ]
+  },
+  {
+    "name": "Новосибирск",
+    "brand": "ELDORADO",
+    "id": "A667",
+    "attributes": [
+      {
+        "name": "creditApprovalLeadTime",
+        "value": "1440"
+      }
+    ]
+  },
+  {
+    "name": "Брянск",
+    "brand": "ELDORADO",
+    "id": "A702",
+    "attributes": [
+      {
+        "name": "creditApprovalLeadTime",
+        "value": "1440"
+      }
+    ]
+  },
+  {
+    "name": "Омск",
+    "brand": "ELDORADO",
+    "id": "A697",
+    "attributes": [
+      {
+        "name": "creditApprovalLeadTime",
+        "value": "1440"
+      }
+    ]
+  },
+  {
+    "name": "Челябинск",
+    "brand": "ELDORADO",
+    "id": "A684",
+    "attributes": [
+      {
+        "name": "creditApprovalLeadTime",
+        "value": "1440"
+      }
+    ]
+  },
+  {
+    "name": "Воронеж",
+    "brand": "ELDORADO",
+    "id": "A703",
+    "attributes": [
+      {
+        "name": "creditApprovalLeadTime",
+        "value": "1440"
+      }
+    ]
+  },
+  {
+    "name": "Новороссийск",
+    "brand": "ELDORADO",
+    "id": "A823",
+    "attributes": [
+      {
+        "name": "creditApprovalLeadTime",
+        "value": "1440"
+      }
+    ]
+  },
+  {
+    "name": "Сочи",
+    "brand": "ELDORADO",
+    "id": "A822",
+    "attributes": [
+      {
+        "name": "creditApprovalLeadTime",
+        "value": "1440"
+      }
+    ]
+  },
+  {
+    "name": "Ижевск",
+    "brand": "ELDORADO",
+    "id": "A763",
+    "attributes": [
+      {
+        "name": "creditApprovalLeadTime",
+        "value": "1440"
+      }
+    ]
+  },
+  {
+    "name": "Курск",
+    "brand": "ELDORADO",
+    "id": "A770",
+    "attributes": [
+      {
+        "name": "creditApprovalLeadTime",
+        "value": "1440"
+      }
+    ]
+  },
+  {
+    "name": "Йошкар-Ола",
+    "brand": "ELDORADO",
+    "id": "A880",
+    "attributes": [
+      {
+        "name": "creditApprovalLeadTime",
+        "value": "1440"
+      }
+    ]
+  },
+  {
+    "name": "Владикавказ",
+    "brand": "ELDORADO",
+    "id": "A884",
+    "attributes": [
+      {
+        "name": "creditApprovalLeadTime",
+        "value": "1440"
+      }
+    ]
+  },
+  {
+    "name": "Калининград",
+    "brand": "ELDORADO",
+    "id": "A445",
+    "attributes": [
+      {
+        "name": "creditApprovalLeadTime",
+        "value": "1440"
+      }
+    ]
+  },
+  {
+    "name": "Сыктывкар",
+    "brand": "ELDORADO",
+    "id": "A724",
+    "attributes": [
+      {
+        "name": "creditApprovalLeadTime",
+        "value": "1440"
+      }
+    ]
+  },
+  {
+    "name": "Санкт-Петербург",
+    "brand": "ELDORADO",
+    "id": "A535",
+    "attributes": [
+      {
+        "name": "creditApprovalLeadTime",
+        "value": "1440"
+      }
+    ]
+  },
+  {
+    "name": "Орёл",
+    "brand": "ELDORADO",
+    "id": "A700",
+    "attributes": [
+      {
+        "name": "creditApprovalLeadTime",
+        "value": "1440"
+      }
+    ]
+  },
+  {
+    "name": "Барнаул",
+    "brand": "ELDORADO",
+    "id": "A718",
+    "attributes": [
+      {
+        "name": "creditApprovalLeadTime",
+        "value": "1440"
+      }
+    ]
+  },
+  {
+    "name": "Ставрополь",
+    "brand": "ELDORADO",
+    "id": "A760",
+    "attributes": [
+      {
+        "name": "creditApprovalLeadTime",
+        "value": "1440"
+      }
+    ]
+  },
+  {
+    "name": "Курган",
+    "brand": "ELDORADO",
+    "id": "A706",
+    "attributes": [
+      {
+        "name": "creditApprovalLeadTime",
+        "value": "1440"
+      }
+    ]
+  },
+  {
+    "name": "Абакан",
+    "brand": "ELDORADO",
+    "id": "A870",
+    "attributes": [
+      {
+        "name": "creditApprovalLeadTime",
+        "value": "1440"
+      }
+    ]
+  },
+  {
+    "name": "Кемерово",
+    "brand": "ELDORADO",
+    "id": "A701",
+    "attributes": [
+      {
+        "name": "creditApprovalLeadTime",
+        "value": "1440"
+      }
+    ]
+  },
+  {
+    "name": "Астрахань",
+    "brand": "ELDORADO",
+    "id": "A830",
+    "attributes": [
+      {
+        "name": "creditApprovalLeadTime",
+        "value": "1440"
+      }
+    ]
+  },
+  {
+    "name": "Петропавловск-Камчатский",
+    "brand": "ELDORADO",
+    "id": "A738",
+    "attributes": [
+      {
+        "name": "creditApprovalLeadTime",
+        "value": "1440"
+      }
+    ]
+  },
+  {
+    "name": "Киров",
+    "brand": "ELDORADO",
+    "id": "A761",
+    "attributes": [
+      {
+        "name": "creditApprovalLeadTime",
+        "value": "1440"
+      }
+    ]
+  },
+  {
+    "name": "Тольятти",
+    "brand": "ELDORADO",
+    "id": "A444",
+    "attributes": [
+      {
+        "name": "creditApprovalLeadTime",
+        "value": "1440"
+      }
+    ]
+  },
+  {
+    "name": "Майкоп",
+    "brand": "ELDORADO",
+    "id": "A722",
+    "attributes": [
+      {
+        "name": "creditApprovalLeadTime",
+        "value": "1440"
+      }
+    ]
+  },
+  {
+    "name": "Новокузнецк",
+    "brand": "ELDORADO",
+    "id": "A817",
+    "attributes": [
+      {
+        "name": "creditApprovalLeadTime",
+        "value": "1440"
+      }
+    ]
+  },
+  {
+    "name": "Северо-Запад",
+    "brand": "ELDORADO",
+    "id": "A721",
+    "attributes": [
+      {
+        "name": "creditApprovalLeadTime",
+        "value": "1440"
+      }
+    ]
+  },
+  {
+    "name": "Южно-Сахалинск",
+    "brand": "ELDORADO",
+    "id": "A736",
+    "attributes": [
+      {
+        "name": "creditApprovalLeadTime",
+        "value": "1440"
+      }
+    ]
+  },
+  {
+    "name": "Иваново",
+    "brand": "ELDORADO",
+    "id": "A792",
+    "attributes": [
+      {
+        "name": "creditApprovalLeadTime",
+        "value": "1440"
+      }
+    ]
+  },
+  {
+    "name": "Иркутск",
+    "brand": "ELDORADO",
+    "id": "A694",
+    "attributes": [
+      {
+        "name": "creditApprovalLeadTime",
+        "value": "1440"
+      }
+    ]
+  },
+  {
+    "name": "Бийск",
+    "brand": "ELDORADO",
+    "id": "A900",
+    "attributes": [
+      {
+        "name": "creditApprovalLeadTime",
+        "value": "1440"
+      }
+    ]
+  },
+  {
+    "name": "Чебоксары",
+    "brand": "ELDORADO",
+    "id": "A786",
+    "attributes": [
+      {
+        "name": "creditApprovalLeadTime",
+        "value": "1440"
+      }
+    ]
+  },
+  {
+    "name": "Вологда",
+    "brand": "ELDORADO",
+    "id": "A791",
+    "attributes": [
+      {
+        "name": "creditApprovalLeadTime",
+        "value": "1440"
+      }
+    ]
+  },
+  {
+    "name": "Грозный",
+    "brand": "ELDORADO",
+    "id": "A739",
+    "attributes": [
+      {
+        "name": "creditApprovalLeadTime",
+        "value": "1440"
+      }
+    ]
+  },
+  {
+    "name": "Технический Поволжье",
+    "brand": "ELDORADO",
+    "id": "A723",
+    "attributes": [
+      {
+        "name": "creditApprovalLeadTime",
+        "value": "1440"
+      }
+    ]
+  },
+  {
+    "name": "Кострома",
+    "brand": "ELDORADO",
+    "id": "A793",
+    "attributes": [
+      {
+        "name": "creditApprovalLeadTime",
+        "value": "1440"
+      }
+    ]
+  },
+  {
+    "name": "Липецк",
+    "brand": "ELDORADO",
+    "id": "A731",
+    "attributes": [
+      {
+        "name": "creditApprovalLeadTime",
+        "value": "1440"
+      }
+    ]
+  },
+  {
+    "name": "Тамбов",
+    "brand": "ELDORADO",
+    "id": "A821",
+    "attributes": [
+      {
+        "name": "creditApprovalLeadTime",
+        "value": "1440"
+      }
+    ]
+  },
+  {
+    "name": "Великие Луки",
+    "brand": "ELDORADO",
+    "id": "A897",
+    "attributes": [
+      {
+        "name": "creditApprovalLeadTime",
+        "value": "1440"
+      }
+    ]
+  },
+  {
+    "name": "Норильск",
+    "brand": "ELDORADO",
+    "id": "A728",
+    "attributes": [
+      {
+        "name": "creditApprovalLeadTime",
+        "value": "1440"
+      }
+    ]
+  },
+  {
+    "name": "Самара",
+    "brand": "ELDORADO",
+    "id": "A665",
+    "attributes": [
+      {
+        "name": "creditApprovalLeadTime",
+        "value": "1440"
+      }
+    ]
+  },
+  {
+    "name": "Псков",
+    "brand": "ELDORADO",
+    "id": "A832",
+    "attributes": [
+      {
+        "name": "creditApprovalLeadTime",
+        "value": "1440"
+      }
+    ]
+  },
+  {
+    "name": "Технический Сибирь",
+    "brand": "ELDORADO",
+    "id": "A714",
+    "attributes": [
+      {
+        "name": "creditApprovalLeadTime",
+        "value": "1440"
+      }
+    ]
+  },
+  {
+    "name": "Сызрань",
+    "brand": "ELDORADO",
+    "id": "A902",
+    "attributes": [
+      {
+        "name": "creditApprovalLeadTime",
+        "value": "1440"
+      }
+    ]
+  },
+  {
+    "name": "Ноябрьск",
+    "brand": "ELDORADO",
+    "id": "A881",
+    "attributes": [
+      {
+        "name": "creditApprovalLeadTime",
+        "value": "1440"
+      }
+    ]
+  },
+  {
+    "name": "Череповец",
+    "brand": "ELDORADO",
+    "id": "A824",
+    "attributes": [
+      {
+        "name": "creditApprovalLeadTime",
+        "value": "1440"
+      }
+    ]
+  },
+  {
+    "name": "Назрань",
+    "brand": "ELDORADO",
+    "id": "A883",
+    "attributes": [
+      {
+        "name": "creditApprovalLeadTime",
+        "value": "1440"
+      }
+    ]
+  },
+  {
+    "name": "Пятигорск",
+    "brand": "ELDORADO",
+    "id": "A896",
+    "attributes": [
+      {
+        "name": "creditApprovalLeadTime",
+        "value": "1440"
+      }
+    ]
+  },
+  {
+    "name": "Чита",
+    "brand": "ELDORADO",
+    "id": "A875",
+    "attributes": [
+      {
+        "name": "creditApprovalLeadTime",
+        "value": "1440"
+      }
+    ]
+  },
+  {
+    "name": "Магнитогорск",
+    "brand": "ELDORADO",
+    "id": "A912",
+    "attributes": [
+      {
+        "name": "creditApprovalLeadTime",
+        "value": "1440"
+      }
+    ]
+  },
+  {
+    "name": "Сургут",
+    "brand": "ELDORADO",
+    "id": "A813",
+    "attributes": [
+      {
+        "name": "creditApprovalLeadTime",
+        "value": "1440"
+      }
+    ]
+  },
+  {
+    "name": "Братск",
+    "brand": "ELDORADO",
+    "id": "A917",
+    "attributes": [
+      {
+        "name": "creditApprovalLeadTime",
+        "value": "1440"
+      }
+    ]
+  },
+  {
+    "name": "Красноярск",
+    "brand": "ELDORADO",
+    "id": "A713",
+    "attributes": [
+      {
+        "name": "creditApprovalLeadTime",
+        "value": "1440"
+      }
+    ]
+  },
+  {
+    "name": "Улан-Удэ",
+    "brand": "ELDORADO",
+    "id": "A882",
+    "attributes": [
+      {
+        "name": "creditApprovalLeadTime",
+        "value": "1440"
+      }
+    ]
+  },
+  {
+    "name": "Армавир",
+    "brand": "ELDORADO",
+    "id": "A899",
+    "attributes": [
+      {
+        "name": "creditApprovalLeadTime",
+        "value": "1440"
+      }
+    ]
+  },
+  {
+    "name": "Старый Оскол",
+    "brand": "ELDORADO",
+    "id": "A895",
+    "attributes": [
+      {
+        "name": "creditApprovalLeadTime",
+        "value": "1440"
+      }
+    ]
+  },
+  {
+    "name": "Технический Якутск",
+    "brand": "ELDORADO",
+    "id": "A727",
+    "attributes": [
+      {
+        "name": "creditApprovalLeadTime",
+        "value": "1440"
+      }
+    ]
+  },
+  {
+    "name": "Благовещенск",
+    "brand": "ELDORADO",
+    "id": "A871",
+    "attributes": [
+      {
+        "name": "creditApprovalLeadTime",
+        "value": "1440"
+      }
+    ]
+  },
+  {
+    "name": "Хабаровск",
+    "brand": "ELDORADO",
+    "id": "A859",
+    "attributes": [
+      {
+        "name": "creditApprovalLeadTime",
+        "value": "1440"
+      }
+    ]
+  },
+  {
+    "name": "Нальчик",
+    "brand": "ELDORADO",
+    "id": "A834",
+    "attributes": [
+      {
+        "name": "creditApprovalLeadTime",
+        "value": "1440"
+      }
+    ]
+  },
+  {
+    "name": "Кострома",
+    "brand": "MVIDEO",
+    "id": "kostroma",
+    "attributes": [
+      {
+        "name": "creditApprovalLeadTime",
+        "value": "1440"
+      }
+    ]
+  },
+  {
+    "name": "Иркутск",
+    "brand": "MVIDEO",
+    "id": "S931",
+    "attributes": [
+      {
+        "name": "creditApprovalLeadTime",
+        "value": "1440"
+      }
+    ]
+  },
+  {
+    "name": "Нягань",
+    "brand": "MVIDEO",
+    "id": "S994",
+    "attributes": [
+      {
+        "name": "creditApprovalLeadTime",
+        "value": "1440"
+      }
+    ]
+  },
+  {
+    "name": "Салехард",
+    "brand": "MVIDEO",
+    "id": "S894",
+    "attributes": [
+      {
+        "name": "creditApprovalLeadTime",
+        "value": "1440"
+      }
+    ]
+  },
+  {
+    "name": "Ростов-на-Дону",
+    "brand": "MVIDEO",
+    "id": "S903",
+    "attributes": [
+      {
+        "name": "creditApprovalLeadTime",
+        "value": "1440"
+      }
+    ]
+  },
+  {
+    "name": "Ижевск",
+    "brand": "MVIDEO",
+    "id": "S929",
+    "attributes": [
+      {
+        "name": "creditApprovalLeadTime",
+        "value": "1440"
+      }
+    ]
+  },
+  {
+    "name": "Уфа",
+    "brand": "MVIDEO",
+    "id": "S906",
+    "attributes": [
+      {
+        "name": "creditApprovalLeadTime",
+        "value": "1440"
+      }
+    ]
+  },
+  {
+    "name": "Пермь",
+    "brand": "MVIDEO",
+    "id": "S907",
+    "attributes": [
+      {
+        "name": "creditApprovalLeadTime",
+        "value": "1440"
+      }
+    ]
+  },
+  {
+    "name": "Ухта",
+    "brand": "MVIDEO",
+    "id": "S979",
+    "attributes": [
+      {
+        "name": "creditApprovalLeadTime",
+        "value": "1440"
+      }
+    ]
+  },
+  {
+    "name": "Саранск",
+    "brand": "MVIDEO",
+    "id": "S898",
+    "attributes": [
+      {
+        "name": "creditApprovalLeadTime",
+        "value": "1440"
+      }
+    ]
+  },
+  {
+    "name": "НИЖЕГОРОДСКАЯ ОБЛАСТЬ",
+    "brand": "MVIDEO",
+    "id": "S902",
+    "attributes": [
+      {
+        "name": "creditApprovalLeadTime",
+        "value": "1440"
+      }
+    ]
+  },
+  {
+    "name": "Камышин",
+    "brand": "MVIDEO",
+    "id": "S987",
+    "attributes": [
+      {
+        "name": "creditApprovalLeadTime",
+        "value": "1440"
+      }
+    ]
+  },
+  {
+    "name": "Старый Оскол",
+    "brand": "MVIDEO",
+    "id": "S891",
+    "attributes": [
+      {
+        "name": "creditApprovalLeadTime",
+        "value": "1440"
+      }
+    ]
+  },
+  {
+    "name": "Вологда",
+    "brand": "MVIDEO",
+    "id": "S945",
+    "attributes": [
+      {
+        "name": "creditApprovalLeadTime",
+        "value": "1440"
+      }
+    ]
+  },
+  {
+    "name": "Волгоград",
+    "brand": "MVIDEO",
+    "id": "S912",
+    "attributes": [
+      {
+        "name": "creditApprovalLeadTime",
+        "value": "1440"
+      }
+    ]
+  },
+  {
+    "name": "Киров",
+    "brand": "MVIDEO",
+    "id": "S940",
+    "attributes": [
+      {
+        "name": "creditApprovalLeadTime",
+        "value": "1440"
+      }
+    ]
+  },
+  {
+    "name": "Йошкар-Ола",
+    "brand": "MVIDEO",
+    "id": "S967",
+    "attributes": [
+      {
+        "name": "creditApprovalLeadTime",
+        "value": "1440"
+      }
+    ]
+  },
+  {
+    "name": "Самара",
+    "brand": "MVIDEO",
+    "id": "S972",
+    "attributes": [
+      {
+        "name": "creditApprovalLeadTime",
+        "value": "1440"
+      }
+    ]
+  },
+  {
+    "name": "Волгодонск",
+    "brand": "MVIDEO",
+    "id": "S977",
+    "attributes": [
+      {
+        "name": "creditApprovalLeadTime",
+        "value": "1440"
+      }
+    ]
+  },
+  {
+    "name": "Екатеринбург",
+    "brand": "MVIDEO",
+    "id": "S953",
+    "attributes": [
+      {
+        "name": "creditApprovalLeadTime",
+        "value": "1440"
+      }
+    ]
+  },
+  {
+    "name": "Казань",
+    "brand": "MVIDEO",
+    "id": "S910",
+    "attributes": [
+      {
+        "name": "creditApprovalLeadTime",
+        "value": "1440"
+      }
+    ]
+  },
+  {
+    "name": "Бийск",
+    "brand": "MVIDEO",
+    "id": "S992",
+    "attributes": [
+      {
+        "name": "creditApprovalLeadTime",
+        "value": "1440"
+      }
+    ]
+  },
+  {
+    "name": "Челябинск",
+    "brand": "MVIDEO",
+    "id": "S916",
+    "attributes": [
+      {
+        "name": "creditApprovalLeadTime",
+        "value": "1440"
+      }
+    ]
+  },
+  {
+    "name": "Мурманск",
+    "brand": "MVIDEO",
+    "id": "S959",
+    "attributes": [
+      {
+        "name": "creditApprovalLeadTime",
+        "value": "1440"
+      }
+    ]
+  },
+  {
+    "name": "Владивосток",
+    "brand": "MVIDEO",
+    "id": "S975",
+    "attributes": [
+      {
+        "name": "creditApprovalLeadTime",
+        "value": "1440"
+      }
+    ]
+  },
+  {
+    "name": "Рязань",
+    "brand": "MVIDEO",
+    "id": "S923",
+    "attributes": [
+      {
+        "name": "creditApprovalLeadTime",
+        "value": "1440"
+      }
+    ]
+  },
+  {
+    "name": "Барнаул",
+    "brand": "MVIDEO",
+    "id": "S933",
+    "attributes": [
+      {
+        "name": "creditApprovalLeadTime",
+        "value": "1440"
+      }
+    ]
+  },
+  {
+    "name": "Орск",
+    "brand": "MVIDEO",
+    "id": "S938",
+    "attributes": [
+      {
+        "name": "creditApprovalLeadTime",
+        "value": "1440"
+      }
+    ]
+  },
+  {
+    "name": "Томск",
+    "brand": "MVIDEO",
+    "id": "S937",
+    "attributes": [
+      {
+        "name": "creditApprovalLeadTime",
+        "value": "1440"
+      }
+    ]
+  },
+  {
+    "name": "Владимир",
+    "brand": "MVIDEO",
+    "id": "S919",
+    "attributes": [
+      {
+        "name": "creditApprovalLeadTime",
+        "value": "1440"
+      }
+    ]
+  },
+  {
+    "name": "Новосибирск",
+    "brand": "MVIDEO",
+    "id": "S955",
+    "attributes": [
+      {
+        "name": "creditApprovalLeadTime",
+        "value": "1440"
+      }
+    ]
+  },
+  {
+    "name": "Курган",
+    "brand": "MVIDEO",
+    "id": "S971",
+    "attributes": [
+      {
+        "name": "creditApprovalLeadTime",
+        "value": "1440"
+      }
+    ]
+  },
+  {
+    "name": "Петрозаводск",
+    "brand": "MVIDEO",
+    "id": "S969",
+    "attributes": [
+      {
+        "name": "creditApprovalLeadTime",
+        "value": "1440"
+      }
+    ]
+  },
+  {
+    "name": "Пенза",
+    "brand": "MVIDEO",
+    "id": "S922",
+    "attributes": [
+      {
+        "name": "creditApprovalLeadTime",
+        "value": "1440"
+      }
+    ]
+  },
+  {
+    "name": "Саратов",
+    "brand": "MVIDEO",
+    "id": "S908",
+    "attributes": [
+      {
+        "name": "creditApprovalLeadTime",
+        "value": "1440"
+      }
+    ]
+  },
+  {
+    "name": "Астрахань",
+    "brand": "MVIDEO",
+    "id": "S926",
+    "attributes": [
+      {
+        "name": "creditApprovalLeadTime",
+        "value": "1440"
+      }
+    ]
+  },
+  {
+    "name": "Ставрополь",
+    "brand": "MVIDEO",
+    "id": "S917",
+    "attributes": [
+      {
+        "name": "creditApprovalLeadTime",
+        "value": "1440"
+      }
+    ]
+  },
+  {
+    "name": "Ульяновск",
+    "brand": "MVIDEO",
+    "id": "S941",
+    "attributes": [
+      {
+        "name": "creditApprovalLeadTime",
+        "value": "1440"
+      }
+    ]
+  },
+  {
+    "name": "Оренбург",
+    "brand": "MVIDEO",
+    "id": "S930",
+    "attributes": [
+      {
+        "name": "creditApprovalLeadTime",
+        "value": "1440"
+      }
+    ]
+  },
+  {
+    "name": "Махачкала",
+    "brand": "MVIDEO",
+    "id": "S960",
+    "attributes": [
+      {
+        "name": "creditApprovalLeadTime",
+        "value": "1440"
+      }
+    ]
+  },
+  {
+    "name": "Новокузнецк",
+    "brand": "MVIDEO",
+    "id": "S948",
+    "attributes": [
+      {
+        "name": "creditApprovalLeadTime",
+        "value": "1440"
+      }
+    ]
+  },
+  {
+    "name": "Нальчик",
+    "brand": "MVIDEO",
+    "id": "S961",
+    "attributes": [
+      {
+        "name": "creditApprovalLeadTime",
+        "value": "1440"
+      }
+    ]
+  },
+  {
+    "name": "Воронеж",
+    "brand": "MVIDEO",
+    "id": "S921",
+    "attributes": [
+      {
+        "name": "creditApprovalLeadTime",
+        "value": "1440"
+      }
+    ]
+  },
+  {
+    "name": "Липецк",
+    "brand": "MVIDEO",
+    "id": "S939",
+    "attributes": [
+      {
+        "name": "creditApprovalLeadTime",
+        "value": "1440"
+      }
+    ]
+  },
+  {
+    "name": "Тамбов",
+    "brand": "MVIDEO",
+    "id": "S952",
+    "attributes": [
+      {
+        "name": "creditApprovalLeadTime",
+        "value": "1440"
+      }
+    ]
+  },
+  {
+    "name": "Смоленск",
+    "brand": "MVIDEO",
+    "id": "S957",
+    "attributes": [
+      {
+        "name": "creditApprovalLeadTime",
+        "value": "1440"
+      }
+    ]
+  },
+  {
+    "name": "Архангельск",
+    "brand": "MVIDEO",
+    "id": "S918",
+    "attributes": [
+      {
+        "name": "creditApprovalLeadTime",
+        "value": "1440"
+      }
+    ]
+  },
+  {
+    "name": "Нижневартовск",
+    "brand": "MVIDEO",
+    "id": "S934",
+    "attributes": [
+      {
+        "name": "creditApprovalLeadTime",
+        "value": "1440"
+      }
+    ]
+  },
+  {
+    "name": "Тула",
+    "brand": "MVIDEO",
+    "id": "S942",
+    "attributes": [
+      {
+        "name": "creditApprovalLeadTime",
+        "value": "1440"
+      }
+    ]
+  },
+  {
+    "name": "Тюмень",
+    "brand": "MVIDEO",
+    "id": "S914",
+    "attributes": [
+      {
+        "name": "creditApprovalLeadTime",
+        "value": "1440"
+      }
+    ]
+  },
+  {
+    "name": "Омск",
+    "brand": "MVIDEO",
+    "id": "S935",
+    "attributes": [
+      {
+        "name": "creditApprovalLeadTime",
+        "value": "1440"
+      }
+    ]
+  },
+  {
+    "name": "Калуга",
+    "brand": "MVIDEO",
+    "id": "S954",
+    "attributes": [
+      {
+        "name": "creditApprovalLeadTime",
+        "value": "1440"
+      }
+    ]
+  },
+  {
+    "name": "Брянск",
+    "brand": "MVIDEO",
+    "id": "S944",
+    "attributes": [
+      {
+        "name": "creditApprovalLeadTime",
+        "value": "1440"
+      }
+    ]
+  },
+  {
+    "name": "Набережные Челны",
+    "brand": "MVIDEO",
+    "id": "S951",
+    "attributes": [
+      {
+        "name": "creditApprovalLeadTime",
+        "value": "1440"
+      }
+    ]
+  },
+  {
+    "name": "Орёл",
+    "brand": "MVIDEO",
+    "id": "S946",
+    "attributes": [
+      {
+        "name": "creditApprovalLeadTime",
+        "value": "1440"
+      }
+    ]
+  },
+  {
+    "name": "Псков",
+    "brand": "MVIDEO",
+    "id": "S970",
+    "attributes": [
+      {
+        "name": "creditApprovalLeadTime",
+        "value": "1440"
+      }
+    ]
+  },
+  {
+    "name": "Тверь",
+    "brand": "MVIDEO",
+    "id": "S949",
+    "attributes": [
+      {
+        "name": "creditApprovalLeadTime",
+        "value": "1440"
+      }
+    ]
+  },
+  {
+    "name": "Краснодар",
+    "brand": "MVIDEO",
+    "id": "S911",
+    "attributes": [
+      {
+        "name": "creditApprovalLeadTime",
+        "value": "1440"
+      }
+    ]
+  },
+  {
+    "name": "Москва",
+    "brand": "MVIDEO",
+    "id": "S002",
+    "attributes": [
+      {
+        "name": "creditApprovalLeadTime",
+        "value": "1440"
+      }
+    ]
+  },
+  {
+    "name": "Санкт-Петербург",
+    "brand": "MVIDEO",
+    "id": "S904",
+    "attributes": [
+      {
+        "name": "creditApprovalLeadTime",
+        "value": "1440"
+      }
+    ]
+  },
+  {
+    "name": "Березники",
+    "brand": "MVIDEO",
+    "id": "S988",
+    "attributes": [
+      {
+        "name": "creditApprovalLeadTime",
+        "value": "1440"
+      }
+    ]
+  },
+  {
+    "name": "Нефтекамск",
+    "brand": "MVIDEO",
+    "id": "S985",
+    "attributes": [
+      {
+        "name": "creditApprovalLeadTime",
+        "value": "1440"
+      }
+    ]
+  },
+  {
+    "name": "Ноябрьск",
+    "brand": "MVIDEO",
+    "id": "S996",
+    "attributes": [
+      {
+        "name": "creditApprovalLeadTime",
+        "value": "1440"
+      }
+    ]
+  },
+  {
+    "name": "Туапсе",
+    "brand": "MVIDEO",
+    "id": "S986",
+    "attributes": [
+      {
+        "name": "creditApprovalLeadTime",
+        "value": "1440"
+      }
+    ]
+  },
+  {
+    "name": "Октябрьский",
+    "brand": "MVIDEO",
+    "id": "S984",
+    "attributes": [
+      {
+        "name": "creditApprovalLeadTime",
+        "value": "1440"
+      }
+    ]
+  },
+  {
+    "name": "Новый Уренгой",
+    "brand": "MVIDEO",
+    "id": "S978",
+    "attributes": [
+      {
+        "name": "creditApprovalLeadTime",
+        "value": "1440"
+      }
+    ]
+  },
+  {
+    "name": "Курск",
+    "brand": "MVIDEO",
+    "id": "S925",
+    "attributes": [
+      {
+        "name": "creditApprovalLeadTime",
+        "value": "1440"
+      }
+    ]
+  },
+  {
+    "name": "Михайловское",
+    "brand": "MVIDEO",
+    "id": "Michajlovs",
+    "attributes": [
+      {
+        "name": "creditApprovalLeadTime",
+        "value": "1440"
+      }
+    ]
+  },
+  {
+    "name": "Великий Новгород",
+    "brand": "MVIDEO",
+    "id": "S973",
+    "attributes": [
+      {
+        "name": "creditApprovalLeadTime",
+        "value": "1440"
+      }
+    ]
+  },
+  {
+    "name": "Сыктывкар",
+    "brand": "MVIDEO",
+    "id": "S964",
+    "attributes": [
+      {
+        "name": "creditApprovalLeadTime",
+        "value": "1440"
+      }
+    ]
+  },
+  {
+    "name": "Чебоксары",
+    "brand": "MVIDEO",
+    "id": "S968",
+    "attributes": [
+      {
+        "name": "creditApprovalLeadTime",
+        "value": "1440"
+      }
+    ]
+  },
+  {
+    "name": "Белгород",
+    "brand": "MVIDEO",
+    "id": "S943",
+    "attributes": [
+      {
+        "name": "creditApprovalLeadTime",
+        "value": "1440"
+      }
+    ]
+  },
+  {
+    "name": "Пятигорск",
+    "brand": "MVIDEO",
+    "id": "S962",
+    "attributes": [
+      {
+        "name": "creditApprovalLeadTime",
+        "value": "1440"
+      }
+    ]
+  },
+  {
+    "name": "Череповец",
+    "brand": "MVIDEO",
+    "id": "S950",
+    "attributes": [
+      {
+        "name": "creditApprovalLeadTime",
+        "value": "1440"
+      }
+    ]
+  },
+  {
+    "name": "Югорск",
+    "brand": "MVIDEO",
+    "id": "S999",
+    "attributes": [
+      {
+        "name": "creditApprovalLeadTime",
+        "value": "1440"
+      }
+    ]
+  },
+  {
+    "name": "Ачинск",
+    "brand": "MVIDEO",
+    "id": "S993",
+    "attributes": [
+      {
+        "name": "creditApprovalLeadTime",
+        "value": "1440"
+      }
+    ]
+  },
+  {
+    "name": "Апатиты",
+    "brand": "MVIDEO",
+    "id": "S981",
+    "attributes": [
+      {
+        "name": "creditApprovalLeadTime",
+        "value": "1440"
+      }
+    ]
+  },
+  {
+    "name": "Касимов",
+    "brand": "MVIDEO",
+    "id": "S899",
+    "attributes": [
+      {
+        "name": "creditApprovalLeadTime",
+        "value": "1440"
+      }
+    ]
+  },
+  {
+    "name": "Minsk2",
+    "brand": "MVIDEO",
+    "id": "Minsk2",
+    "attributes": [
+      {
+        "name": "creditApprovalLeadTime",
+        "value": "1440"
+      }
+    ]
+  },
+  {
+    "name": "Кемерово",
+    "brand": "MVIDEO",
+    "id": "S932",
+    "attributes": [
+      {
+        "name": "creditApprovalLeadTime",
+        "value": "1440"
+      }
+    ]
+  },
+  {
+    "name": "Новороссийск",
+    "brand": "MVIDEO",
+    "id": "S956",
+    "attributes": [
+      {
+        "name": "creditApprovalLeadTime",
+        "value": "1440"
+      }
+    ]
+  },
+  {
+    "name": "Калининград",
+    "brand": "MVIDEO",
+    "id": "S958",
+    "attributes": [
+      {
+        "name": "creditApprovalLeadTime",
+        "value": "1440"
+      }
+    ]
+  },
+  {
+    "name": "Владикавказ",
+    "brand": "MVIDEO",
+    "id": "S963",
+    "attributes": [
+      {
+        "name": "creditApprovalLeadTime",
+        "value": "1440"
+      }
+    ]
+  },
+  {
+    "name": "Салават",
+    "brand": "MVIDEO",
+    "id": "S983",
+    "attributes": [
+      {
+        "name": "creditApprovalLeadTime",
+        "value": "1440"
+      }
+    ]
+  },
+  {
+    "name": "Тобольск",
+    "brand": "MVIDEO",
+    "id": "S998",
+    "attributes": [
+      {
+        "name": "creditApprovalLeadTime",
+        "value": "1440"
+      }
+    ]
+  },
+  {
+    "name": "Братск",
+    "brand": "MVIDEO",
+    "id": "S990",
+    "attributes": [
+      {
+        "name": "creditApprovalLeadTime",
+        "value": "1440"
+      }
+    ]
+  },
+  {
+    "name": "Иваново",
+    "brand": "MVIDEO",
+    "id": "S947",
+    "attributes": [
+      {
+        "name": "creditApprovalLeadTime",
+        "value": "1440"
+      }
+    ]
+  },
+  {
+    "name": "Краснотурьинск",
+    "brand": "MVIDEO",
+    "id": "S989",
+    "attributes": [
+      {
+        "name": "creditApprovalLeadTime",
+        "value": "1440"
+      }
+    ]
+  },
+  {
+    "name": "Хабаровск",
+    "brand": "MVIDEO",
+    "id": "S976",
+    "attributes": [
+      {
+        "name": "creditApprovalLeadTime",
+        "value": "1440"
+      }
+    ]
+  },
+  {
+    "name": "Чайковский",
+    "brand": "MVIDEO",
+    "id": "S897",
+    "attributes": [
+      {
+        "name": "creditApprovalLeadTime",
+        "value": "1440"
+      }
+    ]
+  },
+  {
+    "name": "Каменск-Шахтинский",
+    "brand": "MVIDEO",
+    "id": "S888",
+    "attributes": [
+      {
+        "name": "creditApprovalLeadTime",
+        "value": "1440"
+      }
+    ]
+  },
+  {
+    "name": "Находка",
+    "brand": "MVIDEO",
+    "id": "S887",
+    "attributes": [
+      {
+        "name": "creditApprovalLeadTime",
+        "value": "1440"
+      }
+    ]
+  },
+  {
+    "name": "Темрюк",
+    "brand": "MVIDEO",
+    "id": "S895",
+    "attributes": [
+      {
+        "name": "creditApprovalLeadTime",
+        "value": "1440"
+      }
+    ]
+  },
+  {
+    "name": "Тольятти",
+    "brand": "MVIDEO",
+    "id": "S924",
+    "attributes": [
+      {
+        "name": "creditApprovalLeadTime",
+        "value": "1440"
+      }
+    ]
+  },
+  {
+    "name": "Сургут",
+    "brand": "MVIDEO",
+    "id": "S936",
+    "attributes": [
+      {
+        "name": "creditApprovalLeadTime",
+        "value": "1440"
+      }
+    ]
+  },
+  {
+    "name": "Славянск-на-Кубани",
+    "brand": "MVIDEO",
+    "id": "S896",
+    "attributes": [
+      {
+        "name": "creditApprovalLeadTime",
+        "value": "1440"
+      }
+    ]
+  },
+  {
+    "name": "Ханты-Мансийск",
+    "brand": "MVIDEO",
+    "id": "S995",
+    "attributes": [
+      {
+        "name": "creditApprovalLeadTime",
+        "value": "1440"
+      }
+    ]
+  },
+  {
+    "name": "Якутск",
+    "brand": "MVIDEO",
+    "id": "S980",
+    "attributes": [
+      {
+        "name": "creditApprovalLeadTime",
+        "value": "1440"
+      }
+    ]
+  },
+  {
+    "name": "Магнитогорск",
+    "brand": "MVIDEO",
+    "id": "S966",
+    "attributes": [
+      {
+        "name": "creditApprovalLeadTime",
+        "value": "1440"
+      }
+    ]
+  },
+  {
+    "name": "Красноярск",
+    "brand": "MVIDEO",
+    "id": "S913",
+    "attributes": [
+      {
+        "name": "creditApprovalLeadTime",
+        "value": "1440"
+      }
+    ]
+  },
+  {
+    "name": "Благовещенск",
+    "brand": "MVIDEO",
+    "id": "S991",
+    "attributes": [
+      {
+        "name": "creditApprovalLeadTime",
+        "value": "1440"
+      }
+    ]
+  },
+  {
+    "name": "Петропавловск-Камчатский",
+    "brand": "MVIDEO",
+    "id": "S893",
+    "attributes": [
+      {
+        "name": "creditApprovalLeadTime",
+        "value": "1440"
+      }
+    ]
+  },
+  {
+    "name": "Надым",
+    "brand": "MVIDEO",
+    "id": "S997",
+    "attributes": [
+      {
+        "name": "creditApprovalLeadTime",
+        "value": "1440"
+      }
+    ]
+  },
+  {
+    "name": "Саров",
+    "brand": "MVIDEO",
+    "id": "S982",
+    "attributes": [
+      {
+        "name": "creditApprovalLeadTime",
+        "value": "1440"
+      }
+    ]
+  },
+  {
+    "name": "Улан-Удэ",
+    "brand": "MVIDEO",
+    "id": "S965",
+    "attributes": [
+      {
+        "name": "creditApprovalLeadTime",
+        "value": "1440"
+      }
+    ]
+  },
+  {
+    "name": "Чита",
+    "brand": "MVIDEO",
+    "id": "S974",
+    "attributes": [
+      {
+        "name": "creditApprovalLeadTime",
+        "value": "1440"
+      }
+    ]
+  },
+  {
+    "name": "Сочи",
+    "brand": "MVIDEO",
+    "id": "S928",
+    "attributes": [
+      {
+        "name": "creditApprovalLeadTime",
+        "value": "1440"
+      }
+    ]
+  },
+  {
+    "name": "Ярославль",
+    "brand": "MVIDEO",
+    "id": "S920",
+    "attributes": [
+      {
+        "name": "creditApprovalLeadTime",
+        "value": "1440"
+      }
+    ]
+  },
+  {
+    "name": "Южно-Сахалинск",
+    "brand": "MVIDEO",
+    "id": "S892",
+    "attributes": [
+      {
+        "name": "creditApprovalLeadTime",
+        "value": "1440"
+      }
+    ]
+  }
+]

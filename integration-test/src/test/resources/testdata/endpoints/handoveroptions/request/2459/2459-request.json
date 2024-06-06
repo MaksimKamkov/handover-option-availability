@@ -1,0 +1,11 @@
+{
+  "regionId": "S002",
+  "retailBrand": "MVIDEO",
+  "materials": [
+    {
+      "material": "50044074",
+      "qty": 1,
+      "price": 500
+    }
+  ]
+}

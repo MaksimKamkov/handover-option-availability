@@ -1,0 +1,53 @@
+{
+  "ResponseHeader": {
+    "clientId": "TEP",
+    "interfaceVersion": "2.0",
+    "responseDate": "2022-04-07 12:44:13",
+    "responseCode": 200,
+    "responseMessage": "OK"
+  },
+  "ResponseBody": {
+    "availabilityOptions": [
+      {
+        "material": "50044074",
+        "handoverType": "PICKUP",
+        "handoverObject": "S085",
+        "stockObject": "S085",
+        "stockObjectPriority": 0,
+        "availableStock": 500,
+        "showCaseStock": 0,
+        "prepaidOnly": false,
+        "availabilityDates": [
+          {
+            "availableDate": "availableDateToday",
+            "validTo": "validToToday 23:59:59"
+          },
+          {
+            "availableDate": "availableDateToday",
+            "validTo": "validToToday 23:59:59"
+          }
+        ]
+      },
+      {
+        "material": "50044074",
+        "handoverType": "PICKUP",
+        "handoverObject": "S716",
+        "stockObject": "S716",
+        "stockObjectPriority": 1,
+        "availableStock": 917,
+        "showCaseStock": 0,
+        "prepaidOnly": false,
+        "availabilityDates": [
+          {
+            "availableDate": "availableDateToday",
+            "validTo": "validToToday 23:59:59"
+          },
+          {
+            "availableDate": "availableDateToday",
+            "validTo": "validToToday 23:59:59"
+          }
+        ]
+      }
+    ]
+  }
+}

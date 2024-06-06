@@ -1,0 +1,204 @@
+[
+  {
+    "providerName": "GETT_PEDESTRIAN",
+    "zoneIds": [
+      "S002"
+    ],
+    "handoverOptions": [
+      {
+        "name": "eta-delivery",
+        "materialNumber": "6004957"
+      },
+      {
+        "name": "pickup-seamless",
+        "materialNumber": "6016405"
+      }
+    ],
+    "providerAttributes": [
+      {
+        "name": "source_radius",
+        "value": "8"
+      },
+      {
+        "name": "max_length",
+        "value": "50"
+      },
+      {
+        "name": "max_weight",
+        "value": "12"
+      },
+      {
+        "name": "max_width",
+        "value": "50"
+      },
+      {
+        "name": "max_height",
+        "value": "50"
+      }
+    ],
+    "zoneProviderAttributes": [
+      {
+        "zoneId": "S002",
+        "name": "supplierPriority",
+        "value": "4"
+      }
+    ]
+  },
+  {
+    "providerName": "CALLTOVISIT",
+    "zoneIds": [
+      "S002"
+    ],
+    "handoverOptions": [
+      {
+        "name": "eta-delivery",
+        "materialNumber": "6004957"
+      },
+      {
+        "name": "pickup-seamless",
+        "materialNumber": "6016405"
+      }
+    ],
+    "providerAttributes": [
+      {
+        "name": "source_radius",
+        "value": "50"
+      },
+      {
+        "name": "max_length",
+        "value": "120"
+      },
+      {
+        "name": "max_weight",
+        "value": "30"
+      },
+      {
+        "name": "max_width",
+        "value": "80"
+      },
+      {
+        "name": "max_height",
+        "value": "80"
+      }
+    ],
+    "zoneProviderAttributes": [
+      {
+        "zoneId": "S002",
+        "name": "supplierPriority",
+        "value": "2"
+      }
+    ]
+  },
+  {
+    "providerName": "FIVE",
+    "zoneIds": [
+      "S002"
+    ],
+    "handoverOptions": [
+      {
+        "name": "pickup-partner",
+        "materialNumber": "6004956"
+      }
+    ],
+    "providerAttributes": [],
+    "zoneProviderAttributes": [
+      {
+        "zoneId": "S002",
+        "name": "virtualWarehouse",
+        "value": "SJ00"
+      },
+      {
+        "zoneId": "S002",
+        "name": "allowImport",
+        "value": "true"
+      },
+      {
+        "zoneId": "S002",
+        "name": "defaultEnabled",
+        "value": "true"
+      }
+    ]
+  },
+  {
+    "providerName": "PICK_POINT",
+    "zoneIds": [
+      "S002"
+    ],
+    "handoverOptions": [
+      {
+        "name": "pickup-partner",
+        "materialNumber": "6004956"
+      }
+    ],
+    "providerAttributes": [],
+    "zoneProviderAttributes": [
+      {
+        "zoneId": "S002",
+        "name": "virtualWarehouse",
+        "value": "SJ99"
+      },
+      {
+        "zoneId": "S002",
+        "name": "defaultEnabled",
+        "value": "true"
+      },
+      {
+        "zoneId": "S002",
+        "name": "allowImport",
+        "value": "true"
+      }
+    ]
+  },
+  {
+    "providerName": "POST",
+    "zoneIds": [
+      "S002"
+    ],
+    "handoverOptions": [
+      {
+        "name": "pickup-partner",
+        "materialNumber": "6004956"
+      }
+    ],
+    "providerAttributes": [],
+    "zoneProviderAttributes": [
+      {
+        "zoneId": "S002",
+        "name": "allowImport",
+        "value": "true"
+      },
+      {
+        "zoneId": "S002",
+        "name": "defaultEnabled",
+        "value": "true"
+      },
+      {
+        "zoneId": "S002",
+        "name": "virtualWarehouse",
+        "value": "SJ20"
+      }
+    ]
+  },
+  {
+    "providerName": "UNIVERSAL",
+    "zoneIds": [
+      "S002"
+    ],
+    "handoverOptions": [
+      {
+        "name": "pickup",
+        "materialNumber": "6004956"
+      },
+      {
+        "name": "interval-delivery"
+      }
+    ],
+    "providerAttributes": [
+      {
+        "name": "max_weight",
+        "value": "20"
+      }
+    ],
+    "zoneProviderAttributes": []
+  }
+]

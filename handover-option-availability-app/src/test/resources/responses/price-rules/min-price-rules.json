@@ -1,0 +1,63 @@
+[
+  {
+    "zoneId": "S002",
+    "handoverOptionName": "exactly-time-delivery",
+    "price": 45.0,
+    "minRadius": 0.0,
+    "maxRadius": 30.0
+  },
+  {
+    "zoneId": "S002",
+    "handoverOptionName": "eta-delivery",
+    "price": 100.0,
+    "minRadius": 10.0,
+    "maxRadius": 50.0
+  },
+  {
+    "zoneId": "S002",
+    "handoverOptionName": "pickup-partner",
+    "price": 0.0,
+    "minRadius": null,
+    "maxRadius": null
+  },
+  {
+    "zoneId": "S002",
+    "handoverOptionName": "pickup",
+    "price": 0.0,
+    "minRadius": 0.0,
+    "maxRadius": 50.0
+  },
+  {
+    "zoneId": "S002",
+    "handoverOptionName": "dpd-delivery",
+    "price": 0.0,
+    "minRadius": 0.0,
+    "maxRadius": 50.0
+  },
+  {
+    "zoneId": "S002",
+    "handoverOptionName": "quota-delivery-express",
+    "price": 0.0,
+    "minRadius": 0.0,
+    "maxRadius": 50.0
+  },
+  {
+    "zoneId": "S002",
+    "handoverOptionName": "quota-delivery-regular",
+    "price": 0.0,
+    "minRadius": 0.0,
+    "maxRadius": 50.0
+  },
+  {
+    "zoneId": "S002",
+    "handoverOptionName": "pickup-seamless",
+    "price": 0.0,
+    "minRadius": 0.0,
+    "maxRadius": 50.0
+  },
+  {
+    "zoneId": "S002",
+    "handoverOptionName": "interval-delivery",
+    "price": 0
+  }
+]

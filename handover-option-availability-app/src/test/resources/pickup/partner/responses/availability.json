@@ -1,0 +1,33 @@
+{
+  "ResponseHeader": {
+    "clientId": "TEP",
+    "interfaceVersion": "2.0",
+    "responseDate": "2022-01-12 2:45:56",
+    "responseCode": 200,
+    "responseMessage": "OK"
+  },
+  "ResponseBody": {
+    "availabilityOptions": [
+      {
+        "material": "10008177",
+        "handoverType": "PICKUP",
+        "handoverObject": "SJ20",
+        "stockObject": "S014",
+        "stockObjectPriority": 1,
+        "availableStock": 1,
+        "showCaseStock": 1,
+        "prepaidOnly": true,
+        "availabilityDates": [
+          {
+            "availableDate": "availableDateToday",
+            "validTo": "validToToday 23:59:59"
+          },
+          {
+            "availableDate": "availableDateTomorrow",
+            "validTo": "validToTomorrow 23:59:59"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,203 @@
+{
+  "request": {
+    "url": "/logistic/rest/availability/dates",
+    "method": "POST",
+    "bodyPatterns": [
+      {
+        "ignoreArrayOrder": true,
+        "equalToJson": {
+          "RequestBody": {
+            "handoverOptions": [
+              {
+                "handoverObjects": [
+                  "S018",
+                  "S019",
+                  "S412",
+                  "S016",
+                  "S014",
+                  "S499",
+                  "S783",
+                  "S024",
+                  "S780",
+                  "S020",
+                  "S526",
+                  "S529",
+                  "S092",
+                  "S093",
+                  "S090",
+                  "S091",
+                  "S530",
+                  "S098",
+                  "S099",
+                  "S011",
+                  "S096",
+                  "S097",
+                  "S094",
+                  "S095",
+                  "S318",
+                  "S797",
+                  "S038",
+                  "S798",
+                  "S039",
+                  "S036",
+                  "S716",
+                  "S045",
+                  "S046",
+                  "S044",
+                  "S041",
+                  "S669",
+                  "S703",
+                  "S700",
+                  "S029",
+                  "S789",
+                  "S027",
+                  "S028",
+                  "S025",
+                  "S026",
+                  "S704",
+                  "S034",
+                  "S035",
+                  "S614",
+                  "S613",
+                  "S215",
+                  "S058",
+                  "S059",
+                  "S060",
+                  "S100",
+                  "S067",
+                  "S068",
+                  "S065",
+                  "S066",
+                  "S063",
+                  "S064",
+                  "S062",
+                  "S205",
+                  "S722",
+                  "S047",
+                  "S048",
+                  "S323",
+                  "S056",
+                  "S057",
+                  "S054",
+                  "S055",
+                  "S052",
+                  "S053",
+                  "S050",
+                  "S051",
+                  "S757",
+                  "S758",
+                  "S756",
+                  "S751",
+                  "SA12",
+                  "S081",
+                  "S082",
+                  "S080",
+                  "S089",
+                  "S087",
+                  "S085",
+                  "S083",
+                  "S084",
+                  "S229",
+                  "S504",
+                  "S747",
+                  "S626",
+                  "S503",
+                  "S745",
+                  "S740",
+                  "S069",
+                  "S748",
+                  "S506",
+                  "S070",
+                  "S071",
+                  "S078",
+                  "S079",
+                  "S076",
+                  "S077",
+                  "S072",
+                  "S073",
+                  "SJ00",
+                  "SJ20"
+                ],
+                "handoverType": "PICKUP"
+              },
+              {
+                "handoverObjects": [
+                  "S002"
+                ],
+                "handoverType": "POSTAL"
+              },
+              {
+                "handoverObjects": [
+                  "S002"
+                ],
+                "handoverType": "ELECTRONIC"
+              },
+              {
+                "handoverObjects": [
+                  "S002"
+                ],
+                "handoverType": "COURIER"
+              }
+            ],
+            "optionParams": [
+              {
+                "key": "displayMode",
+                "value": "all"
+              },
+              {
+                "key": "displayShowcase",
+                "value": "true"
+              },
+              {
+                "key": "displayNextCalendar",
+                "value": "true"
+              },
+              {
+                "key": "displayPreorderInfo",
+                "value": "true"
+              },
+              {
+                "key": "minDisplayQty",
+                "value": "0"
+              },
+              {
+                "key": "excludeZeroStock",
+                "value": "true"
+              },
+              {
+                "key": "excludeCourierShowCase",
+                "value": "true"
+              },
+              {
+                "key": "excludePickupMovementShowCase",
+                "value": "true"
+              }
+            ],
+            "positions": [
+              {
+                "material": "50044074",
+                "params": [
+                  {
+                    "key": "treshold",
+                    "value": "true"
+                  }
+                ],
+                "qty": 1
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  "response": {
+    "status": 200,
+    "bodyFileName": "handoveroptions/2459/2459-logistic-rest-availability-dates-mock-response.json",
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "transformers": [
+      "response-template"
+    ]
+  }
+}

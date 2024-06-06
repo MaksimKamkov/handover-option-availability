@@ -1,0 +1,162 @@
+[
+  {
+    "id": 23,
+    "zoneId": "S002",
+    "handoverOptionId": 11,
+    "attribute": [
+      {
+        "name": "virtualWarehouse",
+        "marketingName": "САП-код объекта",
+        "description": "САП-код объекта выдачи заказа",
+        "dataType": "STRING",
+        "value": "SJ00"
+      },
+      {
+        "name": "allowImport",
+        "marketingName": "вкл/выкл импорта ПВЗ",
+        "description": "Разрешен импорт ПВЗ",
+        "dataType": "BOOLEAN",
+        "value": "true"
+      },
+      {
+        "name": "defaultEnabled",
+        "marketingName": "Активация ПВЗ при добавлении",
+        "description": "По умолчанию активировать ПВЗ после импорта",
+        "dataType": "BOOLEAN",
+        "value": "true"
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "zoneId": "S002",
+    "handoverOptionId": 9,
+    "attribute": [
+      {
+        "name": "allowImport",
+        "marketingName": "вкл/выкл импорта ПВЗ",
+        "description": "Разрешен импорт ПВЗ",
+        "dataType": "BOOLEAN",
+        "value": "true"
+      },
+      {
+        "name": "defaultEnabled",
+        "marketingName": "Активация ПВЗ при добавлении",
+        "description": "По умолчанию активировать ПВЗ после импорта",
+        "dataType": "BOOLEAN",
+        "value": "true"
+      },
+      {
+        "name": "virtualWarehouse",
+        "marketingName": "САП-код объекта",
+        "description": "САП-код объекта выдачи заказа",
+        "dataType": "STRING",
+        "value": "SJ20"
+      }
+    ]
+  },
+  {
+    "id": 1572,
+    "zoneId": "S002",
+    "handoverOptionId": 633,
+    "attribute": [
+      {
+        "name": "virtualWarehouse",
+        "marketingName": "САП-код объекта",
+        "description": "САП-код объекта выдачи заказа",
+        "dataType": "STRING",
+        "value": "SJ99"
+      },
+      {
+        "name": "allowImport",
+        "marketingName": "вкл/выкл импорта ПВЗ",
+        "description": "Разрешен импорт ПВЗ",
+        "dataType": "BOOLEAN",
+        "value": "true"
+      },
+      {
+        "name": "defaultEnabled",
+        "marketingName": "Активация ПВЗ при добавлении",
+        "description": "По умолчанию активировать ПВЗ после импорта",
+        "dataType": "BOOLEAN",
+        "value": "true"
+      }
+    ]
+  },
+  {
+    "id": 1693,
+    "zoneId": "S002",
+    "handoverOptionId": 1010,
+    "attribute": []
+  },
+  {
+    "id": 1703,
+    "zoneId": "S002",
+    "handoverOptionId": 4,
+    "attribute": [
+      {
+        "name": "supplierPriority",
+        "marketingName": "Приоритет поставщика",
+        "description": "Приоритет поставщика",
+        "dataType": "NUMBER",
+        "value": "0"
+      }
+    ]
+  },
+  {
+    "id": 1715,
+    "zoneId": "S002",
+    "handoverOptionId": 603,
+    "attribute": [
+      {
+        "name": "supplierPriority",
+        "marketingName": "Приоритет поставщика",
+        "description": "Приоритет поставщика",
+        "dataType": "NUMBER",
+        "value": "3"
+      }
+    ]
+  },
+  {
+    "id": 1721,
+    "zoneId": "S002",
+    "handoverOptionId": 12,
+    "attribute": [
+      {
+        "name": "supplierPriority",
+        "marketingName": "Приоритет поставщика",
+        "description": "Приоритет поставщика",
+        "dataType": "NUMBER",
+        "value": "1"
+      }
+    ]
+  },
+  {
+    "id": 1722,
+    "zoneId": "S002",
+    "handoverOptionId": 562,
+    "attribute": [
+      {
+        "name": "supplierPriority",
+        "marketingName": "Приоритет поставщика",
+        "description": "Приоритет поставщика",
+        "dataType": "NUMBER",
+        "value": "5"
+      }
+    ]
+  },
+  {
+    "id": 1732,
+    "zoneId": "S002",
+    "handoverOptionId": 652,
+    "attribute": [
+      {
+        "name": "supplierPriority",
+        "marketingName": "Приоритет поставщика",
+        "description": "Приоритет поставщика",
+        "dataType": "NUMBER",
+        "value": "4"
+      }
+    ]
+  }
+]

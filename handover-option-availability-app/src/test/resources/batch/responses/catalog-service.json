@@ -1,0 +1,110 @@
+[
+  {
+    "productId": "20030013",
+    "flags": {
+      "isDigitalCode": false,
+      "isService": false,
+      "isDelivery": false,
+      "isInventoryControl": true,
+      "isInsurance": false
+    },
+    "groupIds": {
+      "sapGroupId": "411010401",
+      "mcatalogGroupId": {
+        "1": 849098,
+        "3": 10669
+      }
+    },
+    "sapAttributes": {
+      "constants": {
+        "m_volumeMeasure": "СМ3",
+        "m_warranty": "012",
+        "m_dimensionsMeasure": "СМ",
+        "m_articleType": "BT",
+        "rating": "4.229166666666667",
+        "m_brand": "Scarlett",
+        "m_materialModel": "SC-VC80B02 Chocolate",
+        "m_measureUnitISO": "796",
+        "m_country": "Китай",
+        "trivialProductName": "Пылесос с пылесборником",
+        "reviewCount": "48",
+        "m_width": "28.000",
+        "m_volume": "38584.000",
+        "m_brandId": "617",
+        "mc_source": "ERP",
+        "m_enablePPO": "Y",
+        "m_length": "53.000",
+        "m_materialType": "00",
+        "reviewPercent": "81.0",
+        "m_codeNDS": "1",
+        "m_retireWithoutApprovement": "G",
+        "AM_Filtering_Flag": "1",
+        "m_weight": "5.500",
+        "m_enablePPK": "Y",
+        "m_calcCode": "Т",
+        "m_measureUnit": "ШТ",
+        "m_sendToSLC": "G",
+        "m_height": "26.000",
+        "m_weightMeasure": "КГ"
+      },
+      "calendars": {}
+    }
+  },
+  {
+    "productId": "20030060",
+    "flags": {
+      "isDigitalCode": false,
+      "isService": false,
+      "isDelivery": false,
+      "isInventoryControl": true,
+      "isInsurance": false
+    },
+    "groupIds": {
+      "sapGroupId": "411010401",
+      "mcatalogGroupId": {
+        "1": 849098,
+        "3": 10669
+      }
+    },
+    "sapAttributes": {
+      "constants": {
+        "m_volumeMeasure": "СМ3",
+        "m_warranty": "012",
+        "m_dimensionsMeasure": "СМ",
+        "m_articleType": "BT",
+        "m_brand": "Bosch",
+        "rating": "4.644366197183099",
+        "m_supplierCode": "K000004984",
+        "m_materialModel": "GL-30 BGL32003",
+        "m_measureUnitISO": "796",
+        "m_country": "Германия",
+        "trivialProductName": "Пылесос с пылесборником",
+        "m_width": "30.500",
+        "reviewCount": "285",
+        "m_volume": "48571.250",
+        "m_brandId": "48",
+        "mc_source": "ERP",
+        "WorkingTime": "Режим работы: согласно режиму работы ООО \"МВМ\"",
+        "m_enablePPO": "Y",
+        "m_supplierInn": "7725080817",
+        "m_length": "49.000",
+        "m_materialType": "00",
+        "m_supplierAddress": "119071, Москва, Малая Калужская, 15",
+        "m_codeNDS": "1",
+        "reviewPercent": "91.0",
+        "m_retireWithoutApprovement": "G",
+        "AM_Filtering_Flag": "1",
+        "m_weight": "6.800",
+        "m_supplierName": "ООО \"БСХ Бытовая техника\"",
+        "m_enablePPK": "Y",
+        "m_calcCode": "Т",
+        "m_measureUnit": "ШТ",
+        "m_sendToSLC": "G",
+        "m_height": "32.500",
+        "materialIDNLF": "BGL32003",
+        "m_weightMeasure": "КГ"
+      },
+      "calendars": {}
+    }
+  }
+]

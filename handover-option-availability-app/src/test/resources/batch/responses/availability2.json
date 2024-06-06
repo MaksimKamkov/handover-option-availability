@@ -1,0 +1,33 @@
+{
+  "ResponseHeader": {
+    "clientId": "1",
+    "interfaceVersion": "2.0",
+    "responseDate": "availableDateToday 14:18:36",
+    "responseCode": 200,
+    "responseMessage": "OK"
+  },
+  "ResponseBody": {
+    "availabilityOptions": [
+      {
+        "material": "20030013",
+        "handoverType": "PICKUP",
+        "handoverObject": "S099",
+        "stockObject": "S099",
+        "stockObjectPriority": 0,
+        "availableStock": 9773,
+        "showCaseStock": 0,
+        "prepaidOnly": false,
+        "availabilityDates": [
+          {
+            "availableDate": "availableDateToday",
+            "validTo": "validToToday 23:59:59"
+          },
+          {
+            "availableDate": "availableDateTomorrow",
+            "validTo": "validToTomorrow 23:59:59"
+          }
+        ]
+      }
+    ]
+  }
+}

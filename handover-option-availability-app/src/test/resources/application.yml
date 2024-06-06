@@ -1,0 +1,108 @@
+spring:
+  application:
+    name: handover-option-availability
+    version: '@project.version@'
+  codec:
+    max-in-memory-size: -1
+
+handover-option-availability:
+  config:
+    cache:
+      handover-option-brief-ttl: 1M
+      handover-option-zone-objects-ttl: 1M
+      handover-option-zone-objects-cache-enabled: false
+      handover-option-objects-cache-enabled: false
+    materials:
+      required-label-groups: 109030103, 116010223
+    seamless:
+      start-time: ${SEAMLESS_START_TIME:10:00}
+      end-time: ${SEAMLESS_END_TIME:22:00}
+      delivery-time: ${SEAMLESS_DELIVERY_TIME:120}
+      delivery-return-time: ${SEAMLESS_DELIVERY_RETURN_TIME:120}
+    exactly-time-delivery:
+      start-time: ${EXACTLY_TIME_DELIVERY_START_TIME:09:00}
+      end-time: ${EXACTLY_TIME_DELIVERY_END_TIME:22:00}
+      delivery-time: ${EXACTLY_TIME_DELIVERY_DELIVERY_TIME:120}
+      delivery-return-time: ${EXACTLY_TIME_DELIVERY_RETURN_TIME:0}
+    msp:
+      maxCountShops: 20
+    quota:
+      max-days: 3
+    credit:
+      maxDeliveryDays: 30
+      minStock: 5
+    kafka:
+      objects-consumer:
+        bootstrap-servers: ${KAFKA_BOOTSTRAP_SERVERS:rc1a-t6kqii1i6m3n7i80.mdb.yandexcloud.net:9092,rc1b-3j33reatjs2h1ub3.mdb.yandexcloud.net:9092,rc1c-4v58q9gc8lflmm2q.mdb.yandexcloud.net:9092}
+        consumer-group-id: ${KAFKA_CONSUMER_GROUP_ID:handover-option-availability-dev}
+        topic: ${KAFKA_OBJECTS_TOPIC:cs-objects-info-dev}
+        user: ${KAFKA_OBJECTS_USER:cs-objects-info-clop-hoa-dev}
+        password: ${KAFKA_OBJECTS_PASSWORD:orDDjc93hjZHVEgh}
+        securityEnabled: ${KAFKA_OBJECTS_SECURITY_ENABLED:true}
+        security-protocol: ${KAFKA_OBJECTS_SECURITY_PROTOCOL:SASL_PLAINTEXT}
+        session-timeout: ${KAFKA_OBJECTS_SESSION_TIMEOUT:90000}
+        heartbeat-interval: ${KAFKA_OBJECTS_INTERVAL:30000}
+        delay: ${KAFKA_BASE_INFO_DELAY:}
+        max-poll-records: ${KAFKA_BASE_INFO_MAX_POLL_RECORDS:3}
+        offsets: ${KAFKA_OBJECTS_PARTITION_OFFSETS:cs-objects-info-dev-0:0,cs-objects-info-dev-1:0,cs-objects-info-dev-2:0,cs-objects-info-dev-3:0,cs-objects-info-dev-4:0,cs-objects-info-dev-5:0}
+
+ru:
+  mvideo:
+    tp:
+      client:
+        catalog:
+          base-url: ${CATALOG_HOST:http://localhost:8092}
+    lards:
+      zone-pickup-item:
+        host: ${ZONE_PICKUP_ITEM_HOST:http://localhost:8090}
+      zone:
+        host: ${ZONE_HOST:http://localhost:8081}
+      zone.handover.option:
+        host: ${ZONE_HANDOVER_OPTION_HOST:http://localhost:8082}
+      handover.option:
+        baseUrl: ${HANDOVER_OPTION_HOST:http://localhost:8083}
+      price.rules:
+        host: ${PRICE_RULES_HOST:http://localhost:8084}
+      yandex-geocoder:
+        host: ${GEOCODING_HOST:http://localhost:8085}
+      objects-public:
+        host: ${OBJECTS_PUBLIC_HOST:http://localhost:8086}
+      availability-chains:
+        host: ${SEAMLESS_HOST:http://localhost:8088}
+      pickup-point-restriction:
+        host: ${PICKUP_POINT_RESTRICTION_HOST:http://localhost:8091}
+      delivery-time-calculation:
+        host: ${DELIVERY_TIME_CALCULATION_HOST:http://localhost:8092}
+    msp:
+      base-url: ${MSP_HOST:http://localhost:8089}
+      max-in-memory-size: -1
+      username: ${MSP_USER:TEP}
+      password: ${MSP_PASSWORD:weNDY234kj2}
+
+mvideo:
+  pickup-points:
+    client:
+      ms-pickup-points:
+        base-url: ${MS_PICKUP_POINTS_HOST:http://localhost:8087}
+        maxInMemorySize: 16777216
+
+management:
+  info:
+    git:
+      enabled: true
+  endpoint:
+    health:
+      show-details: always
+  endpoints:
+    web:
+      exposure:
+        include: health,info,metrics,prometheus,env
+
+server:
+  error:
+    include-message: always
+
+opentracing:
+  jaeger:
+    enabled: false
+    service-name: handover-option-availability

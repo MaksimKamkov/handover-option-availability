@@ -1,0 +1,217 @@
+[
+  {
+    "id": 608,
+    "name": "DPD",
+    "description": "Доставка курьерами службы доставки DPD",
+    "type": "CAR",
+    "handoverOptions": [
+      {
+        "id": 403,
+        "name": "quota-delivery-express",
+        "description": "Доставка курьером М.Видео\\Эльдорадо (срочная)",
+        "materialNumber": null
+      },
+      {
+        "id": 404,
+        "name": "dpd-delivery",
+        "description": "Доставка курьером партнерской службы (Почтовая служба DPD)",
+        "materialNumber": null
+      },
+      {
+        "id": 402,
+        "name": "quota-delivery-regular",
+        "description": "Доставка курьером М.Видео\\Эльдорадо (стандартная)",
+        "materialNumber": ""
+      }
+    ],
+    "attributes": [
+      {
+        "name": "max_weight",
+        "marketingName": "Максимальный вес (кг)",
+        "description": "Максимальный вес (кг)",
+        "dataType": "NUMBER",
+        "value": "20"
+      }
+    ]
+  },
+  {
+    "id": 652,
+    "name": "GETT_PEDESTRIAN",
+    "description": "Доставка пешими курьерами (Gett)",
+    "type": "PEDESTRIAN",
+    "handoverOptions": [
+      {
+        "id": 412,
+        "name": "exactly-time-delivery",
+        "description": "Доставка ко времени",
+        "materialNumber": "6004957"
+      },
+      {
+        "id": 405,
+        "name": "eta-delivery",
+        "description": "Доставка за N минут",
+        "materialNumber": "6004957"
+      }
+    ],
+    "attributes": [
+      {
+        "name": "max_weight",
+        "marketingName": "Максимальный вес (кг)",
+        "description": "Максимальный вес (кг)",
+        "dataType": "NUMBER",
+        "value": "12"
+      },
+      {
+        "name": "max_length",
+        "marketingName": "Максимальная длина (см)",
+        "description": "Максимальная длина (см)",
+        "dataType": "NUMBER",
+        "value": "50"
+      },
+      {
+        "name": "source_radius",
+        "marketingName": "Радиус поиска магазинов (км)",
+        "description": "Радиус расстояния от адреса клиента до ближайшего магазина (км)",
+        "dataType": "NUMBER",
+        "value": "8"
+      },
+      {
+        "name": "max_width",
+        "marketingName": "Максимальная ширина (см)",
+        "description": "Максимальная ширина (см)",
+        "dataType": "NUMBER",
+        "value": "50"
+      },
+      {
+        "name": "max_height",
+        "marketingName": "Максимальная высота (см)",
+        "description": "Максимальная высота (см)",
+        "dataType": "NUMBER",
+        "value": "50"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "name": "CALLTOVISIT",
+    "description": "Доставка на такси (CallToVisit)",
+    "type": "CAR",
+    "handoverOptions": [
+      {
+        "id": 412,
+        "name": "exactly-time-delivery",
+        "description": "Доставка ко времени",
+        "materialNumber": "6004957"
+      },
+      {
+        "id": 405,
+        "name": "eta-delivery",
+        "description": "Доставка за N минут",
+        "materialNumber": "6004957"
+      },
+      {
+        "id": 423,
+        "name": "pickup-seamless",
+        "description": "Самовывоз из магазинов М.Видео\\Эльдорадо на которых в текущий момент отсутствует запрашиваемый товар, но он может быть доставлен из других магазинов в объект выдачи.",
+        "materialNumber": "6016405"
+      }
+    ],
+    "attributes": [
+      {
+        "name": "max_width",
+        "marketingName": "Максимальная ширина (см)",
+        "description": "Максимальная ширина (см)",
+        "dataType": "NUMBER",
+        "value": "80"
+      },
+      {
+        "name": "source_radius",
+        "marketingName": "Радиус поиска магазинов (км)",
+        "description": "Радиус расстояния от адреса клиента до ближайшего магазина (км)",
+        "dataType": "NUMBER",
+        "value": "50"
+      },
+      {
+        "name": "max_length",
+        "marketingName": "Максимальная длина (см)",
+        "description": "Максимальная длина (см)",
+        "dataType": "NUMBER",
+        "value": "120"
+      },
+      {
+        "name": "max_height",
+        "marketingName": "Максимальная высота (см)",
+        "description": "Максимальная высота (см)",
+        "dataType": "NUMBER",
+        "value": "80"
+      },
+      {
+        "name": "max_weight",
+        "marketingName": "Максимальный вес (кг)",
+        "description": "Максимальный вес (кг)",
+        "dataType": "NUMBER",
+        "value": "30"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "name": "FIVE",
+    "description": "Самовывоз из ПВЗ (Пятёрочка)",
+    "type": "PICKUP",
+    "handoverOptions": [
+      {
+        "id": 407,
+        "name": "pickup-partner",
+        "description": "Самовывоз из пунктов выдачи заказа",
+        "materialNumber": "6004956"
+      }
+    ],
+    "attributes": []
+  },
+  {
+    "id": 633,
+    "name": "PICK_POINT",
+    "description": "Самовывоз из ПВЗ (ПикПоинт)",
+    "type": "PICKUP",
+    "handoverOptions": [
+      {
+        "id": 407,
+        "name": "pickup-partner",
+        "description": "Самовывоз из пунктов выдачи заказа",
+        "materialNumber": "6004956"
+      }
+    ],
+    "attributes": []
+  },
+  {
+    "id": 10,
+    "name": "MVIDEO_PICKUP",
+    "description": "Самовывоз из магазинов",
+    "type": "PICKUP",
+    "handoverOptions": [
+      {
+        "id": 406,
+        "name": "pickup",
+        "description": "Самовывоз из магазинов М.Видео\\Эльдорадо",
+        "materialNumber": "6004956"
+      }
+    ],
+    "attributes": []
+  },
+  {
+    "id": 9,
+    "name": "POST",
+    "description": "Самовывоз из ПВЗ (Почта России)",
+    "type": "PICKUP",
+    "handoverOptions": [
+      {
+        "id": 407,
+        "name": "pickup-partner",
+        "description": "Самовывоз из пунктов выдачи заказа",
+        "materialNumber": "6004956"
+      }
+    ],
+    "attributes": []
+  }
+]

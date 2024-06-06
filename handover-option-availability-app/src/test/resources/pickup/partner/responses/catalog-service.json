@@ -1,0 +1,48 @@
+[
+  {
+    "productId": "10008177",
+    "flags": {
+      "isDigitalCode": false,
+      "isService": false,
+      "isDelivery": false,
+      "isInventoryControl": true
+    },
+    "groupIds": {
+      "sapGroupId": "118010752"
+    },
+    "sapAttributes": {
+      "constants": {
+        "m_volumeMeasure": "СМ3",
+        "m_warranty": "1 г",
+        "m_dimensionsMeasure": "СМ",
+        "m_articleType": "AV",
+        "m_brand": "Synta",
+        "rating": "3.4",
+        "m_materialModel": "Protostar 50 AZ",
+        "m_measureUnitISO": "796",
+        "m_country": "Китай",
+        "trivialProductName": "Телескоп",
+        "m_width": "17.500",
+        "reviewCount": "25",
+        "m_volume": "13798.750",
+        "m_brandId": "2062",
+        "mc_source": "ERP",
+        "m_enablePPO": "Y",
+        "m_length": "83.000",
+        "m_materialType": "00",
+        "m_codeNDS": "1",
+        "reviewPercent": "61.0",
+        "m_retireWithoutApprovement": "G",
+        "AM_Filtering_Flag": "1",
+        "m_weight": "2.160",
+        "m_enablePPK": "Y",
+        "m_calcCode": "Т",
+        "m_measureUnit": "ШТ",
+        "m_sendToSLC": "G",
+        "m_height": "9.500",
+        "m_weightMeasure": "КГ"
+      },
+      "calendars": {}
+    }
+  }
+]

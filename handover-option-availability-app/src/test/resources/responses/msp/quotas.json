@@ -1,0 +1,59 @@
+{
+  "ResponseHeader": {
+    "clientId": "MSP",
+    "interfaceVersion": "2.0",
+    "responseDate": "2021-03-12 15:39:51",
+    "responseCode": 200,
+    "responseMessage": "OK"
+  },
+  "ResponseBody": {
+    "availableQuotes": [
+      {
+        "date": "2021-03-13",
+        "handoverIntervalId": "DInterval_458_Zone_1_0",
+        "material": "808093",
+        "price": 0.0,
+        "quotaRate": "1",
+        "remainingQuota": 127,
+        "quotaParams": [
+          {
+            "key": "price",
+            "value": "0"
+          },
+          {
+            "key": "quotaRate",
+            "value": "1"
+          },
+          {
+            "key": "material",
+            "value": "808093"
+          },
+          {
+            "key": "handoverIntervalName",
+            "value": "Интервал 15:00-22:00"
+          },
+          {
+            "key": "weekDayMask",
+            "value": "1111111"
+          },
+          {
+            "key": "deliveryTimeFrom",
+            "value": "15:00"
+          },
+          {
+            "key": "deliveryTimeTo",
+            "value": "22:00"
+          },
+          {
+            "key": "duration",
+            "value": "1"
+          },
+          {
+            "key": "planningOffset",
+            "value": "16"
+          }
+        ]
+      }
+    ]
+  }
+}

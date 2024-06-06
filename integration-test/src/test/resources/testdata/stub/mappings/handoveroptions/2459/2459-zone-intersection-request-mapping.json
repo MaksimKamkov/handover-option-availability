@@ -1,0 +1,13 @@
+{
+  "request": {
+    "url": "/zone/intersection/S002?brand=MVIDEO&region=false",
+    "method": "GET"
+  },
+  "response": {
+    "status": 200,
+    "bodyFileName": "handoveroptions/2459/2459-zone-intersection-mock-response.json",
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}

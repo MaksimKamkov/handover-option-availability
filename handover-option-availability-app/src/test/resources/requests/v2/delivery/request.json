@@ -1,0 +1,24 @@
+{
+  "regionId": "S002",
+  "handoverOption": ["eta-delivery"],
+  "retailBrand": "MVIDEO",
+  "address": {
+    "representation": "Москва, улица Большая Дмитровка, 26",
+    "data": {
+      "streetType": "ул",
+      "street": "Дмитровка Б."
+    },
+    "coordinate": {
+      "latitude": 55.764620,
+      "longitude": 37.61220,
+      "qcGeo": "0"
+    }
+  },
+  "materials": [
+    {
+      "material": "50044074",
+      "qty": 1,
+      "price": 17990.0
+    }
+  ]
+}

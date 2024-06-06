@@ -1,0 +1,133 @@
+{
+  "ResponseHeader": {
+    "clientId": "TEP",
+    "interfaceVersion": "2.0",
+    "responseDate": "{{now format='yyyy-MM-dd'}} 10:18:20",
+    "responseCode": 200,
+    "responseMessage": "OK"
+  },
+  "ResponseBody": {
+    "availabilityOptions": [
+      {
+        "material": "50044074",
+        "handoverType": "COURIER",
+        "handoverObject": "S002",
+        "stockObject": "C033",
+        "stockObjectPriority": 0,
+        "availableStock": 994,
+        "showCaseStock": 0,
+        "prepaidOnly": false,
+        "availabilityDates": [
+          {
+            "availableDate": "{{now offset='1 days'  format='yyyy-MM-dd'}}",
+            "validTo": "{{now offset='1 days' format='dd.MM.yyyy'}} 00:00:00"
+          },
+          {
+            "availableDate": "{{now offset='2 days'  format='yyyy-MM-dd'}}",
+            "validTo": "{{now offset='2 days' format='dd.MM.yyyy'}} 00:00:00"
+          }
+        ]
+      },
+      {
+        "material": "50044074",
+        "handoverType": "COURIER",
+        "handoverObject": "S002",
+        "stockObject": "C025",
+        "stockObjectPriority": 1,
+        "availableStock": 588,
+        "showCaseStock": 0,
+        "prepaidOnly": false,
+        "availabilityDates": [
+          {
+            "availableDate": "{{now format='yyyy-MM-dd'}}",
+            "validTo": "{{now format='dd.MM.yyyy'}} 20:00:00"
+          },
+          {
+            "availableDate": "{{now offset='1 days'  format='yyyy-MM-dd'}}",
+            "validTo": "{{now offset='1 days' format='dd.MM.yyyy'}} 20:00:00"
+          }
+        ]
+      },
+      {
+        "material": "50044074",
+        "handoverType": "COURIER",
+        "handoverObject": "S002",
+        "stockObject": "C095",
+        "stockObjectPriority": 2,
+        "availableStock": 10004,
+        "showCaseStock": 0,
+        "prepaidOnly": false,
+        "availabilityDates": [
+          {
+            "availableDate": "{{now format='yyyy-MM-dd'}}",
+            "validTo": "{{now format='dd.MM.yyyy'}} 20:00:00"
+          },
+          {
+            "availableDate": "{{now offset='1 days'  format='yyyy-MM-dd'}}",
+            "validTo": "{{now offset='1 days' format='dd.MM.yyyy'}} 20:00:00"
+          }
+        ]
+      },
+      {
+        "material": "50044074",
+        "handoverType": "COURIER",
+        "handoverObject": "S002",
+        "stockObject": "S077",
+        "stockObjectPriority": 3,
+        "availableStock": 4198,
+        "showCaseStock": 0,
+        "prepaidOnly": false,
+        "availabilityDates": [
+          {
+            "availableDate": "{{now offset='1 days'  format='yyyy-MM-dd'}}",
+            "validTo": "{{now format='dd.MM.yyyy'}} 13:00:00"
+          },
+          {
+            "availableDate": "{{now offset='2 days'  format='yyyy-MM-dd'}}",
+            "validTo": "{{now offset='1 days' format='dd.MM.yyyy'}} 13:00:00"
+          }
+        ]
+      },
+      {
+        "material": "50044074",
+        "handoverType": "COURIER",
+        "handoverObject": "S002",
+        "stockObject": "C111",
+        "stockObjectPriority": 4,
+        "availableStock": 998,
+        "showCaseStock": 0,
+        "prepaidOnly": false,
+        "availabilityDates": [
+          {
+            "availableDate": "{{now offset='1 days'  format='yyyy-MM-dd'}}",
+            "validTo": "{{now format='dd.MM.yyyy'}} 13:00:00"
+          },
+          {
+            "availableDate": "{{now offset='2 days'  format='yyyy-MM-dd'}}",
+            "validTo": "{{now offset='1 days' format='dd.MM.yyyy'}} 13:00:00"
+          }
+        ]
+      },
+      {
+        "material": "50044074",
+        "handoverType": "COURIER",
+        "handoverObject": "S002",
+        "stockObject": "S015",
+        "stockObjectPriority": 5,
+        "availableStock": 3,
+        "showCaseStock": 0,
+        "prepaidOnly": false,
+        "availabilityDates": [
+          {
+            "availableDate": "{{now offset='1 days'  format='yyyy-MM-dd'}}",
+            "validTo": "{{now format='dd.MM.yyyy'}} 13:00:00"
+          },
+          {
+            "availableDate": "{{now offset='2 days'  format='yyyy-MM-dd'}}",
+            "validTo": "{{now offset='1 days' format='dd.MM.yyyy'}} 13:00:00"
+          }
+        ]
+      }
+    ]
+  }
+}

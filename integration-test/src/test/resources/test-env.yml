@@ -1,0 +1,22 @@
+env:
+  default:
+    test-data-directory: ${TEST_DATA_DIRECTORY:-testdata/endpoints}
+    application:
+      handover-option-availability:
+        host: ${WEB_ATG_TO_GOODS_ORDERS_HOST:-http://localhost}
+        port: ${WEB_ATG_TO_GOODS_ORDERS_PORT:-8180}
+    stub:
+      host: ${STUB_HOST:-localhost}
+      port: ${STUB_PORT:-52250}
+      mappings: ${STUB_MAPPINGS:-src/test/resources/testdata/stub}
+
+  local:
+    test-data-directory: testdata/endpoints
+    application:
+      handover-option-availability:
+        host: http://localhost
+        port: 8180
+    stub:
+      host: localhost
+      port: 52250
+      mappings: src/test/resources/testdata/stub

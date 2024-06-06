@@ -1,0 +1,226 @@
+openapi: 3.0.1
+info:
+  title: msp-quota
+  description: msp-quota API
+  version: 1.0.0
+
+tags:
+  - name: QuotaAvailabilityController
+paths:
+  /get:
+    post:
+      tags:
+        - QuotaAvailabilityController
+      summary: quotaAvailability
+      operationId: quotaAvailabilityUsingPOST
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/QuotaAvailabilityRequest'
+      responses:
+        200:
+          description: OK.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/QuotaAvailabilityResponse'
+components:
+  schemas:
+    KeyValue:
+      type: object
+      properties:
+        key:
+          type: string
+        value:
+          type: string
+    AvailableQuota:
+      type: object
+      properties:
+        date:
+          type: string
+          format: date
+        handoverIntervalId:
+          type: string
+        material:
+          type: string
+        price:
+          type: number
+          format: double
+        quotaRate:
+          type: string
+        remainingQuota:
+          type: integer
+          format: int32
+        quotaParams:
+          type: array
+          items:
+            $ref: '#/components/schemas/QuotaParam'
+    DeliveryGeoPoint:
+      type: object
+      properties:
+        latitude:
+          type: string
+        longitude:
+          type: string
+    OrderPosition:
+      type: object
+      properties:
+        deliveryObjects:
+          type: array
+          items:
+            type: string
+        deliveryTypes:
+          type: array
+          items:
+            type: string
+        handoverObject:
+          type: string
+        material:
+          type: string
+        positionParams:
+          type: array
+          items:
+            $ref: '#/components/schemas/PositionParam'
+        price:
+          type: number
+          format: double
+        qty:
+          type: integer
+          format: int32
+    PositionParam:
+      type: object
+      properties:
+        key:
+          type: string
+        value:
+          type: string
+    QuotaAvailabilityRequestBody:
+      type: object
+      properties:
+        city:
+          type: string
+        currentDate:
+          type: string
+          format: date
+        dateFrom:
+          type: string
+        dateTo:
+          type: string
+        deliveryGeoPoint:
+          $ref: '#/components/schemas/DeliveryGeoPoint'
+        getUnavailable:
+          type: boolean
+        orderPositions:
+          type: array
+          items:
+            $ref: '#/components/schemas/OrderPosition'
+        quotaParams:
+          type: array
+          items:
+            $ref: '#/components/schemas/QuotaParam'
+        quotaService:
+          type: string
+        region:
+          type: string
+    QuotaAvailabilityResponseBody:
+      type: object
+      properties:
+        availableQuotes:
+          type: array
+          items:
+            $ref: '#/components/schemas/AvailableQuota'
+    QuotaParam:
+      type: object
+      properties:
+        key:
+          type: string
+        value:
+          type: string
+    HeaderParam:
+      type: object
+      required:
+        - key
+        - value
+      properties:
+        key:
+          type: string
+        value:
+          type: string
+    RequestHeader:
+      type: object
+      properties:
+        headerParams:
+          type: array
+          items:
+            $ref: '#/components/schemas/HeaderParam'
+    QuotaAvailabilityRequest:
+      type: object
+      required:
+        - RequestBody
+      properties:
+        RequestBody:
+          $ref: '#/components/schemas/QuotaAvailabilityRequestBody'
+        RequestHeader:
+          $ref: '#/components/schemas/RequestHeader'
+    HeaderError:
+      type: object
+      required:
+        - errorCode
+        - errorLevel
+        - errorMessage
+      properties:
+        errorCode:
+          type: string
+        errorLevel:
+          type: string
+        errorMessage:
+          type: string
+        errorLink:
+          type: string
+        errorParams:
+          type: array
+          items:
+            $ref: '#/components/schemas/KeyValue'
+    ResponseHeader:
+      type: object
+      required:
+        - clientId
+        - interfaceVersion
+        - responseCode
+        - responseDate
+        - responseMessage
+      properties:
+        clientId:
+          type: string
+        interfaceVersion:
+          type: string
+        responseDate:
+          type: string
+          example: 'yyyy-MM-dd H:m:s'
+        responseCode:
+          type: integer
+          format: int32
+        responseMessage:
+          type: string
+        responseDescription:
+          type: string
+        headerErrors:
+          type: array
+          items:
+            $ref: '#/components/schemas/HeaderError'
+        headerParams:
+          type: array
+          items:
+            $ref: '#/components/schemas/HeaderParam'
+    QuotaAvailabilityResponse:
+      type: object
+      required:
+        - ResponseBody
+        - ResponseHeader
+      properties:
+        ResponseHeader:
+          $ref: '#/components/schemas/ResponseHeader'
+        ResponseBody:
+          $ref: '#/components/schemas/QuotaAvailabilityResponseBody'

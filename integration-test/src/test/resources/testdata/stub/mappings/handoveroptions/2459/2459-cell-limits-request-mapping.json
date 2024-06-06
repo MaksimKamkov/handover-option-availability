@@ -1,0 +1,13 @@
+{
+  "request": {
+    "url": "/v2/cell-limits",
+    "method": "GET"
+  },
+  "response": {
+    "status": 200,
+    "bodyFileName": "handoveroptions/2459/2459-cell-limits-mock-response.json",
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}

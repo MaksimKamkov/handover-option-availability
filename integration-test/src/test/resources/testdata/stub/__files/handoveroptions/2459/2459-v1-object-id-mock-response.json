@@ -1,0 +1,6776 @@
+[
+  {
+    "id": "S018",
+    "name": "М-н № 18, Москва",
+    "isActive": true,
+    "address": "Москва, пр-т Мира, д. 91, к. 1",
+    "brand": "MVIDEO",
+    "type": "SHOP",
+    "coordinate": {
+      "latitude": 55.805356,
+      "longitude": 37.635278
+    },
+    "attributes": [
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "RUS03",
+        "source": "ERP",
+        "groupId": 120
+      },
+      {
+        "id": "deliveryStartTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "00:00",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "isAutoCourierAvailable",
+        "isLarge": false,
+        "description": "Признак возможности добраться к объекту на автомобиле",
+        "dataType": "BOOLEAN",
+        "value": "true",
+        "source": "LARDS",
+        "groupId": 100
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "3",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "RUS03",
+        "source": "ERP_ADRMAS",
+        "groupId": 120
+      },
+      {
+        "id": "deliveryEndTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "23:59",
+        "source": "LARDS",
+        "groupId": 120
+      }
+    ]
+  },
+  {
+    "id": "S019",
+    "name": "М-н № 19, Москва",
+    "isActive": true,
+    "address": "Москва, ул. Обручева, д. 34/63",
+    "brand": "MVIDEO",
+    "type": "SHOP",
+    "coordinate": {
+      "latitude": 55.654,
+      "longitude": 37.539
+    },
+    "attributes": [
+      {
+        "id": "deliveryStartTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "00:00",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "isAutoCourierAvailable",
+        "isLarge": false,
+        "description": "Признак возможности добраться к объекту на автомобиле",
+        "dataType": "BOOLEAN",
+        "value": "true",
+        "source": "LARDS",
+        "groupId": 100
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "RUS03",
+        "source": "ERP_ADRMAS",
+        "groupId": 120
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "3",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "deliveryEndTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "23:59",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "RUS03",
+        "source": "ERP",
+        "groupId": 120
+      }
+    ]
+  },
+  {
+    "id": "S412",
+    "name": "М-н №412, Москва",
+    "isActive": true,
+    "address": "Москва, ул. Декабристов д.12, ТЦ «Форт»",
+    "brand": "MVIDEO",
+    "type": "SHOP",
+    "coordinate": {
+      "latitude": 55.863,
+      "longitude": 37.602
+    },
+    "attributes": [
+      {
+        "id": "deliveryEndTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "20:00",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "isAutoCourierAvailable",
+        "isLarge": false,
+        "description": "Признак возможности добраться к объекту на автомобиле",
+        "dataType": "BOOLEAN",
+        "value": "true",
+        "source": "LARDS",
+        "groupId": 100
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "RUS03",
+        "source": "ERP_ADRMAS",
+        "groupId": 120
+      },
+      {
+        "id": "deliveryStartTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "10:00",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "3",
+        "source": "LARDS",
+        "groupId": 120
+      }
+    ]
+  },
+  {
+    "id": "S016",
+    "name": "М-н № 16, Москва",
+    "isActive": true,
+    "address": "Москва, ул. Люблинская, д. 169",
+    "brand": "MVIDEO",
+    "type": "SHOP",
+    "coordinate": {
+      "latitude": 55.649,
+      "longitude": 37.746
+    },
+    "attributes": [
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "RUS03",
+        "source": "ERP",
+        "groupId": 120
+      },
+      {
+        "id": "deliveryStartTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "10:00",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "isAutoCourierAvailable",
+        "isLarge": false,
+        "description": "Признак возможности добраться к объекту на автомобиле",
+        "dataType": "BOOLEAN",
+        "value": "true",
+        "source": "LARDS",
+        "groupId": 100
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "3",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "RUS03",
+        "source": "ERP_ADRMAS",
+        "groupId": 120
+      },
+      {
+        "id": "deliveryEndTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "20:00",
+        "source": "LARDS",
+        "groupId": 120
+      }
+    ]
+  },
+  {
+    "id": "S014",
+    "name": "test_shop",
+    "isActive": true,
+    "address": "Москва, ул. Измайловский вал, д. 3, стр. 1",
+    "brand": "MVIDEO",
+    "type": "SHOP",
+    "coordinate": {
+      "latitude": 55.781,
+      "longitude": 37.718
+    },
+    "attributes": [
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "RUS07",
+        "source": "ERP",
+        "groupId": 120
+      },
+      {
+        "id": "isAutoCourierAvailable",
+        "isLarge": false,
+        "description": "Признак возможности добраться к объекту на автомобиле",
+        "dataType": "BOOLEAN",
+        "value": "true",
+        "source": "LARDS",
+        "groupId": 100
+      },
+      {
+        "id": "deliveryStartTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "00:00",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "3",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "RUS03",
+        "source": "ERP_ADRMAS",
+        "groupId": 120
+      },
+      {
+        "id": "deliveryEndTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "23:59",
+        "source": "LARDS",
+        "groupId": 120
+      }
+    ]
+  },
+  {
+    "id": "S499",
+    "name": "М-н №499, Москва M.mobile+",
+    "isActive": true,
+    "address": "Москва, п. Коммунарка, ул. Александры Монаховой, д. 61 стр. 1, ТЦ «Глобус» ",
+    "brand": "MVIDEO",
+    "type": "SHOP",
+    "coordinate": {
+      "latitude": 55.557,
+      "longitude": 37.494
+    },
+    "attributes": [
+      {
+        "id": "deliveryEndTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "20:00",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "isAutoCourierAvailable",
+        "isLarge": false,
+        "description": "Признак возможности добраться к объекту на автомобиле",
+        "dataType": "BOOLEAN",
+        "value": "true",
+        "source": "LARDS",
+        "groupId": 100
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "RUS03",
+        "source": "ERP_ADRMAS",
+        "groupId": 120
+      },
+      {
+        "id": "deliveryStartTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "09:00",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "3",
+        "source": "LARDS",
+        "groupId": 120
+      }
+    ]
+  },
+  {
+    "id": "S783",
+    "name": "М-н №783, Москва",
+    "isActive": true,
+    "address": "Москва, ул. Земляной вал, д. 33, ТЦ «Атриум»",
+    "brand": "MVIDEO",
+    "type": "SHOP",
+    "coordinate": {
+      "latitude": 55.757226,
+      "longitude": 37.659037
+    },
+    "attributes": [
+      {
+        "id": "deliveryStartTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "10:00",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "isAutoCourierAvailable",
+        "isLarge": false,
+        "description": "Признак возможности добраться к объекту на автомобиле",
+        "dataType": "BOOLEAN",
+        "value": "true",
+        "source": "LARDS",
+        "groupId": 100
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "3",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "RUS03",
+        "source": "ERP_ADRMAS",
+        "groupId": 120
+      },
+      {
+        "id": "deliveryEndTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "21:00",
+        "source": "LARDS",
+        "groupId": 120
+      }
+    ]
+  },
+  {
+    "id": "S024",
+    "name": "М-н № 24, Москва",
+    "isActive": true,
+    "address": "Москва, ул. Народного Ополчения, д. 28, к. 1",
+    "brand": "MVIDEO",
+    "type": "SHOP",
+    "coordinate": {
+      "latitude": 55.781,
+      "longitude": 37.481
+    },
+    "attributes": [
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "RUS03",
+        "source": "ERP",
+        "groupId": 120
+      },
+      {
+        "id": "isAutoCourierAvailable",
+        "isLarge": false,
+        "description": "Признак возможности добраться к объекту на автомобиле",
+        "dataType": "BOOLEAN",
+        "value": "true",
+        "source": "LARDS",
+        "groupId": 100
+      },
+      {
+        "id": "deliveryStartTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "10:00",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "3",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "RUS03",
+        "source": "ERP_ADRMAS",
+        "groupId": 120
+      },
+      {
+        "id": "deliveryEndTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "20:00",
+        "source": "LARDS",
+        "groupId": 120
+      }
+    ]
+  },
+  {
+    "id": "S780",
+    "name": "М-н №780, Москва",
+    "isActive": true,
+    "address": "Москва, пос. Московский, Киевское ш., 23-й км, д. 1, ТЦ «Саларис»",
+    "brand": "MVIDEO",
+    "type": "SHOP",
+    "coordinate": {
+      "latitude": 55.62363,
+      "longitude": 37.422608
+    },
+    "attributes": [
+      {
+        "id": "deliveryStartTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "10:00",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "isAutoCourierAvailable",
+        "isLarge": false,
+        "description": "Признак возможности добраться к объекту на автомобиле",
+        "dataType": "BOOLEAN",
+        "value": "true",
+        "source": "LARDS",
+        "groupId": 100
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "RUS03",
+        "source": "ERP_ADRMAS",
+        "groupId": 120
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "3",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "deliveryEndTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "20:00",
+        "source": "LARDS",
+        "groupId": 120
+      }
+    ]
+  },
+  {
+    "id": "S020",
+    "name": "М-н № 20, Москва",
+    "isActive": true,
+    "address": "Москва, Щёлковское ш., д. 100, к. 101, ТЦ «Щёлково»",
+    "brand": "MVIDEO",
+    "type": "SHOP",
+    "coordinate": {
+      "latitude": 55.81,
+      "longitude": 37.831
+    },
+    "attributes": [
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "RUS03",
+        "source": "ERP",
+        "groupId": 120
+      },
+      {
+        "id": "deliveryStartTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "10:00",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "isAutoCourierAvailable",
+        "isLarge": false,
+        "description": "Признак возможности добраться к объекту на автомобиле",
+        "dataType": "BOOLEAN",
+        "value": "true",
+        "source": "LARDS",
+        "groupId": 100
+      },
+      {
+        "id": "deliveryEndTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "20:00",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "RUS03",
+        "source": "ERP_ADRMAS",
+        "groupId": 120
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "3",
+        "source": "LARDS",
+        "groupId": 120
+      }
+    ]
+  },
+  {
+    "id": "S526",
+    "name": "М-н №526, Москва M.mobile+",
+    "isActive": true,
+    "address": "Москва, Пресненская наб., д. 2, ТРЦ «Афимолл Сити», 1 этаж",
+    "brand": "MVIDEO",
+    "type": "SHOP",
+    "coordinate": {
+      "latitude": 55.749,
+      "longitude": 37.539
+    },
+    "attributes": [
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "3",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "deliveryEndTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "20:00",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "RUS03",
+        "source": "ERP",
+        "groupId": 120
+      },
+      {
+        "id": "isAutoCourierAvailable",
+        "isLarge": false,
+        "description": "Признак возможности добраться к объекту на автомобиле",
+        "dataType": "BOOLEAN",
+        "value": "true",
+        "source": "LARDS",
+        "groupId": 100
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "RUS03",
+        "source": "ERP_ADRMAS",
+        "groupId": 120
+      },
+      {
+        "id": "deliveryStartTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "10:00",
+        "source": "LARDS",
+        "groupId": 120
+      }
+    ]
+  },
+  {
+    "id": "S529",
+    "name": "М-н №529, Электросталь",
+    "isActive": true,
+    "address": "Г. о. Электросталь, пос. Случайный, Массив 1, стр. 2",
+    "brand": "MVIDEO",
+    "type": "SHOP",
+    "coordinate": {
+      "latitude": 55.759,
+      "longitude": 38.434
+    },
+    "attributes": [
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "3",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "isAutoCourierAvailable",
+        "isLarge": false,
+        "description": "Признак возможности добраться к объекту на автомобиле",
+        "dataType": "BOOLEAN",
+        "value": "true",
+        "source": "LARDS",
+        "groupId": 100
+      },
+      {
+        "id": "deliveryEndTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "20:00",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "deliveryStartTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "09:00",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "RUS03",
+        "source": "ERP_ADRMAS",
+        "groupId": 120
+      }
+    ]
+  },
+  {
+    "id": "S092",
+    "name": "М-н № 92, Щелково",
+    "isActive": true,
+    "address": "Щёлково, Фряновское ш., д. 1, ТЦ «Гранд Плаза»",
+    "brand": "MVIDEO",
+    "type": "SHOP",
+    "coordinate": {
+      "latitude": 55.928,
+      "longitude": 38.008
+    },
+    "attributes": [
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "RUS03",
+        "source": "ERP",
+        "groupId": 120
+      },
+      {
+        "id": "deliveryStartTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "10:00",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "isAutoCourierAvailable",
+        "isLarge": false,
+        "description": "Признак возможности добраться к объекту на автомобиле",
+        "dataType": "BOOLEAN",
+        "value": "true",
+        "source": "LARDS",
+        "groupId": 100
+      },
+      {
+        "id": "deliveryEndTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "20:00",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "RUS03",
+        "source": "ERP_ADRMAS",
+        "groupId": 120
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "3",
+        "source": "LARDS",
+        "groupId": 120
+      }
+    ]
+  },
+  {
+    "id": "S093",
+    "name": "М-н № 93, Москва",
+    "isActive": true,
+    "address": "Москва, Каширское ш., д. 26, ТРК «Москворечье»",
+    "brand": "MVIDEO",
+    "type": "SHOP",
+    "coordinate": {
+      "latitude": 55.653,
+      "longitude": 37.646
+    },
+    "attributes": [
+      {
+        "id": "isAutoCourierAvailable",
+        "isLarge": false,
+        "description": "Признак возможности добраться к объекту на автомобиле",
+        "dataType": "BOOLEAN",
+        "value": "true",
+        "source": "LARDS",
+        "groupId": 100
+      },
+      {
+        "id": "deliveryStartTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "10:00",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "deliveryEndTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "20:00",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "RUS03",
+        "source": "ERP_ADRMAS",
+        "groupId": 120
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "3",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "RUS03",
+        "source": "ERP",
+        "groupId": 120
+      }
+    ]
+  },
+  {
+    "id": "S090",
+    "name": "М-н № 90, Ивантеевка",
+    "isActive": true,
+    "address": "Ивантеевка, Советский пр-т, д. 2А, ТЦ «Гагарин»",
+    "brand": "MVIDEO",
+    "type": "SHOP",
+    "coordinate": {
+      "latitude": 55.975,
+      "longitude": 37.907
+    },
+    "attributes": [
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "RUS03",
+        "source": "ERP",
+        "groupId": 120
+      },
+      {
+        "id": "isAutoCourierAvailable",
+        "isLarge": false,
+        "description": "Признак возможности добраться к объекту на автомобиле",
+        "dataType": "BOOLEAN",
+        "value": "true",
+        "source": "LARDS",
+        "groupId": 100
+      },
+      {
+        "id": "deliveryStartTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "10:00",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "deliveryEndTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "20:00",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "3",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "RUS03",
+        "source": "ERP_ADRMAS",
+        "groupId": 120
+      }
+    ]
+  },
+  {
+    "id": "S091",
+    "name": "М-н № 91, Москва",
+    "isActive": true,
+    "address": "Красногорский р-н, Пятницкое ш., 7-й км, вл. 2, ТП «Отрада»",
+    "brand": "MVIDEO",
+    "type": "SHOP",
+    "coordinate": {
+      "latitude": 55.876,
+      "longitude": 37.332
+    },
+    "attributes": [
+      {
+        "id": "deliveryStartTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "10:00",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "isAutoCourierAvailable",
+        "isLarge": false,
+        "description": "Признак возможности добраться к объекту на автомобиле",
+        "dataType": "BOOLEAN",
+        "value": "true",
+        "source": "LARDS",
+        "groupId": 100
+      },
+      {
+        "id": "deliveryEndTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "20:00",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "RUS03",
+        "source": "ERP_ADRMAS",
+        "groupId": 120
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "3",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "RUS03",
+        "source": "ERP",
+        "groupId": 120
+      }
+    ]
+  },
+  {
+    "id": "S530",
+    "name": "М-н №530, Клин",
+    "isActive": true,
+    "address": "Клин, Ленинградское шоссе, влд. 91, стр. 2",
+    "brand": "MVIDEO",
+    "type": "SHOP",
+    "coordinate": {
+      "latitude": 56.322424,
+      "longitude": 36.761622
+    },
+    "attributes": [
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "RUS03",
+        "source": "ERP_ADRMAS",
+        "groupId": 120
+      },
+      {
+        "id": "deliveryStartTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "10:00",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "isAutoCourierAvailable",
+        "isLarge": false,
+        "description": "Признак возможности добраться к объекту на автомобиле",
+        "dataType": "BOOLEAN",
+        "value": "true",
+        "source": "LARDS",
+        "groupId": 100
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "3",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "deliveryEndTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "20:00",
+        "source": "LARDS",
+        "groupId": 120
+      }
+    ]
+  },
+  {
+    "id": "S098",
+    "name": "М-н № 98, Ногинск",
+    "isActive": true,
+    "address": "Ногинск, ул. Трудовая, д. 11, ТЦ «Ногинский»",
+    "brand": "MVIDEO",
+    "type": "SHOP",
+    "coordinate": {
+      "latitude": 55.853,
+      "longitude": 38.441
+    },
+    "attributes": [
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "RUS03",
+        "source": "ERP",
+        "groupId": 120
+      },
+      {
+        "id": "deliveryStartTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "10:00",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "isAutoCourierAvailable",
+        "isLarge": false,
+        "description": "Признак возможности добраться к объекту на автомобиле",
+        "dataType": "BOOLEAN",
+        "value": "true",
+        "source": "LARDS",
+        "groupId": 100
+      },
+      {
+        "id": "deliveryEndTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "19:00",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "RUS03",
+        "source": "ERP_ADRMAS",
+        "groupId": 120
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "3",
+        "source": "LARDS",
+        "groupId": 120
+      }
+    ]
+  },
+  {
+    "id": "S099",
+    "name": "М-н № 99, Москва",
+    "isActive": true,
+    "address": "Москва, ул. Вавилова, д. 3, ТЦ «Гагаринский»",
+    "brand": "MVIDEO",
+    "type": "SHOP",
+    "coordinate": {
+      "latitude": 55.707,
+      "longitude": 37.592
+    },
+    "attributes": [
+      {
+        "id": "deliveryStartTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "09:00",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "isAutoCourierAvailable",
+        "isLarge": false,
+        "description": "Признак возможности добраться к объекту на автомобиле",
+        "dataType": "BOOLEAN",
+        "value": "true",
+        "source": "LARDS",
+        "groupId": 100
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "3",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "RUS03",
+        "source": "ERP_ADRMAS",
+        "groupId": 120
+      },
+      {
+        "id": "deliveryEndTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "20:00",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "RUS03",
+        "source": "ERP",
+        "groupId": 120
+      }
+    ]
+  },
+  {
+    "id": "S011",
+    "name": "М-н № 11, Москва",
+    "isActive": true,
+    "address": "Москва, Чонгарский б-р, д. 3",
+    "brand": "MVIDEO",
+    "type": "SHOP",
+    "coordinate": {
+      "latitude": 55.653,
+      "longitude": 37.617
+    },
+    "attributes": [
+      {
+        "id": "deliveryStartTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "10:00",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "isAutoCourierAvailable",
+        "isLarge": false,
+        "description": "Признак возможности добраться к объекту на автомобиле",
+        "dataType": "BOOLEAN",
+        "value": "true",
+        "source": "LARDS",
+        "groupId": 100
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "3",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "RUS03",
+        "source": "ERP_ADRMAS",
+        "groupId": 120
+      },
+      {
+        "id": "deliveryEndTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "22:00",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "RUS03",
+        "source": "ERP",
+        "groupId": 120
+      }
+    ]
+  },
+  {
+    "id": "S096",
+    "name": "М-н № 96, Москва",
+    "isActive": true,
+    "address": "Москва, Варшавское ш., д. 140, ТРЦ «Columbus»",
+    "brand": "MVIDEO",
+    "type": "SHOP",
+    "coordinate": {
+      "latitude": 55.611,
+      "longitude": 37.607
+    },
+    "attributes": [
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "RUS03",
+        "source": "ERP",
+        "groupId": 120
+      },
+      {
+        "id": "deliveryStartTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "10:00",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "isAutoCourierAvailable",
+        "isLarge": false,
+        "description": "Признак возможности добраться к объекту на автомобиле",
+        "dataType": "BOOLEAN",
+        "value": "true",
+        "source": "LARDS",
+        "groupId": 100
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "RUS03",
+        "source": "ERP_ADRMAS",
+        "groupId": 120
+      },
+      {
+        "id": "deliveryEndTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "20:00",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "3",
+        "source": "LARDS",
+        "groupId": 120
+      }
+    ]
+  },
+  {
+    "id": "S097",
+    "name": "М-н № 97, Реутов",
+    "isActive": true,
+    "address": "Реутов, Носовихинское ш., д. 45, ТРЦ «Реутов Парк»",
+    "brand": "MVIDEO",
+    "type": "SHOP",
+    "coordinate": {
+      "latitude": 55.752,
+      "longitude": 37.887
+    },
+    "attributes": [
+      {
+        "id": "deliveryStartTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "10:00",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "isAutoCourierAvailable",
+        "isLarge": false,
+        "description": "Признак возможности добраться к объекту на автомобиле",
+        "dataType": "BOOLEAN",
+        "value": "true",
+        "source": "LARDS",
+        "groupId": 100
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "RUS03",
+        "source": "ERP_ADRMAS",
+        "groupId": 120
+      },
+      {
+        "id": "deliveryEndTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "20:00",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "3",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "RUS03",
+        "source": "ERP",
+        "groupId": 120
+      }
+    ]
+  },
+  {
+    "id": "S094",
+    "name": "М-н № 94, Москва",
+    "isActive": true,
+    "address": "Москва, Ходынский б-р, д. 4, ТЦ «Авиапарк», 4 этаж",
+    "brand": "MVIDEO",
+    "type": "SHOP",
+    "coordinate": {
+      "latitude": 55.790142,
+      "longitude": 37.532622
+    },
+    "attributes": [
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "RUS03",
+        "source": "ERP",
+        "groupId": 120
+      },
+      {
+        "id": "isAutoCourierAvailable",
+        "isLarge": false,
+        "description": "Признак возможности добраться к объекту на автомобиле",
+        "dataType": "BOOLEAN",
+        "value": "true",
+        "source": "LARDS",
+        "groupId": 100
+      },
+      {
+        "id": "deliveryStartTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "10:00",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "deliveryEndTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "20:00",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "RUS03",
+        "source": "ERP_ADRMAS",
+        "groupId": 120
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "3",
+        "source": "LARDS",
+        "groupId": 120
+      }
+    ]
+  },
+  {
+    "id": "S095",
+    "name": "М-н № 95, Жуковский",
+    "isActive": true,
+    "address": "Жуковский, ул. Гагарина, д. 67, ТЦ «Океан»",
+    "brand": "MVIDEO",
+    "type": "SHOP",
+    "coordinate": {
+      "latitude": 55.608,
+      "longitude": 38.091
+    },
+    "attributes": [
+      {
+        "id": "deliveryStartTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "10:00",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "isAutoCourierAvailable",
+        "isLarge": false,
+        "description": "Признак возможности добраться к объекту на автомобиле",
+        "dataType": "BOOLEAN",
+        "value": "true",
+        "source": "LARDS",
+        "groupId": 100
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "RUS03",
+        "source": "ERP_ADRMAS",
+        "groupId": 120
+      },
+      {
+        "id": "deliveryEndTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "20:00",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "3",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "RUS03",
+        "source": "ERP",
+        "groupId": 120
+      }
+    ]
+  },
+  {
+    "id": "S318",
+    "name": "М-н №318, Москва",
+    "isActive": true,
+    "address": "Одинцово, ул. Минское шоссе, 19-й км, ТЦ «Орбион»",
+    "brand": "MVIDEO",
+    "type": "SHOP",
+    "coordinate": {
+      "latitude": 55.699,
+      "longitude": 37.346
+    },
+    "attributes": [
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "3",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "deliveryEndTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "19:00",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "isAutoCourierAvailable",
+        "isLarge": false,
+        "description": "Признак возможности добраться к объекту на автомобиле",
+        "dataType": "BOOLEAN",
+        "value": "true",
+        "source": "LARDS",
+        "groupId": 100
+      },
+      {
+        "id": "deliveryStartTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "09:00",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "RUS03",
+        "source": "ERP_ADRMAS",
+        "groupId": 120
+      }
+    ]
+  },
+  {
+    "id": "S797",
+    "name": "М-н №797, Москва M.mobile+",
+    "isActive": true,
+    "address": "Москва, 53-й км МКАД, вл. 110, ТЦ «Ашан-Марфино»",
+    "brand": "MVIDEO",
+    "type": "SHOP",
+    "coordinate": {
+      "latitude": 55.707,
+      "longitude": 37.385
+    },
+    "attributes": [
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "RUS03",
+        "source": "ERP_ADRMAS",
+        "groupId": 120
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "3",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "deliveryEndTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "20:00",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "isAutoCourierAvailable",
+        "isLarge": false,
+        "description": "Признак возможности добраться к объекту на автомобиле",
+        "dataType": "BOOLEAN",
+        "value": "true",
+        "source": "LARDS",
+        "groupId": 100
+      },
+      {
+        "id": "deliveryStartTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "09:00",
+        "source": "LARDS",
+        "groupId": 120
+      }
+    ]
+  },
+  {
+    "id": "S038",
+    "name": "М-н № 38, Балашиха",
+    "isActive": true,
+    "address": "Балашиха, ш. Энтузиастов, д. 36A, ТЦ «Вертикаль»",
+    "brand": "MVIDEO",
+    "type": "SHOP",
+    "coordinate": {
+      "latitude": 55.794,
+      "longitude": 37.939
+    },
+    "attributes": [
+      {
+        "id": "deliveryStartTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "10:00",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "isAutoCourierAvailable",
+        "isLarge": false,
+        "description": "Признак возможности добраться к объекту на автомобиле",
+        "dataType": "BOOLEAN",
+        "value": "true",
+        "source": "LARDS",
+        "groupId": 100
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "3",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "RUS03",
+        "source": "ERP_ADRMAS",
+        "groupId": 120
+      },
+      {
+        "id": "deliveryEndTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "20:00",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "RUS03",
+        "source": "ERP",
+        "groupId": 120
+      }
+    ]
+  },
+  {
+    "id": "S798",
+    "name": "М-н №798, Щелково",
+    "isActive": true,
+    "address": "Щёлково, ул. Радиоцентр-5, д. 7А",
+    "brand": "MVIDEO",
+    "type": "SHOP",
+    "coordinate": {
+      "latitude": 55.901,
+      "longitude": 38.069
+    },
+    "attributes": [
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "RUS03",
+        "source": "ERP_ADRMAS",
+        "groupId": 120
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "3",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "deliveryEndTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "20:00",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "isAutoCourierAvailable",
+        "isLarge": false,
+        "description": "Признак возможности добраться к объекту на автомобиле",
+        "dataType": "BOOLEAN",
+        "value": "true",
+        "source": "LARDS",
+        "groupId": 100
+      },
+      {
+        "id": "deliveryStartTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "10:00",
+        "source": "LARDS",
+        "groupId": 120
+      }
+    ]
+  },
+  {
+    "id": "S039",
+    "name": "М-н № 39, Москва",
+    "isActive": true,
+    "address": "Москва, Бесединское ш., д. 15, ТЦ «Парк Хаус»",
+    "brand": "MVIDEO",
+    "type": "SHOP",
+    "coordinate": {
+      "latitude": 55.625,
+      "longitude": 37.761
+    },
+    "attributes": [
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "RUS03",
+        "source": "ERP",
+        "groupId": 120
+      },
+      {
+        "id": "deliveryStartTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "10:00",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "isAutoCourierAvailable",
+        "isLarge": false,
+        "description": "Признак возможности добраться к объекту на автомобиле",
+        "dataType": "BOOLEAN",
+        "value": "true",
+        "source": "LARDS",
+        "groupId": 100
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "3",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "RUS03",
+        "source": "ERP_ADRMAS",
+        "groupId": 120
+      },
+      {
+        "id": "deliveryEndTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "20:00",
+        "source": "LARDS",
+        "groupId": 120
+      }
+    ]
+  },
+  {
+    "id": "S036",
+    "name": "М-н № 36, Москва",
+    "isActive": true,
+    "address": "Москва, Мичуринский пр-т, Олимпийская деревня, д. 3, к. 1, ТРЦ «Фестиваль»",
+    "brand": "MVIDEO",
+    "type": "SHOP",
+    "coordinate": {
+      "latitude": 55.678,
+      "longitude": 37.466
+    },
+    "attributes": [
+      {
+        "id": "isAutoCourierAvailable",
+        "isLarge": false,
+        "description": "Признак возможности добраться к объекту на автомобиле",
+        "dataType": "BOOLEAN",
+        "value": "true",
+        "source": "LARDS",
+        "groupId": 100
+      },
+      {
+        "id": "deliveryStartTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "10:00",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "3",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "RUS03",
+        "source": "ERP_ADRMAS",
+        "groupId": 120
+      },
+      {
+        "id": "deliveryEndTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "20:00",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "RUS03",
+        "source": "ERP",
+        "groupId": 120
+      }
+    ]
+  },
+  {
+    "id": "S716",
+    "name": "М-н №716, Раменское",
+    "isActive": true,
+    "address": "Раменское, ул. Холодово, д. 1",
+    "brand": "MVIDEO",
+    "type": "SHOP",
+    "coordinate": {
+      "latitude": 55.582,
+      "longitude": 38.199
+    },
+    "attributes": [
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "RUS03",
+        "source": "ERP_ADRMAS",
+        "groupId": 120
+      },
+      {
+        "id": "isAutoCourierAvailable",
+        "isLarge": false,
+        "description": "Признак возможности добраться к объекту на автомобиле",
+        "dataType": "BOOLEAN",
+        "value": "true",
+        "source": "LARDS",
+        "groupId": 100
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "3",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "deliveryStartTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "10:00",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "RUS03",
+        "source": "ERP",
+        "groupId": 120
+      },
+      {
+        "id": "deliveryEndTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "19:00",
+        "source": "LARDS",
+        "groupId": 120
+      }
+    ]
+  },
+  {
+    "id": "S045",
+    "name": "М-н № 45, Москва",
+    "isActive": true,
+    "address": "Москва, ул. Большая Черёмушкинская, д. 1, ТРЦ «Рио»",
+    "brand": "MVIDEO",
+    "type": "SHOP",
+    "coordinate": {
+      "latitude": 55.689,
+      "longitude": 37.602
+    },
+    "attributes": [
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "RUS03",
+        "source": "ERP",
+        "groupId": 120
+      },
+      {
+        "id": "deliveryStartTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "10:00",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "isAutoCourierAvailable",
+        "isLarge": false,
+        "description": "Признак возможности добраться к объекту на автомобиле",
+        "dataType": "BOOLEAN",
+        "value": "true",
+        "source": "LARDS",
+        "groupId": 100
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "3",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "RUS03",
+        "source": "ERP_ADRMAS",
+        "groupId": 120
+      },
+      {
+        "id": "deliveryEndTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "20:00",
+        "source": "LARDS",
+        "groupId": 120
+      }
+    ]
+  },
+  {
+    "id": "S046",
+    "name": "М-н № 46, Москва",
+    "isActive": true,
+    "address": "Котельники, 1-й Покровский пр., д. 5, ТЦ «МЕГА Белая Дача» здание OBI/ДЕКАТЛОН",
+    "brand": "MVIDEO",
+    "type": "SHOP",
+    "coordinate": {
+      "latitude": 55.658,
+      "longitude": 37.845
+    },
+    "attributes": [
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "3",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "RUS03",
+        "source": "ERP_ADRMAS",
+        "groupId": 120
+      },
+      {
+        "id": "deliveryEndTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "21:00",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "RUS03",
+        "source": "ERP",
+        "groupId": 120
+      },
+      {
+        "id": "isAutoCourierAvailable",
+        "isLarge": false,
+        "description": "Признак возможности добраться к объекту на автомобиле",
+        "dataType": "BOOLEAN",
+        "value": "true",
+        "source": "LARDS",
+        "groupId": 100
+      },
+      {
+        "id": "deliveryStartTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "10:00",
+        "source": "LARDS",
+        "groupId": 120
+      }
+    ]
+  },
+  {
+    "id": "S044",
+    "name": "М-н № 44, Москва",
+    "isActive": true,
+    "address": "Москва, ул. Корнейчука, д. 8, ТК «Час Пик»",
+    "brand": "MVIDEO",
+    "type": "SHOP",
+    "coordinate": {
+      "latitude": 55.899,
+      "longitude": 37.629
+    },
+    "attributes": [
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "3",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "RUS03",
+        "source": "ERP_ADRMAS",
+        "groupId": 120
+      },
+      {
+        "id": "deliveryEndTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "20:00",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "RUS03",
+        "source": "ERP",
+        "groupId": 120
+      },
+      {
+        "id": "deliveryStartTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "10:00",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "isAutoCourierAvailable",
+        "isLarge": false,
+        "description": "Признак возможности добраться к объекту на автомобиле",
+        "dataType": "BOOLEAN",
+        "value": "true",
+        "source": "LARDS",
+        "groupId": 100
+      }
+    ]
+  },
+  {
+    "id": "S041",
+    "name": "М-н № 41, Москва",
+    "isActive": true,
+    "address": "Москва, 47-й км МКАД, влд. 31, стр. 1, ТЦ «Лента»",
+    "brand": "MVIDEO",
+    "type": "SHOP",
+    "coordinate": {
+      "latitude": 55.6593785737,
+      "longitude": 37.4291734003
+    },
+    "attributes": [
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "RUS03",
+        "source": "ERP",
+        "groupId": 120
+      },
+      {
+        "id": "deliveryStartTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "10:00",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "isAutoCourierAvailable",
+        "isLarge": false,
+        "description": "Признак возможности добраться к объекту на автомобиле",
+        "dataType": "BOOLEAN",
+        "value": "true",
+        "source": "LARDS",
+        "groupId": 100
+      },
+      {
+        "id": "deliveryEndTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "20:00",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "RUS03",
+        "source": "ERP_ADRMAS",
+        "groupId": 120
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "3",
+        "source": "LARDS",
+        "groupId": 120
+      }
+    ]
+  },
+  {
+    "id": "S669",
+    "name": "М-н №669, Пушкино",
+    "isActive": true,
+    "address": "Пушкино,ул. Ярославское ш., 33-й км",
+    "brand": "MVIDEO",
+    "type": "SHOP",
+    "coordinate": {
+      "latitude": 56.001,
+      "longitude": 37.881
+    },
+    "attributes": [
+      {
+        "id": "deliveryEndTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "20:00",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "isAutoCourierAvailable",
+        "isLarge": false,
+        "description": "Признак возможности добраться к объекту на автомобиле",
+        "dataType": "BOOLEAN",
+        "value": "true",
+        "source": "LARDS",
+        "groupId": 100
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "RUS03",
+        "source": "ERP_ADRMAS",
+        "groupId": 120
+      },
+      {
+        "id": "deliveryStartTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "10:00",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "3",
+        "source": "LARDS",
+        "groupId": 120
+      }
+    ]
+  },
+  {
+    "id": "S703",
+    "name": "М-н №703, Ступино",
+    "isActive": true,
+    "address": "Ступино, пр-т Победы, д. 63А, ТЦ «Курс»",
+    "brand": "MVIDEO",
+    "type": "SHOP",
+    "coordinate": {
+      "latitude": 54.897,
+      "longitude": 38.079
+    },
+    "attributes": [
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "RUS03",
+        "source": "ERP_ADRMAS",
+        "groupId": 120
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "3",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "deliveryEndTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "20:00",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "isAutoCourierAvailable",
+        "isLarge": false,
+        "description": "Признак возможности добраться к объекту на автомобиле",
+        "dataType": "BOOLEAN",
+        "value": "true",
+        "source": "LARDS",
+        "groupId": 100
+      },
+      {
+        "id": "deliveryStartTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "10:00",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "RUS03",
+        "source": "ERP",
+        "groupId": 120
+      }
+    ]
+  },
+  {
+    "id": "S700",
+    "name": "М-н №700, Воскресенск",
+    "isActive": true,
+    "address": "Воскресенский р-н, с. Федино, ул. Фединская, стр. 1, ТЦ «Воскресенский»",
+    "brand": "MVIDEO",
+    "type": "SHOP",
+    "coordinate": {
+      "latitude": 55.314,
+      "longitude": 38.639
+    },
+    "attributes": [
+      {
+        "id": "deliveryStartTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "10:00",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "isAutoCourierAvailable",
+        "isLarge": false,
+        "description": "Признак возможности добраться к объекту на автомобиле",
+        "dataType": "BOOLEAN",
+        "value": "true",
+        "source": "LARDS",
+        "groupId": 100
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "RUS03",
+        "source": "ERP",
+        "groupId": 120
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "3",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "RUS03",
+        "source": "ERP_ADRMAS",
+        "groupId": 120
+      },
+      {
+        "id": "deliveryEndTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "20:00",
+        "source": "LARDS",
+        "groupId": 120
+      }
+    ]
+  },
+  {
+    "id": "S029",
+    "name": "М-н № 29, Москва",
+    "isActive": true,
+    "address": "Москва, Садовая-Спасская ул., д. 3, стр. 3",
+    "brand": "MVIDEO",
+    "type": "SHOP",
+    "coordinate": {
+      "latitude": 55.771,
+      "longitude": 37.642
+    },
+    "attributes": [
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "3",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "RUS03",
+        "source": "ERP_ADRMAS",
+        "groupId": 120
+      },
+      {
+        "id": "deliveryEndTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "20:00",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "RUS03",
+        "source": "ERP",
+        "groupId": 120
+      },
+      {
+        "id": "deliveryStartTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "10:00",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "isAutoCourierAvailable",
+        "isLarge": false,
+        "description": "Признак возможности добраться к объекту на автомобиле",
+        "dataType": "BOOLEAN",
+        "value": "true",
+        "source": "LARDS",
+        "groupId": 100
+      }
+    ]
+  },
+  {
+    "id": "S789",
+    "name": "М-н №789, Москва M.mobile+",
+    "isActive": true,
+    "address": "Москва, ул. Чонгарский бульвар, д. 7, ТЦ «Ангара»",
+    "brand": "MVIDEO",
+    "type": "SHOP",
+    "coordinate": {
+      "latitude": 55.651,
+      "longitude": 37.612
+    },
+    "attributes": [
+      {
+        "id": "isAutoCourierAvailable",
+        "isLarge": false,
+        "description": "Признак возможности добраться к объекту на автомобиле",
+        "dataType": "BOOLEAN",
+        "value": "true",
+        "source": "LARDS",
+        "groupId": 100
+      },
+      {
+        "id": "deliveryStartTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "10:00",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "3",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "RUS03",
+        "source": "ERP_ADRMAS",
+        "groupId": 120
+      },
+      {
+        "id": "deliveryEndTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "20:00",
+        "source": "LARDS",
+        "groupId": 120
+      }
+    ]
+  },
+  {
+    "id": "S027",
+    "name": "М-н № 27, Москва",
+    "isActive": true,
+    "address": "Москва, ул. Зеленодольская, д. 40, ТЦ «Будапешт»",
+    "brand": "MVIDEO",
+    "type": "SHOP",
+    "coordinate": {
+      "latitude": 55.704,
+      "longitude": 37.766
+    },
+    "attributes": [
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "3",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "RUS03",
+        "source": "ERP_ADRMAS",
+        "groupId": 120
+      },
+      {
+        "id": "deliveryEndTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "20:00",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "RUS03",
+        "source": "ERP",
+        "groupId": 120
+      },
+      {
+        "id": "deliveryStartTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "10:00",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "isAutoCourierAvailable",
+        "isLarge": false,
+        "description": "Признак возможности добраться к объекту на автомобиле",
+        "dataType": "BOOLEAN",
+        "value": "true",
+        "source": "LARDS",
+        "groupId": 100
+      }
+    ]
+  },
+  {
+    "id": "S028",
+    "name": "М-н № 28, Химки",
+    "isActive": true,
+    "address": "Химки, Ленинградское ш., вл. 5, ТЦ «Лига»",
+    "brand": "MVIDEO",
+    "type": "SHOP",
+    "coordinate": {
+      "latitude": 55.889,
+      "longitude": 37.433
+    },
+    "attributes": [
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "RUS03",
+        "source": "ERP",
+        "groupId": 120
+      },
+      {
+        "id": "deliveryStartTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "10:00",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "isAutoCourierAvailable",
+        "isLarge": false,
+        "description": "Признак возможности добраться к объекту на автомобиле",
+        "dataType": "BOOLEAN",
+        "value": "true",
+        "source": "LARDS",
+        "groupId": 100
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "3",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "RUS03",
+        "source": "ERP_ADRMAS",
+        "groupId": 120
+      },
+      {
+        "id": "deliveryEndTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "20:00",
+        "source": "LARDS",
+        "groupId": 120
+      }
+    ]
+  },
+  {
+    "id": "S025",
+    "name": "М-н № 25, Москва",
+    "isActive": true,
+    "address": "Москва, ул. Русаковская, д. 22",
+    "brand": "MVIDEO",
+    "type": "SHOP",
+    "coordinate": {
+      "latitude": 55.786,
+      "longitude": 37.678
+    },
+    "attributes": [
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "3",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "RUS03",
+        "source": "ERP_ADRMAS",
+        "groupId": 120
+      },
+      {
+        "id": "deliveryEndTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "20:00",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "RUS03",
+        "source": "ERP",
+        "groupId": 120
+      },
+      {
+        "id": "isAutoCourierAvailable",
+        "isLarge": false,
+        "description": "Признак возможности добраться к объекту на автомобиле",
+        "dataType": "BOOLEAN",
+        "value": "true",
+        "source": "LARDS",
+        "groupId": 100
+      },
+      {
+        "id": "deliveryStartTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "10:00",
+        "source": "LARDS",
+        "groupId": 120
+      }
+    ]
+  },
+  {
+    "id": "S026",
+    "name": "М-н № 26, Москва",
+    "isActive": true,
+    "address": "Москва, Славянский б-р, д. 13, стр. 1",
+    "brand": "MVIDEO",
+    "type": "SHOP",
+    "coordinate": {
+      "latitude": 55.725554,
+      "longitude": 37.463826
+    },
+    "attributes": [
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "RUS03",
+        "source": "ERP",
+        "groupId": 120
+      },
+      {
+        "id": "deliveryStartTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "00:00",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "isAutoCourierAvailable",
+        "isLarge": false,
+        "description": "Признак возможности добраться к объекту на автомобиле",
+        "dataType": "BOOLEAN",
+        "value": "true",
+        "source": "LARDS",
+        "groupId": 100
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "3",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "RUS03",
+        "source": "ERP_ADRMAS",
+        "groupId": 120
+      },
+      {
+        "id": "deliveryEndTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "23:59",
+        "source": "LARDS",
+        "groupId": 120
+      }
+    ]
+  },
+  {
+    "id": "S704",
+    "name": "М-н №704, Люберцы",
+    "isActive": true,
+    "address": "Люберцы, Октябрьский пр-т, д. 112, ТЦ «Выходной»",
+    "brand": "MVIDEO",
+    "type": "SHOP",
+    "coordinate": {
+      "latitude": 55.686,
+      "longitude": 37.876
+    },
+    "attributes": [
+      {
+        "id": "isAutoCourierAvailable",
+        "isLarge": false,
+        "description": "Признак возможности добраться к объекту на автомобиле",
+        "dataType": "BOOLEAN",
+        "value": "true",
+        "source": "LARDS",
+        "groupId": 100
+      },
+      {
+        "id": "deliveryStartTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "10:00",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "RUS03",
+        "source": "ERP",
+        "groupId": 120
+      },
+      {
+        "id": "deliveryEndTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "20:00",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "RUS03",
+        "source": "ERP_ADRMAS",
+        "groupId": 120
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "3",
+        "source": "LARDS",
+        "groupId": 120
+      }
+    ]
+  },
+  {
+    "id": "S034",
+    "name": "М-н № 34, Москва",
+    "isActive": true,
+    "address": "Москва, Дмитровское ш., д. 116Д, ТЦ «Наш»",
+    "brand": "MVIDEO",
+    "type": "SHOP",
+    "coordinate": {
+      "latitude": 55.901772,
+      "longitude": 37.548407
+    },
+    "attributes": [
+      {
+        "id": "deliveryStartTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "10:00",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "isAutoCourierAvailable",
+        "isLarge": false,
+        "description": "Признак возможности добраться к объекту на автомобиле",
+        "dataType": "BOOLEAN",
+        "value": "true",
+        "source": "LARDS",
+        "groupId": 100
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "3",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "RUS03",
+        "source": "ERP_ADRMAS",
+        "groupId": 120
+      },
+      {
+        "id": "deliveryEndTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "20:00",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "RUS03",
+        "source": "ERP",
+        "groupId": 120
+      }
+    ]
+  },
+  {
+    "id": "S035",
+    "name": "М-н № 35, Химки",
+    "isActive": true,
+    "address": "Химки, 8-й мкр, стр. 1, ТЦ «МЕГА 2»",
+    "brand": "MVIDEO",
+    "type": "SHOP",
+    "coordinate": {
+      "latitude": 55.91,
+      "longitude": 37.401
+    },
+    "attributes": [
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "RUS03",
+        "source": "ERP",
+        "groupId": 120
+      },
+      {
+        "id": "isAutoCourierAvailable",
+        "isLarge": false,
+        "description": "Признак возможности добраться к объекту на автомобиле",
+        "dataType": "BOOLEAN",
+        "value": "true",
+        "source": "LARDS",
+        "groupId": 100
+      },
+      {
+        "id": "deliveryStartTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "10:00",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "3",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "RUS03",
+        "source": "ERP_ADRMAS",
+        "groupId": 120
+      },
+      {
+        "id": "deliveryEndTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "21:00",
+        "source": "LARDS",
+        "groupId": 120
+      }
+    ]
+  },
+  {
+    "id": "S614",
+    "name": "М-н №614, Москва",
+    "isActive": true,
+    "address": "Котельники, 1-й Покровский пр-д, д. 5, ТЦ «МЕГА-Белая Дача» здание IKEA/АШАН",
+    "brand": "MVIDEO",
+    "type": "SHOP",
+    "coordinate": {
+      "latitude": 55.653119,
+      "longitude": 37.844845
+    },
+    "attributes": [
+      {
+        "id": "deliveryStartTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "10:00",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "isAutoCourierAvailable",
+        "isLarge": false,
+        "description": "Признак возможности добраться к объекту на автомобиле",
+        "dataType": "BOOLEAN",
+        "value": "true",
+        "source": "LARDS",
+        "groupId": 100
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "RUS03",
+        "source": "ERP_ADRMAS",
+        "groupId": 120
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "3",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "deliveryEndTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "21:00",
+        "source": "LARDS",
+        "groupId": 120
+      }
+    ]
+  },
+  {
+    "id": "S613",
+    "name": "М-н №613, Москва",
+    "isActive": true,
+    "address": "Москва, ул. Щукинская, д.42, ТРЦ «‎Щука»",
+    "brand": "MVIDEO",
+    "type": "SHOP",
+    "coordinate": {
+      "latitude": 55.809671,
+      "longitude": 37.463
+    },
+    "attributes": [
+      {
+        "id": "deliveryStartTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "10:00",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "isAutoCourierAvailable",
+        "isLarge": false,
+        "description": "Признак возможности добраться к объекту на автомобиле",
+        "dataType": "BOOLEAN",
+        "value": "true",
+        "source": "LARDS",
+        "groupId": 100
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "RUS03",
+        "source": "ERP_ADRMAS",
+        "groupId": 120
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "3",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "deliveryEndTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "20:00",
+        "source": "LARDS",
+        "groupId": 120
+      }
+    ]
+  },
+  {
+    "id": "S215",
+    "name": "М-н №215, Москва",
+    "isActive": true,
+    "address": "Москва, ул. Проспект Мира, д. 92 стр. 2, ТК «Крестовский»",
+    "brand": "MVIDEO",
+    "type": "SHOP",
+    "coordinate": {
+      "latitude": 55.793,
+      "longitude": 37.636
+    },
+    "attributes": [
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "RUS03",
+        "source": "ERP_ADRMAS",
+        "groupId": 120
+      },
+      {
+        "id": "deliveryStartTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "09:30",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "3",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "deliveryEndTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "20:00",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "isAutoCourierAvailable",
+        "isLarge": false,
+        "description": "Признак возможности добраться к объекту на автомобиле",
+        "dataType": "BOOLEAN",
+        "value": "true",
+        "source": "LARDS",
+        "groupId": 100
+      }
+    ]
+  },
+  {
+    "id": "S058",
+    "name": "М-н № 58, Москва",
+    "isActive": true,
+    "address": "Москва, Дмитровское ш., д. 43, к. 1",
+    "brand": "MVIDEO",
+    "type": "SHOP",
+    "coordinate": {
+      "latitude": 55.834,
+      "longitude": 37.572
+    },
+    "attributes": [
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "RUS03",
+        "source": "ERP",
+        "groupId": 120
+      },
+      {
+        "id": "isAutoCourierAvailable",
+        "isLarge": false,
+        "description": "Признак возможности добраться к объекту на автомобиле",
+        "dataType": "BOOLEAN",
+        "value": "true",
+        "source": "LARDS",
+        "groupId": 100
+      },
+      {
+        "id": "deliveryStartTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "10:00",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "3",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "RUS03",
+        "source": "ERP_ADRMAS",
+        "groupId": 120
+      },
+      {
+        "id": "deliveryEndTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "20:00",
+        "source": "LARDS",
+        "groupId": 120
+      }
+    ]
+  },
+  {
+    "id": "S059",
+    "name": "М-н № 59, Сергиев Посад",
+    "isActive": true,
+    "address": "Сергиев Посад, пр-т Красной Армии, д. 121",
+    "brand": "MVIDEO",
+    "type": "SHOP",
+    "coordinate": {
+      "latitude": 56.304,
+      "longitude": 38.129
+    },
+    "attributes": [
+      {
+        "id": "deliveryStartTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "10:00",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "isAutoCourierAvailable",
+        "isLarge": false,
+        "description": "Признак возможности добраться к объекту на автомобиле",
+        "dataType": "BOOLEAN",
+        "value": "true",
+        "source": "LARDS",
+        "groupId": 100
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "3",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "RUS03",
+        "source": "ERP_ADRMAS",
+        "groupId": 120
+      },
+      {
+        "id": "deliveryEndTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "20:00",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "RUS03",
+        "source": "ERP",
+        "groupId": 120
+      }
+    ]
+  },
+  {
+    "id": "S060",
+    "name": "М-н № 60, Зеленоград",
+    "isActive": true,
+    "address": "Зеленоград, 10-й мкр., ул. Гоголя, к. 1006А",
+    "brand": "MVIDEO",
+    "type": "SHOP",
+    "coordinate": {
+      "latitude": 55.984,
+      "longitude": 37.176
+    },
+    "attributes": [
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "RUS03",
+        "source": "ERP",
+        "groupId": 120
+      },
+      {
+        "id": "isAutoCourierAvailable",
+        "isLarge": false,
+        "description": "Признак возможности добраться к объекту на автомобиле",
+        "dataType": "BOOLEAN",
+        "value": "true",
+        "source": "LARDS",
+        "groupId": 100
+      },
+      {
+        "id": "deliveryStartTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "10:00",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "deliveryEndTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "20:00",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "RUS03",
+        "source": "ERP_ADRMAS",
+        "groupId": 120
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "3",
+        "source": "LARDS",
+        "groupId": 120
+      }
+    ]
+  },
+  {
+    "id": "S100",
+    "name": "М-н №100, Москва",
+    "isActive": true,
+    "address": "Москва, Строгинский б-р, д. 1, ТЦ «Дарья»",
+    "brand": "MVIDEO",
+    "type": "SHOP",
+    "coordinate": {
+      "latitude": 55.806,
+      "longitude": 37.396
+    },
+    "attributes": [
+      {
+        "id": "deliveryEndTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "20:00",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "3",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "RUS03",
+        "source": "ERP_ADRMAS",
+        "groupId": 120
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "RUS03",
+        "source": "ERP",
+        "groupId": 120
+      },
+      {
+        "id": "isAutoCourierAvailable",
+        "isLarge": false,
+        "description": "Признак возможности добраться к объекту на автомобиле",
+        "dataType": "BOOLEAN",
+        "value": "true",
+        "source": "LARDS",
+        "groupId": 100
+      },
+      {
+        "id": "deliveryStartTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "10:00",
+        "source": "LARDS",
+        "groupId": 120
+      }
+    ]
+  },
+  {
+    "id": "S067",
+    "name": "М-н № 67, Москва",
+    "isActive": true,
+    "address": "Москва, ул. Верхняя Красносельская, вл. 3а, ТЦ «Тройка»",
+    "brand": "MVIDEO",
+    "type": "SHOP",
+    "coordinate": {
+      "latitude": 55.785751,
+      "longitude": 37.665538
+    },
+    "attributes": [
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "3",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "RUS03",
+        "source": "ERP_ADRMAS",
+        "groupId": 120
+      },
+      {
+        "id": "deliveryEndTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "20:00",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "RUS03",
+        "source": "ERP",
+        "groupId": 120
+      },
+      {
+        "id": "deliveryStartTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "00:00",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "isAutoCourierAvailable",
+        "isLarge": false,
+        "description": "Признак возможности добраться к объекту на автомобиле",
+        "dataType": "BOOLEAN",
+        "value": "true",
+        "source": "LARDS",
+        "groupId": 100
+      }
+    ]
+  },
+  {
+    "id": "S068",
+    "name": "М-н № 68, Электросталь",
+    "isActive": true,
+    "address": "Электросталь, пр-т Ленина, д. 0/10, ТРЦ «Эльград»",
+    "brand": "MVIDEO",
+    "type": "SHOP",
+    "coordinate": {
+      "latitude": 55.813,
+      "longitude": 38.43
+    },
+    "attributes": [
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "RUS03",
+        "source": "ERP",
+        "groupId": 120
+      },
+      {
+        "id": "isAutoCourierAvailable",
+        "isLarge": false,
+        "description": "Признак возможности добраться к объекту на автомобиле",
+        "dataType": "BOOLEAN",
+        "value": "true",
+        "source": "LARDS",
+        "groupId": 100
+      },
+      {
+        "id": "deliveryStartTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "10:00",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "3",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "RUS03",
+        "source": "ERP_ADRMAS",
+        "groupId": 120
+      },
+      {
+        "id": "deliveryEndTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "20:00",
+        "source": "LARDS",
+        "groupId": 120
+      }
+    ]
+  },
+  {
+    "id": "S065",
+    "name": "М-н № 65, Щербинка",
+    "isActive": true,
+    "address": "Щербинка, ул. Железнодорожная, д. 44, ТЦ «Акварель»",
+    "brand": "MVIDEO",
+    "type": "SHOP",
+    "coordinate": {
+      "latitude": 55.499252,
+      "longitude": 37.567668
+    },
+    "attributes": [
+      {
+        "id": "deliveryEndTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "20:00",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "RUS03",
+        "source": "ERP_ADRMAS",
+        "groupId": 120
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "3",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "RUS03",
+        "source": "ERP",
+        "groupId": 120
+      },
+      {
+        "id": "deliveryStartTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "10:00",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "isAutoCourierAvailable",
+        "isLarge": false,
+        "description": "Признак возможности добраться к объекту на автомобиле",
+        "dataType": "BOOLEAN",
+        "value": "true",
+        "source": "LARDS",
+        "groupId": 100
+      }
+    ]
+  },
+  {
+    "id": "S066",
+    "name": "М-н № 66, Зеленоград",
+    "isActive": true,
+    "address": "Зеленоград, Панфиловский пр-т, д. 6А, ТК «Панфиловский»",
+    "brand": "MVIDEO",
+    "type": "SHOP",
+    "coordinate": {
+      "latitude": 56.009,
+      "longitude": 37.2
+    },
+    "attributes": [
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "RUS03",
+        "source": "ERP",
+        "groupId": 120
+      },
+      {
+        "id": "deliveryStartTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "10:00",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "isAutoCourierAvailable",
+        "isLarge": false,
+        "description": "Признак возможности добраться к объекту на автомобиле",
+        "dataType": "BOOLEAN",
+        "value": "true",
+        "source": "LARDS",
+        "groupId": 100
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "3",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "RUS03",
+        "source": "ERP_ADRMAS",
+        "groupId": 120
+      },
+      {
+        "id": "deliveryEndTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "20:00",
+        "source": "LARDS",
+        "groupId": 120
+      }
+    ]
+  },
+  {
+    "id": "S063",
+    "name": "М-н № 63, Одинцово",
+    "isActive": true,
+    "address": "Одинцово, Можайское ш., д. 71, ТЦ «Дубрава»",
+    "brand": "MVIDEO",
+    "type": "SHOP",
+    "coordinate": {
+      "latitude": 55.678,
+      "longitude": 37.281
+    },
+    "attributes": [
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "RUS03",
+        "source": "ERP_ADRMAS",
+        "groupId": 120
+      },
+      {
+        "id": "deliveryEndTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "20:00",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "3",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "RUS03",
+        "source": "ERP",
+        "groupId": 120
+      },
+      {
+        "id": "deliveryStartTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "10:00",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "isAutoCourierAvailable",
+        "isLarge": false,
+        "description": "Признак возможности добраться к объекту на автомобиле",
+        "dataType": "BOOLEAN",
+        "value": "true",
+        "source": "LARDS",
+        "groupId": 100
+      }
+    ]
+  },
+  {
+    "id": "S064",
+    "name": "М-н № 64, Москва",
+    "isActive": true,
+    "address": "Москва, ул. Красная Пресня, д. 23, к. Б, стр. 1",
+    "brand": "MVIDEO",
+    "type": "SHOP",
+    "coordinate": {
+      "latitude": 55.762,
+      "longitude": 37.568
+    },
+    "attributes": [
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "RUS03",
+        "source": "ERP",
+        "groupId": 120
+      },
+      {
+        "id": "deliveryStartTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "10:00",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "isAutoCourierAvailable",
+        "isLarge": false,
+        "description": "Признак возможности добраться к объекту на автомобиле",
+        "dataType": "BOOLEAN",
+        "value": "true",
+        "source": "LARDS",
+        "groupId": 100
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "RUS03",
+        "source": "ERP_ADRMAS",
+        "groupId": 120
+      },
+      {
+        "id": "deliveryEndTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "15:00",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "3",
+        "source": "LARDS",
+        "groupId": 120
+      }
+    ]
+  },
+  {
+    "id": "S061",
+    "name": "М-н № 61, Подольск",
+    "isActive": true,
+    "address": "Подольск, ул. Кирова, д. 31",
+    "brand": "MVIDEO",
+    "type": "SHOP",
+    "coordinate": {
+      "latitude": 55.425,
+      "longitude": 37.528
+    },
+    "attributes": [
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "RUS03",
+        "source": "ERP_ADRMAS",
+        "groupId": 120
+      },
+      {
+        "id": "deliveryEndTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "23:00",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "3",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "RUS03",
+        "source": "ERP",
+        "groupId": 120
+      },
+      {
+        "id": "isAutoCourierAvailable",
+        "isLarge": false,
+        "description": "Признак возможности добраться к объекту на автомобиле",
+        "dataType": "BOOLEAN",
+        "value": "false",
+        "source": "LARDS",
+        "groupId": 100
+      },
+      {
+        "id": "deliveryStartTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "07:00",
+        "source": "LARDS",
+        "groupId": 120
+      }
+    ]
+  },
+  {
+    "id": "S062",
+    "name": "М-н № 62, Серпухов",
+    "isActive": true,
+    "address": "Серпухов, Борисовское ш., д. 1, ТРЦ «Корстон»",
+    "brand": "MVIDEO",
+    "type": "SHOP",
+    "coordinate": {
+      "latitude": 54.917,
+      "longitude": 37.426
+    },
+    "attributes": [
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "RUS03",
+        "source": "ERP",
+        "groupId": 120
+      },
+      {
+        "id": "deliveryStartTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "10:00",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "isAutoCourierAvailable",
+        "isLarge": false,
+        "description": "Признак возможности добраться к объекту на автомобиле",
+        "dataType": "BOOLEAN",
+        "value": "true",
+        "source": "LARDS",
+        "groupId": 100
+      },
+      {
+        "id": "deliveryEndTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "20:00",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "RUS03",
+        "source": "ERP_ADRMAS",
+        "groupId": 120
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "3",
+        "source": "LARDS",
+        "groupId": 120
+      }
+    ]
+  },
+  {
+    "id": "S205",
+    "name": "М-н №205, Москва M.mobile+",
+    "isActive": true,
+    "address": "Москва, м. «Динамо», «Петровский парк», Ленинградский пр-т, д. 36, ТЦ «Арена Плаза»",
+    "brand": "MVIDEO",
+    "type": "SHOP",
+    "coordinate": {
+      "latitude": 55.791,
+      "longitude": 37.559
+    },
+    "attributes": [
+      {
+        "id": "deliveryEndTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "20:00",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "isAutoCourierAvailable",
+        "isLarge": false,
+        "description": "Признак возможности добраться к объекту на автомобиле",
+        "dataType": "BOOLEAN",
+        "value": "true",
+        "source": "LARDS",
+        "groupId": 100
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "RUS03",
+        "source": "ERP_ADRMAS",
+        "groupId": 120
+      },
+      {
+        "id": "deliveryStartTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "10:00",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "3",
+        "source": "LARDS",
+        "groupId": 120
+      }
+    ]
+  },
+  {
+    "id": "S722",
+    "name": "М-н №722, Москва",
+    "isActive": true,
+    "address": "Москва, пл. Киевского Вокзала, д. 2, ТРЦ «Европейский»",
+    "brand": "MVIDEO",
+    "type": "SHOP",
+    "coordinate": {
+      "latitude": 55.745,
+      "longitude": 37.566
+    },
+    "attributes": [
+      {
+        "id": "deliveryStartTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "10:00",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "isAutoCourierAvailable",
+        "isLarge": false,
+        "description": "Признак возможности добраться к объекту на автомобиле",
+        "dataType": "BOOLEAN",
+        "value": "true",
+        "source": "LARDS",
+        "groupId": 100
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "3",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "RUS03",
+        "source": "ERP_ADRMAS",
+        "groupId": 120
+      },
+      {
+        "id": "deliveryEndTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "20:00",
+        "source": "LARDS",
+        "groupId": 120
+      }
+    ]
+  },
+  {
+    "id": "S047",
+    "name": "М-н № 47, Москва",
+    "isActive": true,
+    "address": "Москва, 65-66-й км МКАД, ТРЦ «Вегас»",
+    "brand": "MVIDEO",
+    "type": "SHOP",
+    "coordinate": {
+      "latitude": 55.823,
+      "longitude": 37.39
+    },
+    "attributes": [
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "RUS03",
+        "source": "ERP",
+        "groupId": 120
+      },
+      {
+        "id": "isAutoCourierAvailable",
+        "isLarge": false,
+        "description": "Признак возможности добраться к объекту на автомобиле",
+        "dataType": "BOOLEAN",
+        "value": "true",
+        "source": "LARDS",
+        "groupId": 100
+      },
+      {
+        "id": "deliveryStartTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "10:00",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "3",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "RUS03",
+        "source": "ERP_ADRMAS",
+        "groupId": 120
+      },
+      {
+        "id": "deliveryEndTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "21:00",
+        "source": "LARDS",
+        "groupId": 120
+      }
+    ]
+  },
+  {
+    "id": "S048",
+    "name": "М-н № 48, Москва",
+    "isActive": true,
+    "address": "Москва, ул. Митинская, д. 36, к. 1, стр. 38, ТК «Ковчег»",
+    "brand": "MVIDEO",
+    "type": "SHOP",
+    "coordinate": {
+      "latitude": 55.847,
+      "longitude": 37.362
+    },
+    "attributes": [
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "3",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "RUS03",
+        "source": "ERP_ADRMAS",
+        "groupId": 120
+      },
+      {
+        "id": "deliveryEndTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "20:00",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "RUS03",
+        "source": "ERP",
+        "groupId": 120
+      },
+      {
+        "id": "deliveryStartTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "10:00",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "isAutoCourierAvailable",
+        "isLarge": false,
+        "description": "Признак возможности добраться к объекту на автомобиле",
+        "dataType": "BOOLEAN",
+        "value": "true",
+        "source": "LARDS",
+        "groupId": 100
+      }
+    ]
+  },
+  {
+    "id": "S323",
+    "name": "М-н №323, Москва",
+    "isActive": true,
+    "address": "Москва, ул. Люблинская, д. 153, ТЦ «Л153»",
+    "brand": "MVIDEO",
+    "type": "SHOP",
+    "coordinate": {
+      "latitude": 55.659,
+      "longitude": 37.742
+    },
+    "attributes": [
+      {
+        "id": "isAutoCourierAvailable",
+        "isLarge": false,
+        "description": "Признак возможности добраться к объекту на автомобиле",
+        "dataType": "BOOLEAN",
+        "value": "true",
+        "source": "LARDS",
+        "groupId": 100
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "RUS03",
+        "source": "ERP_ADRMAS",
+        "groupId": 120
+      },
+      {
+        "id": "deliveryStartTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "10:00",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "3",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "deliveryEndTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "20:00",
+        "source": "LARDS",
+        "groupId": 120
+      }
+    ]
+  },
+  {
+    "id": "S056",
+    "name": "М-н № 56, Москва",
+    "isActive": true,
+    "address": "Москва, Свободный пр-т, д. 33, ТД «Перовский»",
+    "brand": "MVIDEO",
+    "type": "SHOP",
+    "coordinate": {
+      "latitude": 55.752,
+      "longitude": 37.819
+    },
+    "attributes": [
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "RUS03",
+        "source": "ERP",
+        "groupId": 120
+      },
+      {
+        "id": "deliveryStartTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "10:00",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "isAutoCourierAvailable",
+        "isLarge": false,
+        "description": "Признак возможности добраться к объекту на автомобиле",
+        "dataType": "BOOLEAN",
+        "value": "true",
+        "source": "LARDS",
+        "groupId": 100
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "3",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "RUS03",
+        "source": "ERP_ADRMAS",
+        "groupId": 120
+      },
+      {
+        "id": "deliveryEndTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "20:00",
+        "source": "LARDS",
+        "groupId": 120
+      }
+    ]
+  },
+  {
+    "id": "S057",
+    "name": "М-н № 57, Москва",
+    "isActive": true,
+    "address": "Москва, Ленинский пр-т, д. 109, ТРЦ «Рио»",
+    "brand": "MVIDEO",
+    "type": "SHOP",
+    "coordinate": {
+      "latitude": 55.664,
+      "longitude": 37.511
+    },
+    "attributes": [
+      {
+        "id": "isAutoCourierAvailable",
+        "isLarge": false,
+        "description": "Признак возможности добраться к объекту на автомобиле",
+        "dataType": "BOOLEAN",
+        "value": "true",
+        "source": "LARDS",
+        "groupId": 100
+      },
+      {
+        "id": "deliveryStartTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "10:00",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "3",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "RUS03",
+        "source": "ERP_ADRMAS",
+        "groupId": 120
+      },
+      {
+        "id": "deliveryEndTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "20:00",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "RUS03",
+        "source": "ERP",
+        "groupId": 120
+      }
+    ]
+  },
+  {
+    "id": "S054",
+    "name": "М-н № 54, Москва",
+    "isActive": true,
+    "address": "Москва, Ленинградское шоссе, д. 16а, строение 4, ТЦ «Метрополис»",
+    "brand": "MVIDEO",
+    "type": "SHOP",
+    "coordinate": {
+      "latitude": 55.823,
+      "longitude": 37.498
+    },
+    "attributes": [
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "RUS03",
+        "source": "ERP",
+        "groupId": 120
+      },
+      {
+        "id": "deliveryStartTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "10:00",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "isAutoCourierAvailable",
+        "isLarge": false,
+        "description": "Признак возможности добраться к объекту на автомобиле",
+        "dataType": "BOOLEAN",
+        "value": "true",
+        "source": "LARDS",
+        "groupId": 100
+      },
+      {
+        "id": "deliveryEndTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "21:00",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "RUS03",
+        "source": "ERP_ADRMAS",
+        "groupId": 120
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "3",
+        "source": "LARDS",
+        "groupId": 120
+      }
+    ]
+  },
+  {
+    "id": "S055",
+    "name": "М-н № 55, Мытищи",
+    "isActive": true,
+    "address": "Мытищи, Ярославское ш., стр. 103, ТЦ «Спортмастер»",
+    "brand": "MVIDEO",
+    "type": "SHOP",
+    "coordinate": {
+      "latitude": 55.912,
+      "longitude": 37.78
+    },
+    "attributes": [
+      {
+        "id": "deliveryStartTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "10:00",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "isAutoCourierAvailable",
+        "isLarge": false,
+        "description": "Признак возможности добраться к объекту на автомобиле",
+        "dataType": "BOOLEAN",
+        "value": "true",
+        "source": "LARDS",
+        "groupId": 100
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "3",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "RUS03",
+        "source": "ERP_ADRMAS",
+        "groupId": 120
+      },
+      {
+        "id": "deliveryEndTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "20:00",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "RUS03",
+        "source": "ERP",
+        "groupId": 120
+      }
+    ]
+  },
+  {
+    "id": "S052",
+    "name": "М-н № 52, Коломна",
+    "isActive": true,
+    "address": "Коломна, Советская пл., д. 8, ТЦ «Глобус»",
+    "brand": "MVIDEO",
+    "type": "SHOP",
+    "coordinate": {
+      "latitude": 55.096,
+      "longitude": 38.764
+    },
+    "attributes": [
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "RUS03",
+        "source": "ERP",
+        "groupId": 120
+      },
+      {
+        "id": "deliveryStartTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "10:00",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "isAutoCourierAvailable",
+        "isLarge": false,
+        "description": "Признак возможности добраться к объекту на автомобиле",
+        "dataType": "BOOLEAN",
+        "value": "true",
+        "source": "LARDS",
+        "groupId": 100
+      },
+      {
+        "id": "deliveryEndTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "20:00",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "RUS03",
+        "source": "ERP_ADRMAS",
+        "groupId": 120
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "3",
+        "source": "LARDS",
+        "groupId": 120
+      }
+    ]
+  },
+  {
+    "id": "S053",
+    "name": "М-н № 53, Москва",
+    "isActive": true,
+    "address": "Москва, Рязанский пр-т, д. 28, стр. 1, ТК «Перекрёсток»",
+    "brand": "MVIDEO",
+    "type": "SHOP",
+    "coordinate": {
+      "latitude": 55.719,
+      "longitude": 37.779
+    },
+    "attributes": [
+      {
+        "id": "deliveryStartTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "10:00",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "isAutoCourierAvailable",
+        "isLarge": false,
+        "description": "Признак возможности добраться к объекту на автомобиле",
+        "dataType": "BOOLEAN",
+        "value": "true",
+        "source": "LARDS",
+        "groupId": 100
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "RUS03",
+        "source": "ERP_ADRMAS",
+        "groupId": 120
+      },
+      {
+        "id": "deliveryEndTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "20:00",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "3",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "RUS03",
+        "source": "ERP",
+        "groupId": 120
+      }
+    ]
+  },
+  {
+    "id": "S050",
+    "name": "М-н № 50, Москва",
+    "isActive": true,
+    "address": "Москва, Алтуфьевское ш., вл. 8, ТРК «Алтуфьевский»",
+    "brand": "MVIDEO",
+    "type": "SHOP",
+    "coordinate": {
+      "latitude": 55.853,
+      "longitude": 37.586
+    },
+    "attributes": [
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "RUS03",
+        "source": "ERP",
+        "groupId": 120
+      },
+      {
+        "id": "isAutoCourierAvailable",
+        "isLarge": false,
+        "description": "Признак возможности добраться к объекту на автомобиле",
+        "dataType": "BOOLEAN",
+        "value": "true",
+        "source": "LARDS",
+        "groupId": 100
+      },
+      {
+        "id": "deliveryStartTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "10:00",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "RUS03",
+        "source": "ERP_ADRMAS",
+        "groupId": 120
+      },
+      {
+        "id": "deliveryEndTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "20:00",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "3",
+        "source": "LARDS",
+        "groupId": 120
+      }
+    ]
+  },
+  {
+    "id": "S051",
+    "name": "М-н № 51, Москва",
+    "isActive": true,
+    "address": "Москва, ул. Новокосинская, д. 14А, ТК «Новый век»",
+    "brand": "MVIDEO",
+    "type": "SHOP",
+    "coordinate": {
+      "latitude": 55.738,
+      "longitude": 37.857
+    },
+    "attributes": [
+      {
+        "id": "deliveryStartTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "10:00",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "isAutoCourierAvailable",
+        "isLarge": false,
+        "description": "Признак возможности добраться к объекту на автомобиле",
+        "dataType": "BOOLEAN",
+        "value": "true",
+        "source": "LARDS",
+        "groupId": 100
+      },
+      {
+        "id": "deliveryEndTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "20:00",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "RUS03",
+        "source": "ERP_ADRMAS",
+        "groupId": 120
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "3",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "RUS03",
+        "source": "ERP",
+        "groupId": 120
+      }
+    ]
+  },
+  {
+    "id": "S757",
+    "name": "М-н №757, Москва",
+    "isActive": true,
+    "address": "Москва, ул. Большая Тульская, д. 13, TРЦ «Ереван Плаза»",
+    "brand": "MVIDEO",
+    "type": "SHOP",
+    "coordinate": {
+      "latitude": 55.709,
+      "longitude": 37.622
+    },
+    "attributes": [
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "RUS03",
+        "source": "ERP_ADRMAS",
+        "groupId": 120
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "3",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "deliveryEndTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "20:00",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "deliveryStartTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "10:00",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "isAutoCourierAvailable",
+        "isLarge": false,
+        "description": "Признак возможности добраться к объекту на автомобиле",
+        "dataType": "BOOLEAN",
+        "value": "true",
+        "source": "LARDS",
+        "groupId": 100
+      }
+    ]
+  },
+  {
+    "id": "S758",
+    "name": "М-н №758, Москва",
+    "isActive": true,
+    "address": "Москва, Рублёвское шоссе, д. 62, ТЦ «ЕвроПарк»",
+    "brand": "MVIDEO",
+    "type": "SHOP",
+    "coordinate": {
+      "latitude": 55.766,
+      "longitude": 37.381
+    },
+    "attributes": [
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "RUS03",
+        "source": "ERP_ADRMAS",
+        "groupId": 120
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "3",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "deliveryEndTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "20:00",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "isAutoCourierAvailable",
+        "isLarge": false,
+        "description": "Признак возможности добраться к объекту на автомобиле",
+        "dataType": "BOOLEAN",
+        "value": "true",
+        "source": "LARDS",
+        "groupId": 100
+      },
+      {
+        "id": "deliveryStartTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "10:00",
+        "source": "LARDS",
+        "groupId": 120
+      }
+    ]
+  },
+  {
+    "id": "S756",
+    "name": "М-н №756, Мытищи",
+    "isActive": true,
+    "address": "Мытищи, ул. Мира, д. 51, ТРЦ «Июнь»",
+    "brand": "MVIDEO",
+    "type": "SHOP",
+    "coordinate": {
+      "latitude": 55.92,
+      "longitude": 37.709
+    },
+    "attributes": [
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "RUS03",
+        "source": "ERP_ADRMAS",
+        "groupId": 120
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "3",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "deliveryEndTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "20:00",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "deliveryStartTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "10:00",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "isAutoCourierAvailable",
+        "isLarge": false,
+        "description": "Признак возможности добраться к объекту на автомобиле",
+        "dataType": "BOOLEAN",
+        "value": "true",
+        "source": "LARDS",
+        "groupId": 100
+      }
+    ]
+  },
+  {
+    "id": "S751",
+    "name": "М-н №751, Москва",
+    "isActive": true,
+    "address": "Москва, Алтуфьевское ш., д. 70, к. 1, TЦ «Маркос Молл»",
+    "brand": "MVIDEO",
+    "type": "SHOP",
+    "coordinate": {
+      "latitude": 55.888,
+      "longitude": 37.589
+    },
+    "attributes": [
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "3",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "RUS03",
+        "source": "ERP_ADRMAS",
+        "groupId": 120
+      },
+      {
+        "id": "deliveryEndTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "20:00",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "deliveryStartTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "10:00",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "isAutoCourierAvailable",
+        "isLarge": false,
+        "description": "Признак возможности добраться к объекту на автомобиле",
+        "dataType": "BOOLEAN",
+        "value": "true",
+        "source": "LARDS",
+        "groupId": 100
+      }
+    ]
+  },
+  {
+    "id": "SA12",
+    "name": "М-н № SA12, Москва",
+    "isActive": true,
+    "address": "Москва, ул. Каширское шоссе, д. 14, ТЦ «Гудзон», 2 этаж",
+    "brand": "MVIDEO",
+    "type": "SHOP",
+    "coordinate": {
+      "latitude": 55.664,
+      "longitude": 37.627
+    },
+    "attributes": [
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "3",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "RUS03",
+        "source": "ERP_ADRMAS",
+        "groupId": 120
+      },
+      {
+        "id": "deliveryStartTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "10:00",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "isAutoCourierAvailable",
+        "isLarge": false,
+        "description": "Признак возможности добраться к объекту на автомобиле",
+        "dataType": "BOOLEAN",
+        "value": "true",
+        "source": "LARDS",
+        "groupId": 100
+      },
+      {
+        "id": "deliveryEndTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "20:00",
+        "source": "LARDS",
+        "groupId": 120
+      }
+    ]
+  },
+  {
+    "id": "S081",
+    "name": "М-н № 81, Москва",
+    "isActive": true,
+    "address": "Москва, пр. Дежнёва, д. 23А, ТЦ «Эго Молл»",
+    "brand": "MVIDEO",
+    "type": "SHOP",
+    "coordinate": {
+      "latitude": 55.869,
+      "longitude": 37.637
+    },
+    "attributes": [
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "RUS03",
+        "source": "ERP",
+        "groupId": 120
+      },
+      {
+        "id": "deliveryStartTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "10:00",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "isAutoCourierAvailable",
+        "isLarge": false,
+        "description": "Признак возможности добраться к объекту на автомобиле",
+        "dataType": "BOOLEAN",
+        "value": "true",
+        "source": "LARDS",
+        "groupId": 100
+      },
+      {
+        "id": "deliveryEndTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "20:00",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "RUS03",
+        "source": "ERP_ADRMAS",
+        "groupId": 120
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "3",
+        "source": "LARDS",
+        "groupId": 120
+      }
+    ]
+  },
+  {
+    "id": "S082",
+    "name": "М-н № 82, Москва",
+    "isActive": true,
+    "address": "Москва, ул. Фестивальная, вл. 2Б, ТЦ «Речной»",
+    "brand": "MVIDEO",
+    "type": "SHOP",
+    "coordinate": {
+      "latitude": 55.855,
+      "longitude": 37.479
+    },
+    "attributes": [
+      {
+        "id": "deliveryEndTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "20:00",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "RUS03",
+        "source": "ERP_ADRMAS",
+        "groupId": 120
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "3",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "RUS03",
+        "source": "ERP",
+        "groupId": 120
+      },
+      {
+        "id": "isAutoCourierAvailable",
+        "isLarge": false,
+        "description": "Признак возможности добраться к объекту на автомобиле",
+        "dataType": "BOOLEAN",
+        "value": "true",
+        "source": "LARDS",
+        "groupId": 100
+      },
+      {
+        "id": "deliveryStartTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "10:00",
+        "source": "LARDS",
+        "groupId": 120
+      }
+    ]
+  },
+  {
+    "id": "S080",
+    "name": "М-н № 80, Чехов",
+    "isActive": true,
+    "address": "Чехов, Симферопольское ш., д. 1, ТЦ «Карусель»",
+    "brand": "MVIDEO",
+    "type": "SHOP",
+    "coordinate": {
+      "latitude": 55.161,
+      "longitude": 37.468
+    },
+    "attributes": [
+      {
+        "id": "deliveryEndTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "20:00",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "RUS03",
+        "source": "ERP_ADRMAS",
+        "groupId": 120
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "3",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "RUS03",
+        "source": "ERP",
+        "groupId": 120
+      },
+      {
+        "id": "deliveryStartTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "10:00",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "isAutoCourierAvailable",
+        "isLarge": false,
+        "description": "Признак возможности добраться к объекту на автомобиле",
+        "dataType": "BOOLEAN",
+        "value": "true",
+        "source": "LARDS",
+        "groupId": 100
+      }
+    ]
+  },
+  {
+    "id": "S089",
+    "name": "М-н № 89, Москва",
+    "isActive": true,
+    "address": "Москва, 24-й км МКАД, ТРЦ «VEGAS»",
+    "brand": "MVIDEO",
+    "type": "SHOP",
+    "coordinate": {
+      "latitude": 55.585,
+      "longitude": 37.725
+    },
+    "attributes": [
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "RUS03",
+        "source": "ERP",
+        "groupId": 120
+      },
+      {
+        "id": "deliveryStartTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "10:00",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "isAutoCourierAvailable",
+        "isLarge": false,
+        "description": "Признак возможности добраться к объекту на автомобиле",
+        "dataType": "BOOLEAN",
+        "value": "true",
+        "source": "LARDS",
+        "groupId": 100
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "3",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "RUS03",
+        "source": "ERP_ADRMAS",
+        "groupId": 120
+      },
+      {
+        "id": "deliveryEndTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "21:00",
+        "source": "LARDS",
+        "groupId": 120
+      }
+    ]
+  },
+  {
+    "id": "S087",
+    "name": "М-н № 87, Москва",
+    "isActive": true,
+    "address": "Москва, ш. Энтузиастов, д. 12, к. 2, ТРК «Город»",
+    "brand": "MVIDEO",
+    "type": "SHOP",
+    "coordinate": {
+      "latitude": 55.747,
+      "longitude": 37.707
+    },
+    "attributes": [
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "RUS03",
+        "source": "ERP",
+        "groupId": 120
+      },
+      {
+        "id": "deliveryStartTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "10:00",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "isAutoCourierAvailable",
+        "isLarge": false,
+        "description": "Признак возможности добраться к объекту на автомобиле",
+        "dataType": "BOOLEAN",
+        "value": "true",
+        "source": "LARDS",
+        "groupId": 100
+      },
+      {
+        "id": "deliveryEndTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "20:00",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "RUS03",
+        "source": "ERP_ADRMAS",
+        "groupId": 120
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "3",
+        "source": "LARDS",
+        "groupId": 120
+      }
+    ]
+  },
+  {
+    "id": "S085",
+    "name": "М-н № 85, Москва",
+    "isActive": true,
+    "address": "Москва, ул. Куликовская, д. 6, ТК «Алфавит»",
+    "brand": "MVIDEO",
+    "type": "SHOP",
+    "coordinate": {
+      "latitude": 55.574,
+      "longitude": 37.565
+    },
+    "attributes": [
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "RUS03",
+        "source": "ERP",
+        "groupId": 120
+      },
+      {
+        "id": "deliveryStartTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "10:00",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "isAutoCourierAvailable",
+        "isLarge": false,
+        "description": "Признак возможности добраться к объекту на автомобиле",
+        "dataType": "BOOLEAN",
+        "value": "true",
+        "source": "LARDS",
+        "groupId": 100
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "RUS03",
+        "source": "ERP_ADRMAS",
+        "groupId": 120
+      },
+      {
+        "id": "deliveryEndTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "20:00",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "3",
+        "source": "LARDS",
+        "groupId": 120
+      }
+    ]
+  },
+  {
+    "id": "S083",
+    "name": "М-н № 83, Орехово-Зуево",
+    "isActive": true,
+    "address": "Орехово-Зуево, ул. Ленина, д. 78, ТЦ «Орех»",
+    "brand": "MVIDEO",
+    "type": "SHOP",
+    "coordinate": {
+      "latitude": 55.808,
+      "longitude": 38.988
+    },
+    "attributes": [
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "RUS03",
+        "source": "ERP",
+        "groupId": 120
+      },
+      {
+        "id": "isAutoCourierAvailable",
+        "isLarge": false,
+        "description": "Признак возможности добраться к объекту на автомобиле",
+        "dataType": "BOOLEAN",
+        "value": "true",
+        "source": "LARDS",
+        "groupId": 100
+      },
+      {
+        "id": "deliveryStartTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "10:00",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "deliveryEndTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "20:00",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "RUS03",
+        "source": "ERP_ADRMAS",
+        "groupId": 120
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "3",
+        "source": "LARDS",
+        "groupId": 120
+      }
+    ]
+  },
+  {
+    "id": "S084",
+    "name": "М-н № 84, Домодедово",
+    "isActive": true,
+    "address": "Домодедово, Каширское ш., д. 3А, ТРЦ «Торговый Квартал»",
+    "brand": "MVIDEO",
+    "type": "SHOP",
+    "coordinate": {
+      "latitude": 55.452,
+      "longitude": 37.763
+    },
+    "attributes": [
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "RUS03",
+        "source": "ERP_ADRMAS",
+        "groupId": 120
+      },
+      {
+        "id": "deliveryEndTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "20:00",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "3",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "RUS03",
+        "source": "ERP",
+        "groupId": 120
+      },
+      {
+        "id": "deliveryStartTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "10:00",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "isAutoCourierAvailable",
+        "isLarge": false,
+        "description": "Признак возможности добраться к объекту на автомобиле",
+        "dataType": "BOOLEAN",
+        "value": "true",
+        "source": "LARDS",
+        "groupId": 100
+      }
+    ]
+  },
+  {
+    "id": "S229",
+    "name": "М-н №229, Мытищи M.mobile+",
+    "isActive": true,
+    "address": "ТПЗ «Алтуфьево», пос. Вешки, МКАД, 84-й км, вл. 3, стр. 1, ТЦ «АШАН» ",
+    "brand": "MVIDEO",
+    "type": "SHOP",
+    "coordinate": {
+      "latitude": 55.913216,
+      "longitude": 37.57066
+    },
+    "attributes": [
+      {
+        "id": "isAutoCourierAvailable",
+        "isLarge": false,
+        "description": "Признак возможности добраться к объекту на автомобиле",
+        "dataType": "BOOLEAN",
+        "value": "true",
+        "source": "LARDS",
+        "groupId": 100
+      },
+      {
+        "id": "deliveryStartTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "09:00",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "RUS03",
+        "source": "ERP_ADRMAS",
+        "groupId": 120
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "3",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "deliveryEndTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "20:00",
+        "source": "LARDS",
+        "groupId": 120
+      }
+    ]
+  },
+  {
+    "id": "S504",
+    "name": "М-н №504, Москва",
+    "isActive": true,
+    "address": "Москва, ул. Поречная, д. 10, ТРК «MARI»",
+    "brand": "MVIDEO",
+    "type": "SHOP",
+    "coordinate": {
+      "latitude": 55.65,
+      "longitude": 37.77
+    },
+    "attributes": [
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "3",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "RUS03",
+        "source": "ERP_ADRMAS",
+        "groupId": 120
+      },
+      {
+        "id": "deliveryEndTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "20:00",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "isAutoCourierAvailable",
+        "isLarge": false,
+        "description": "Признак возможности добраться к объекту на автомобиле",
+        "dataType": "BOOLEAN",
+        "value": "true",
+        "source": "LARDS",
+        "groupId": 100
+      },
+      {
+        "id": "deliveryStartTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "10:00",
+        "source": "LARDS",
+        "groupId": 120
+      }
+    ]
+  },
+  {
+    "id": "S747",
+    "name": "М-н №747, Москва",
+    "isActive": true,
+    "address": "Москва, пр-т Андропова, д. 8, ТЦ «Мегаполис»",
+    "brand": "MVIDEO",
+    "type": "SHOP",
+    "coordinate": {
+      "latitude": 55.696,
+      "longitude": 37.665
+    },
+    "attributes": [
+      {
+        "id": "isAutoCourierAvailable",
+        "isLarge": false,
+        "description": "Признак возможности добраться к объекту на автомобиле",
+        "dataType": "BOOLEAN",
+        "value": "true",
+        "source": "LARDS",
+        "groupId": 100
+      },
+      {
+        "id": "deliveryStartTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "10:00",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "RUS03",
+        "source": "ERP_ADRMAS",
+        "groupId": 120
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "3",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "deliveryEndTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "20:00",
+        "source": "LARDS",
+        "groupId": 120
+      }
+    ]
+  },
+  {
+    "id": "S626",
+    "name": "М-н №626, Москва",
+    "isActive": true,
+    "address": "Москва, проспект Мира, д. 211, кор. 2 ТРК \"Европолис\" Ростокино, метро Свиблово",
+    "brand": "MVIDEO",
+    "type": "SHOP",
+    "coordinate": {
+      "latitude": 55.845556,
+      "longitude": 37.667222
+    },
+    "attributes": [
+      {
+        "id": "deliveryEndTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "20:00",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "isAutoCourierAvailable",
+        "isLarge": false,
+        "description": "Признак возможности добраться к объекту на автомобиле",
+        "dataType": "BOOLEAN",
+        "value": "true",
+        "source": "LARDS",
+        "groupId": 100
+      },
+      {
+        "id": "deliveryStartTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "10:00",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "RUS03",
+        "source": "ERP_ADRMAS",
+        "groupId": 120
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "3",
+        "source": "LARDS",
+        "groupId": 120
+      }
+    ]
+  },
+  {
+    "id": "S503",
+    "name": "М-н №503, Москва M.mobile+",
+    "isActive": true,
+    "address": "Москва, Пролетарский пр-т, вл. 30, ТЦ «Ашан-Пролетарский»",
+    "brand": "MVIDEO",
+    "type": "SHOP",
+    "coordinate": {
+      "latitude": 55.63,
+      "longitude": 37.659
+    },
+    "attributes": [
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "3",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "RUS03",
+        "source": "ERP_ADRMAS",
+        "groupId": 120
+      },
+      {
+        "id": "deliveryEndTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "20:00",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "isAutoCourierAvailable",
+        "isLarge": false,
+        "description": "Признак возможности добраться к объекту на автомобиле",
+        "dataType": "BOOLEAN",
+        "value": "true",
+        "source": "LARDS",
+        "groupId": 100
+      },
+      {
+        "id": "deliveryStartTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "10:00",
+        "source": "LARDS",
+        "groupId": 120
+      }
+    ]
+  },
+  {
+    "id": "S745",
+    "name": "М-н №745, Москва",
+    "isActive": true,
+    "address": "Москва, Каширское ш., д. 61, к. 2, ТРЦ «Каширская Плаза»",
+    "brand": "MVIDEO",
+    "type": "SHOP",
+    "coordinate": {
+      "latitude": 55.622,
+      "longitude": 37.714
+    },
+    "attributes": [
+      {
+        "id": "deliveryStartTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "10:00",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "isAutoCourierAvailable",
+        "isLarge": false,
+        "description": "Признак возможности добраться к объекту на автомобиле",
+        "dataType": "BOOLEAN",
+        "value": "true",
+        "source": "LARDS",
+        "groupId": 100
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "RUS03",
+        "source": "ERP_ADRMAS",
+        "groupId": 120
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "3",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "deliveryEndTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "20:00",
+        "source": "LARDS",
+        "groupId": 120
+      }
+    ]
+  },
+  {
+    "id": "S740",
+    "name": "М-н №740, Мытищи",
+    "isActive": true,
+    "address": "Мытищи, Шараповский пр., вл. 2, ТРЦ «Красный Кит»",
+    "brand": "MVIDEO",
+    "type": "SHOP",
+    "coordinate": {
+      "latitude": 55.917,
+      "longitude": 37.758
+    },
+    "attributes": [
+      {
+        "id": "deliveryStartTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "10:00",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "isAutoCourierAvailable",
+        "isLarge": false,
+        "description": "Признак возможности добраться к объекту на автомобиле",
+        "dataType": "BOOLEAN",
+        "value": "true",
+        "source": "LARDS",
+        "groupId": 100
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "3",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "RUS03",
+        "source": "ERP_ADRMAS",
+        "groupId": 120
+      },
+      {
+        "id": "deliveryEndTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "20:00",
+        "source": "LARDS",
+        "groupId": 120
+      }
+    ]
+  },
+  {
+    "id": "S069",
+    "name": "М-н № 69, Красногорск",
+    "isActive": true,
+    "address": "Красногорск, ул. Ленина, д. 35А, ТЦ «Солнечный рай»",
+    "brand": "MVIDEO",
+    "type": "SHOP",
+    "coordinate": {
+      "latitude": 55.829,
+      "longitude": 37.308
+    },
+    "attributes": [
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "3",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "RUS03",
+        "source": "ERP_ADRMAS",
+        "groupId": 120
+      },
+      {
+        "id": "deliveryEndTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "20:00",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "RUS03",
+        "source": "ERP",
+        "groupId": 120
+      },
+      {
+        "id": "isAutoCourierAvailable",
+        "isLarge": false,
+        "description": "Признак возможности добраться к объекту на автомобиле",
+        "dataType": "BOOLEAN",
+        "value": "true",
+        "source": "LARDS",
+        "groupId": 100
+      },
+      {
+        "id": "deliveryStartTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "10:00",
+        "source": "LARDS",
+        "groupId": 120
+      }
+    ]
+  },
+  {
+    "id": "S748",
+    "name": "М-н №748, Долгопрудный",
+    "isActive": true,
+    "address": "Долгопрудный, ул. Дирижабельная, д. 23, ТРЦ «Полет»",
+    "brand": "MVIDEO",
+    "type": "SHOP",
+    "coordinate": {
+      "latitude": 55.946,
+      "longitude": 37.506
+    },
+    "attributes": [
+      {
+        "id": "deliveryEndTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "20:00",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "isAutoCourierAvailable",
+        "isLarge": false,
+        "description": "Признак возможности добраться к объекту на автомобиле",
+        "dataType": "BOOLEAN",
+        "value": "true",
+        "source": "LARDS",
+        "groupId": 100
+      },
+      {
+        "id": "deliveryStartTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "10:00",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "RUS03",
+        "source": "ERP_ADRMAS",
+        "groupId": 120
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "3",
+        "source": "LARDS",
+        "groupId": 120
+      }
+    ]
+  },
+  {
+    "id": "S506",
+    "name": "М-н №506, Москва",
+    "isActive": true,
+    "address": "Москва, ул. Пресненская наб., д. 2, ТРЦ «Афимолл Сити», 3 этаж",
+    "brand": "MVIDEO",
+    "type": "SHOP",
+    "coordinate": {
+      "latitude": 55.749,
+      "longitude": 37.54
+    },
+    "attributes": [
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "3",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "RUS03",
+        "source": "ERP_ADRMAS",
+        "groupId": 120
+      },
+      {
+        "id": "deliveryEndTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "20:00",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "deliveryStartTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "10:00",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "isAutoCourierAvailable",
+        "isLarge": false,
+        "description": "Признак возможности добраться к объекту на автомобиле",
+        "dataType": "BOOLEAN",
+        "value": "true",
+        "source": "LARDS",
+        "groupId": 100
+      }
+    ]
+  },
+  {
+    "id": "S070",
+    "name": "М-н № 70, Мытищи",
+    "isActive": true,
+    "address": "Мытищи, Олимпийский пр-т, стр. 10, ТЦ «Альта»",
+    "brand": "MVIDEO",
+    "type": "SHOP",
+    "coordinate": {
+      "latitude": 55.916,
+      "longitude": 37.772
+    },
+    "attributes": [
+      {
+        "id": "deliveryStartTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "10:00",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "isAutoCourierAvailable",
+        "isLarge": false,
+        "description": "Признак возможности добраться к объекту на автомобиле",
+        "dataType": "BOOLEAN",
+        "value": "true",
+        "source": "LARDS",
+        "groupId": 100
+      },
+      {
+        "id": "deliveryEndTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "20:00",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "RUS03",
+        "source": "ERP_ADRMAS",
+        "groupId": 120
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "3",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "RUS03",
+        "source": "ERP",
+        "groupId": 120
+      }
+    ]
+  },
+  {
+    "id": "S071",
+    "name": "М-н № 71, Москва",
+    "isActive": true,
+    "address": "Москва, ул. Венёвская, д. 6, ТРЦ «Витте Молл»",
+    "brand": "MVIDEO",
+    "type": "SHOP",
+    "coordinate": {
+      "latitude": 55.548,
+      "longitude": 37.543
+    },
+    "attributes": [
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "RUS03",
+        "source": "ERP",
+        "groupId": 120
+      },
+      {
+        "id": "isAutoCourierAvailable",
+        "isLarge": false,
+        "description": "Признак возможности добраться к объекту на автомобиле",
+        "dataType": "BOOLEAN",
+        "value": "true",
+        "source": "LARDS",
+        "groupId": 100
+      },
+      {
+        "id": "deliveryStartTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "10:00",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "deliveryEndTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "20:00",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "RUS03",
+        "source": "ERP_ADRMAS",
+        "groupId": 120
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "3",
+        "source": "LARDS",
+        "groupId": 120
+      }
+    ]
+  },
+  {
+    "id": "SA02",
+    "name": "М-н №SA02, Москва",
+    "isActive": true,
+    "address": "г.Москва, Нижняя Красносельская, 40/12",
+    "brand": "MVIDEO",
+    "type": "SHOP",
+    "coordinate": {
+      "latitude": 55.77475,
+      "longitude": 37.668857
+    },
+    "attributes": [
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "3",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "RUS03",
+        "source": "ERP_ADRMAS",
+        "groupId": 120
+      },
+      {
+        "id": "deliveryStartTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "10:00",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "isAutoCourierAvailable",
+        "isLarge": false,
+        "description": "Признак возможности добраться к объекту на автомобиле",
+        "dataType": "BOOLEAN",
+        "value": "false",
+        "source": "LARDS",
+        "groupId": 100
+      },
+      {
+        "id": "deliveryEndTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "19:00",
+        "source": "LARDS",
+        "groupId": 120
+      }
+    ]
+  },
+  {
+    "id": "S078",
+    "name": "М-н № 78, Дубна",
+    "isActive": true,
+    "address": "Дубна, пр-т Боголюбова, д. 24А, ТЦ «Маяк»",
+    "brand": "MVIDEO",
+    "type": "SHOP",
+    "coordinate": {
+      "latitude": 56.736,
+      "longitude": 37.157
+    },
+    "attributes": [
+      {
+        "id": "deliveryStartTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "10:00",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "isAutoCourierAvailable",
+        "isLarge": false,
+        "description": "Признак возможности добраться к объекту на автомобиле",
+        "dataType": "BOOLEAN",
+        "value": "true",
+        "source": "LARDS",
+        "groupId": 100
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "3",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "RUS03",
+        "source": "ERP_ADRMAS",
+        "groupId": 120
+      },
+      {
+        "id": "deliveryEndTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "20:00",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "RUS03",
+        "source": "ERP",
+        "groupId": 120
+      }
+    ]
+  },
+  {
+    "id": "S079",
+    "name": "М-н № 79, Москва",
+    "isActive": true,
+    "address": "Москва, ул. Сходненская, д. 56, ТЦ «Калейдоскоп»",
+    "brand": "MVIDEO",
+    "type": "SHOP",
+    "coordinate": {
+      "latitude": 55.85,
+      "longitude": 37.444
+    },
+    "attributes": [
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "RUS03",
+        "source": "ERP",
+        "groupId": 120
+      },
+      {
+        "id": "deliveryStartTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "10:00",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "isAutoCourierAvailable",
+        "isLarge": false,
+        "description": "Признак возможности добраться к объекту на автомобиле",
+        "dataType": "BOOLEAN",
+        "value": "true",
+        "source": "LARDS",
+        "groupId": 100
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "3",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "RUS03",
+        "source": "ERP_ADRMAS",
+        "groupId": 120
+      },
+      {
+        "id": "deliveryEndTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "20:00",
+        "source": "LARDS",
+        "groupId": 120
+      }
+    ]
+  },
+  {
+    "id": "S076",
+    "name": "М-н № 76, Дмитров",
+    "isActive": true,
+    "address": "Дмитров, ул. Профессиональная, д. 7, ТРК «Дмитровский»",
+    "brand": "MVIDEO",
+    "type": "SHOP",
+    "coordinate": {
+      "latitude": 56.352,
+      "longitude": 37.52
+    },
+    "attributes": [
+      {
+        "id": "deliveryStartTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "10:00",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "isAutoCourierAvailable",
+        "isLarge": false,
+        "description": "Признак возможности добраться к объекту на автомобиле",
+        "dataType": "BOOLEAN",
+        "value": "true",
+        "source": "LARDS",
+        "groupId": 100
+      },
+      {
+        "id": "deliveryEndTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "20:00",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "RUS03",
+        "source": "ERP_ADRMAS",
+        "groupId": 120
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "3",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "RUS03",
+        "source": "ERP",
+        "groupId": 120
+      }
+    ]
+  },
+  {
+    "id": "S077",
+    "name": "М-н № 77, Москва",
+    "isActive": true,
+    "address": "Москва, Новоясеневский пр-т, д. 1, ТРЦ «Спектр»",
+    "brand": "MVIDEO",
+    "type": "SHOP",
+    "coordinate": {
+      "latitude": 55.619,
+      "longitude": 37.509
+    },
+    "attributes": [
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "RUS03",
+        "source": "ERP",
+        "groupId": 120
+      },
+      {
+        "id": "deliveryStartTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "10:00",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "isAutoCourierAvailable",
+        "isLarge": false,
+        "description": "Признак возможности добраться к объекту на автомобиле",
+        "dataType": "BOOLEAN",
+        "value": "true",
+        "source": "LARDS",
+        "groupId": 100
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "3",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "RUS03",
+        "source": "ERP_ADRMAS",
+        "groupId": 120
+      },
+      {
+        "id": "deliveryEndTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "15:00",
+        "source": "LARDS",
+        "groupId": 120
+      }
+    ]
+  },
+  {
+    "id": "S072",
+    "name": "М-н № 72, Солнечногорск",
+    "isActive": true,
+    "address": "Солнечногорск, ул. Красная, д. 22А, ТРЦ «Солнечный»",
+    "brand": "MVIDEO",
+    "type": "SHOP",
+    "coordinate": {
+      "latitude": 56.175,
+      "longitude": 36.999
+    },
+    "attributes": [
+      {
+        "id": "isAutoCourierAvailable",
+        "isLarge": false,
+        "description": "Признак возможности добраться к объекту на автомобиле",
+        "dataType": "BOOLEAN",
+        "value": "true",
+        "source": "LARDS",
+        "groupId": 100
+      },
+      {
+        "id": "deliveryStartTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "10:00",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "RUS03",
+        "source": "ERP_ADRMAS",
+        "groupId": 120
+      },
+      {
+        "id": "deliveryEndTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "20:00",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "3",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "RUS03",
+        "source": "ERP",
+        "groupId": 120
+      }
+    ]
+  },
+  {
+    "id": "S073",
+    "name": "М-н № 73, Москва",
+    "isActive": true,
+    "address": "Москва, Трубная пл., д. 2, ТЦ «Неглинная галерея»",
+    "brand": "MVIDEO",
+    "type": "SHOP",
+    "coordinate": {
+      "latitude": 55.767,
+      "longitude": 37.622
+    },
+    "attributes": [
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "RUS03",
+        "source": "ERP",
+        "groupId": 120
+      },
+      {
+        "id": "deliveryStartTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "00:00",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "isAutoCourierAvailable",
+        "isLarge": false,
+        "description": "Признак возможности добраться к объекту на автомобиле",
+        "dataType": "BOOLEAN",
+        "value": "true",
+        "source": "LARDS",
+        "groupId": 100
+      },
+      {
+        "id": "deliveryEndTime",
+        "isLarge": false,
+        "dataType": "STRING",
+        "value": "23:59",
+        "source": "LARDS",
+        "groupId": 120
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "RUS03",
+        "source": "ERP_ADRMAS",
+        "groupId": 120
+      },
+      {
+        "id": "timeZone",
+        "isLarge": false,
+        "description": "Временная зона",
+        "dataType": "STRING",
+        "value": "3",
+        "source": "LARDS",
+        "groupId": 120
+      }
+    ]
+  }
+]

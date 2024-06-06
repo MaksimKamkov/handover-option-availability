@@ -1,0 +1,13 @@
+{
+  "regionId": "S002",
+  "retailBrand": "MVIDEO",
+  "handoverOption" : "pickup",
+  "handoverObject": "S026",
+  "materials": [
+    {
+      "material" : "50044074",
+      "qty" : 2,
+      "price": 5630.0
+    }
+  ]
+}

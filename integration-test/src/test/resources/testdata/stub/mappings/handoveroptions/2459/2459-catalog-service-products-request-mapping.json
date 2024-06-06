@@ -1,0 +1,36 @@
+{
+  "request": {
+    "urlPath": "/api/v2/catalog-service/products",
+    "method": "POST",
+    "headers": {
+      "Accept": {
+        "equalTo": "*/*"
+      },
+      "Content-Type": {
+        "equalTo": "application/json"
+      }
+    },
+    "bodyPatterns": [
+      {
+        "equalToJson": {
+          "productIds": [
+            "50044074"
+          ],
+          "blocks": [
+            "flags",
+            "sapAttributes",
+            "groupIds",
+            "complement"
+          ]
+        }
+      }
+    ]
+  },
+  "response": {
+    "status": 200,
+    "bodyFileName": "handoveroptions/2459/2459-catalog-service-products-mock-response.json",
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}

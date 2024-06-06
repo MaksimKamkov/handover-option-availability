@@ -1,0 +1,50 @@
+[
+  {
+    "handoverOption": "interval-delivery",
+    "minPrice": 0.0,
+    "availabilityDate": "2022-03-05",
+    "availableAt": [
+      {
+        "handoverObject": "S002",
+        "availableDates": [
+          {
+            "date": "2022-03-05",
+            "applicableTo": [
+              {
+                "material": "50044074",
+                "qty": 10592,
+                "handoverObjectQty": 0,
+                "prepaidQty": 0,
+                "showcaseQty": 0
+              }
+            ]
+          },
+          {
+            "date": "2022-03-06",
+            "applicableTo": [
+              {
+                "material": "50044074",
+                "qty": 16785,
+                "handoverObjectQty": 0,
+                "prepaidQty": 0,
+                "showcaseQty": 0
+              }
+            ]
+          },
+          {
+            "date": "2022-03-07",
+            "applicableTo": [
+              {
+                "material": "50044074",
+                "qty": 16785,
+                "handoverObjectQty": 0,
+                "prepaidQty": 0,
+                "showcaseQty": 0
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

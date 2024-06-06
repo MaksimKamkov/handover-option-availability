@@ -1,0 +1,21 @@
+[
+  {
+    "providerName": "UNIVERSAL",
+    "zoneIds": [
+      "S002"
+    ],
+    "handoverOptions": [
+      {
+        "name": "electronic-delivery",
+        "materialNumber": "6004957"
+      }
+    ],
+    "providerAttributes": [
+      {
+        "name": "max_weight",
+        "value": "30"
+      }
+    ],
+    "zoneProviderAttributes": []
+  }
+]

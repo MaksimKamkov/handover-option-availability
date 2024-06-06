@@ -1,0 +1,13 @@
+{
+  "request": {
+    "url": "/zone/object/list?zoneIds=S002&retailBrand=MVIDEO&objectTypes=SHOP",
+    "method": "GET"
+  },
+  "response": {
+    "status": 200,
+    "bodyFileName": "handoveroptions/2459/2459-zone-object-list-mock-response.json",
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}

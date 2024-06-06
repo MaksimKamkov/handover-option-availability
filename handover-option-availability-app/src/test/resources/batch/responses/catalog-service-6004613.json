@@ -1,0 +1,69 @@
+[
+  {
+    "productId": "6004613",
+    "baseInfo": null,
+    "flags": {
+      "isDigitalCode": true,
+      "isService": false,
+      "isDelivery": false,
+      "isInventoryControl": false
+    },
+    "groupIds": {
+      "sapGroupId": "303020101",
+      "mcatalogGroupId": null
+    },
+    "mcatalogGroups": null,
+    "sapGroups": null,
+    "media": null,
+    "sapAttributes": {
+      "constants": {
+        "m_volumeMeasure": "СМ3",
+        "m_dimensionsMeasure": "СМ",
+        "m_articleType": "ZDGC",
+        "m_brand": "Sony",
+        "rating": "4.5285714285714285",
+        "m_materialModel": "PlayStation Plus 12 месяцев",
+        "m_supplierCode": "K000030700",
+        "m_measureUnitISO": "796",
+        "trivialProductName": "Подписка PS",
+        "m_width": "9.000",
+        "reviewCount": "70",
+        "m_volume": "729.000",
+        "m_supplierPhone": "+7(495)644-33-33",
+        "m_brandId": "1",
+        "m_supplier": "ООО \"1С-СофтКлаб\"",
+        "m_supplierAgentFlag": "6",
+        "m_assignmentGroup": "Z1",
+        "mc_source": "ERP",
+        "m_supplierId": "K000030700",
+        "m_enablePPO": "Y",
+        "WorkingTime": "Режим работы: согласно режиму работы ООО \"МВМ\"",
+        "m_supplierInn": "7706692109",
+        "RETURNCHAR": "NOBM",
+        "m_length": "9.000",
+        "m_materialType": "00",
+        "m_codeNDS": "1",
+        "m_supplierAddress": "119180, Москва, улица Большая Полянка, 7/10с3, ком 34",
+        "reviewPercent": "91.0",
+        "m_retireWithoutApprovement": "G",
+        "AM_Filtering_Flag": "1",
+        "m_weight": "0.010",
+        "m_enablePPK": "Y",
+        "m_supplierName": "ООО \"1С-СофтКлаб\"",
+        "m_calcCode": "П",
+        "m_measureUnit": "ШТ",
+        "m_sendToSLC": "G",
+        "m_height": "9.000",
+        "z_kiz": "N",
+        "m_weightMeasure": "КГ"
+      },
+      "calendars": {}
+    },
+    "mcatalogAttributes": null,
+    "longDescription": null,
+    "transliteration": null,
+    "brand": null,
+    "variants": null,
+    "complementMaterials": null
+  }
+]

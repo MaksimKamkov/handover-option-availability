@@ -1,0 +1,153 @@
+{
+  "ResponseHeader": {
+    "clientId": "TEP",
+    "interfaceVersion": "2.0",
+    "responseDate": "2022-02-17 23:57:55",
+    "responseCode": 200,
+    "responseMessage": "OK",
+    "headerErrors": [
+      {
+        "errorCode": "1005",
+        "errorLevel": "ERROR",
+        "errorMessage": "Availability date not found for handoverObject S002, stockObject C033 and material 50044074",
+        "errorLink": "S002 : C033 : 50044074"
+      },
+      {
+        "errorCode": "1005",
+        "errorLevel": "ERROR",
+        "errorMessage": "Availability date not found for handoverObject S002, stockObject C095 and material 50044074",
+        "errorLink": "S002 : C095 : 50044074"
+      },
+      {
+        "errorCode": "1005",
+        "errorLevel": "ERROR",
+        "errorMessage": "Availability date not found for handoverObject S002, stockObject C025 and material 50044074",
+        "errorLink": "S002 : C025 : 50044074"
+      }
+    ]
+  },
+  "ResponseBody": {
+    "availabilityOptions": [
+      {
+        "material": "50044074",
+        "handoverType": "PICKUP",
+        "handoverObject": "SJ00",
+        "stockObject": "C095",
+        "stockObjectPriority": 0,
+        "availableStock": 10004,
+        "showCaseStock": 0,
+        "prepaidOnly": true,
+        "availabilityDates": [
+          {
+            "availableDate": "{{now offset='2 days'  format='yyyy-MM-dd'}}",
+            "validTo": "{{now offset='1 days' format='dd.MM.yyyy'}} 15:00:00"
+          },
+          {
+            "availableDate": "{{now offset='2 days'  format='yyyy-MM-dd'}}",
+            "validTo": "{{now offset='2 days' format='dd.MM.yyyy'}} 15:00:00"
+          }
+        ]
+      },
+      {
+        "material": "50044074",
+        "handoverType": "PICKUP",
+        "handoverObject": "SJ00",
+        "stockObject": "C025",
+        "stockObjectPriority": 1,
+        "availableStock": 588,
+        "showCaseStock": 0,
+        "prepaidOnly": true,
+        "availabilityDates": [
+          {
+            "availableDate": "{{now offset='2 days'  format='yyyy-MM-dd'}}",
+            "validTo": "{{now offset='1 days' format='dd.MM.yyyy'}} 15:00:00"
+          },
+          {
+            "availableDate": "{{now offset='2 days'  format='yyyy-MM-dd'}}",
+            "validTo": "{{now offset='2 days' format='dd.MM.yyyy'}} 15:00:00"
+          }
+        ]
+      },
+      {
+        "material": "50044074",
+        "handoverType": "PICKUP",
+        "handoverObject": "SJ00",
+        "stockObject": "C033",
+        "stockObjectPriority": 2,
+        "availableStock": 1000,
+        "showCaseStock": 0,
+        "prepaidOnly": true,
+        "availabilityDates": [
+          {
+            "availableDate": "{{now offset='2 days'  format='yyyy-MM-dd'}}",
+            "validTo": "{{now offset='1 days' format='dd.MM.yyyy'}} 13:00:00"
+          },
+          {
+            "availableDate": "{{now offset='2 days'  format='yyyy-MM-dd'}}",
+            "validTo": "{{now offset='2 days' format='dd.MM.yyyy'}} 13:00:00"
+          }
+        ]
+      },
+      {
+        "material": "50044074",
+        "handoverType": "PICKUP",
+        "handoverObject": "SJ20",
+        "stockObject": "C095",
+        "stockObjectPriority": 0,
+        "availableStock": 10004,
+        "showCaseStock": 0,
+        "prepaidOnly": true,
+        "availabilityDates": [
+          {
+            "availableDate": "{{now offset='2 days'  format='yyyy-MM-dd'}}",
+            "validTo": "{{now offset='1 days' format='dd.MM.yyyy'}} 23:30:00"
+          },
+          {
+            "availableDate": "{{now offset='2 days'  format='yyyy-MM-dd'}}",
+            "validTo": "{{now offset='2 days' format='dd.MM.yyyy'}} 23:30:00"
+          }
+        ]
+      },
+      {
+        "material": "50044074",
+        "handoverType": "PICKUP",
+        "handoverObject": "SJ20",
+        "stockObject": "C025",
+        "stockObjectPriority": 1,
+        "availableStock": 588,
+        "showCaseStock": 0,
+        "prepaidOnly": true,
+        "availabilityDates": [
+          {
+            "availableDate": "{{now offset='2 days'  format='yyyy-MM-dd'}}",
+            "validTo": "{{now offset='1 days' format='dd.MM.yyyy'}} 23:30:00"
+          },
+          {
+            "availableDate": "{{now offset='2 days'  format='yyyy-MM-dd'}}",
+            "validTo": "{{now offset='2 days' format='dd.MM.yyyy'}} 23:30:00"
+          }
+        ]
+      },
+      {
+        "material": "50044074",
+        "handoverType": "PICKUP",
+        "handoverObject": "SJ20",
+        "stockObject": "C033",
+        "stockObjectPriority": 2,
+        "availableStock": 1000,
+        "showCaseStock": 0,
+        "prepaidOnly": true,
+        "availabilityDates": [
+          {
+            "availableDate": "{{now offset='2 days'  format='yyyy-MM-dd'}}",
+            "validTo": "{{now offset='1 days' format='dd.MM.yyyy'}} 23:30:00"
+          },
+          {
+            "availableDate": "{{now offset='2 days'  format='yyyy-MM-dd'}}",
+            "validTo": "{{now offset='2 days' format='dd.MM.yyyy'}} 23:30:00"
+          }
+        ]
+      }
+    ]
+  }
+}

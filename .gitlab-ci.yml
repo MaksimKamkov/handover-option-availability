@@ -1,0 +1,9 @@
+include:
+  - project: 'mvideoru/core-services/devops/ci-templates'
+    #ref: feature/CD-16
+    ref: harbor-CD-16
+    file: '/SpringBoot-Maven-autotests.gitlab-ci.yml'
+
+variables:
+  MAVEN_IMAGE: harbor.tp.yc.mvideo.ru/docker-hub-proxy/library/maven:3.8.3-openjdk-17
+  JAVA_RUNTIME_IMAGE: harbor.tp.yc.mvideo.ru/docker-hub-proxy/bellsoft/liberica-openjdk-alpine:17

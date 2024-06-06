@@ -1,0 +1,28 @@
+version: '2.4'
+services:
+  wiremock:
+    image: rodolpheche/wiremock
+    container_name: wiremock
+    healthcheck:
+      test: "[ $$(curl -s -o /dev/null -w \"%{http_code}\" localhost:52250/__admin/settings) = \"200\" ]"
+      interval: 10s
+      timeout: 1s
+      retries: 30
+    volumes:
+      - ./src/test/resources/testdata/stub:/home/wiremock
+    ports:
+      - "52250:52250"
+    command: [ --port=52250, --local-response-templating, --verbose ]
+
+  handover-option-availability:
+    container_name: handover-option-availability
+    #image: ${CI_REGISTRY_IMAGE}/${CI_COMMIT_REF_SLUG}:latest
+    image: $DOCKER_REGISTRY:${CI_COMMIT_REF_SLUG}-$CI_COMMIT_SHA
+    ports:
+      - "8180:8180"
+    environment:
+      SPRING_PROFILES_ACTIVE: autotest
+    restart: always
+    depends_on:
+      wiremock:
+        condition: service_healthy

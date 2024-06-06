@@ -1,0 +1,96 @@
+[
+  {
+    "pickupPointId": "8e46af69-71ee-465a-8ef2-d19f6721bcb9",
+    "partnerBrand": "POST",
+    "partnerId": "115597",
+    "partnerName": "ОПС 115597",
+    "sapCode": "SJ20",
+    "eldoSapCode": "AJ20",
+    "rimCode": "S002",
+    "eldoRimCode": "A408",
+    "pickupPointType": "pickup-point",
+    "latitude": 55.605449,
+    "longitude": 37.742851,
+    "address": {
+      "zipCode": "115597",
+      "region": "г Москва",
+      "city": "г Москва",
+      "street": "ул Ясеневая",
+      "house": "36"
+    },
+    "deleted": false,
+    "workSchedule": [
+      {
+        "day": "MONDAY",
+        "workingHours": {
+          "start": "08:00:00",
+          "end": "20:00:00"
+        },
+        "breaks": []
+      },
+      {
+        "day": "TUESDAY",
+        "workingHours": {
+          "start": "08:00:00",
+          "end": "20:00:00"
+        },
+        "breaks": []
+      },
+      {
+        "day": "WEDNESDAY",
+        "workingHours": {
+          "start": "08:00:00",
+          "end": "20:00:00"
+        },
+        "breaks": []
+      },
+      {
+        "day": "THURSDAY",
+        "workingHours": {
+          "start": "08:00:00",
+          "end": "20:00:00"
+        },
+        "breaks": []
+      },
+      {
+        "day": "FRIDAY",
+        "workingHours": {
+          "start": "08:00:00",
+          "end": "20:00:00"
+        },
+        "breaks": []
+      },
+      {
+        "day": "SATURDAY",
+        "workingHours": {
+          "start": "09:00:00",
+          "end": "18:00:00"
+        },
+        "breaks": []
+      },
+      {
+        "day": "SUNDAY",
+        "workingHours": {
+          "start": "09:00:00",
+          "end": "18:00:00"
+        },
+        "breaks": []
+      }
+    ],
+    "cellLimit": [
+      {
+        "cellLimitId": "63eb6650-8a0a-4635-be55-a89b9c5ad23a",
+        "maxWidthMillimetre": 1500,
+        "maxHeightMillimetre": 750,
+        "maxDepthMillimetre": 750,
+        "maxWeightGram": 20000
+      }
+    ],
+    "daysToDeliverMax": 1,
+    "daysToDeliverMin": 1,
+    "additionalProperties": {},
+    "fias": "ea3c7866-599a-4db1-bf88-c1c9021a9310",
+    "mvideoActive": true,
+    "eldoActive": true
+  }
+]

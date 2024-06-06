@@ -1,0 +1,57 @@
+integration_test:
+  stage: acceptance
+  cache:
+    key: maven-autotest
+    paths:
+      - .m2/repository/
+      - target/
+  image: $BUILD_IMAGE
+  services:
+    - docker:dind
+  variables:
+    MAVEN_CLI_OPTS: "--batch-mode --errors --fail-at-end --show-version --settings $CI_PROJECT_DIR/ci_settings.xml -Duser.timezone=Europe/Moscow"
+    MAVEN_OPTS: "-Dhttps.protocols=TLSv1.2 -Dmaven.repo.local=$CI_PROJECT_DIR/.m2/repository -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=WARN -Dorg.slf4j.simpleLogger.showDateTime=true -Djava.awt.headless=true"
+    DOCKER_DRIVER: overlay2
+    DOCKER_TLS_CERTDIR: ""
+    DOCKER_HOST: tcp://localhost:2375
+    PRIVATE_TOKEN: ""
+  tags:
+    - web_staging
+  allow_failure: true
+  before_script:
+    - apt-get -qq update
+    - apt-get -qq install docker-compose jq wget 2>&1 > /dev/null
+    - docker login -u "$DOCKERHUB_USER" -p "$DOCKERHUB_PASSWORD" $DOCKERHUB_SERVER
+    - docker login -u "$CI_REGISTRY_USER" -p "$CI_REGISTRY_PASSWORD" $CI_REGISTRY
+    - wget -q https://dl.bintray.com/qameta/generic/allurectl/1.12.0/allurectl_linux_386 -O /usr/bin/allurectl
+    - chmod +x /usr/bin/allurectl
+    - cd $CI_PROJECT_DIR/integration-test
+    - chmod +x ./healthcheck.sh ./collect-logs.sh
+    - mkdir -p ${CI_PROJECT_DIR}/integration-test/dumps
+  script:
+    - docker-compose up --detach
+    - ./healthcheck.sh
+    - mvn $MAVEN_CLI_OPTS clean verify
+  after_script:
+    - cd $CI_PROJECT_DIR/integration-test
+    - ./collect-logs.sh
+    - allurectl upload target/allure-results || true
+    - eval $(allurectl job-run env)
+    - echo "<html><body><a href='$ALLURE_JOB_RUN_URL'>Go to Report</a></body></html>" > allure-testops.html
+  artifacts:
+    expose_as: 'Test results'
+    paths:
+      - integration-test/target/site/allure-maven-plugin/
+      - integration-test/logs/
+      - integration-test/allure-testops.html
+    reports:
+      junit: integration-test/target/failsafe-reports/*.xml
+    expire_in: 1 week
+    when: always
+  only:
+    refs:
+      - branches
+      - tags
+  except:
+    variables:
+      - $AUTOTEST_DISABLED

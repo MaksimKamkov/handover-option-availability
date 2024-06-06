@@ -1,0 +1,410 @@
+[
+  {
+    "zoneId": "S002",
+    "handoverOptionName": "pickup-partner",
+    "priceList": {
+      "id": 46,
+      "name": "pickup-partner",
+      "rules": [
+        {
+          "id": 163,
+          "name": "pickup-partner",
+          "price": 0,
+          "criterion": [
+            {
+              "id": "max_price",
+              "description": "Максимальная стоимость корзины (руб)",
+              "value": 100000
+            },
+            {
+              "id": "min_price",
+              "description": "Минимальная стоимость корзины (руб)",
+              "value": 500
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "zoneId": "S002",
+    "handoverOptionName": "exactly-time-delivery",
+    "priceList": {
+      "id": 41,
+      "name": "eta-delivery",
+      "rules": [
+        {
+          "id": 168,
+          "name": "3",
+          "price": 300,
+          "criterion": [
+            {
+              "id": "min_price",
+              "description": "Минимальная стоимость корзины (руб)",
+              "value": 200
+            },
+            {
+              "id": "max_radius",
+              "description": "Максимальное расстояние (км)",
+              "value": 20
+            },
+            {
+              "id": "max_price",
+              "description": "Максимальная стоимость корзины (руб)",
+              "value": 9999
+            },
+            {
+              "id": "min_radius",
+              "description": "Минимальное расстояние (км)",
+              "value": 0
+            }
+          ]
+        },
+        {
+          "id": 166,
+          "name": "1",
+          "price": 500,
+          "criterion": [
+            {
+              "id": "min_price",
+              "description": "Минимальная стоимость корзины (руб)",
+              "value": 50
+            },
+            {
+              "id": "max_radius",
+              "description": "Максимальное расстояние (км)",
+              "value": 20
+            },
+            {
+              "id": "min_radius",
+              "description": "Минимальное расстояние (км)",
+              "value": 0
+            },
+            {
+              "id": "max_price",
+              "description": "Максимальная стоимость корзины (руб)",
+              "value": 199
+            }
+          ]
+        },
+        {
+          "id": 170,
+          "name": "5",
+          "price": 100,
+          "criterion": [
+            {
+              "id": "min_price",
+              "description": "Минимальная стоимость корзины (руб)",
+              "value": 10000
+            },
+            {
+              "id": "max_price",
+              "description": "Максимальная стоимость корзины (руб)",
+              "value": 100000
+            },
+            {
+              "id": "min_radius",
+              "description": "Минимальное расстояние (км)",
+              "value": 0
+            },
+            {
+              "id": "max_radius",
+              "description": "Максимальное расстояние (км)",
+              "value": 20
+            }
+          ]
+        },
+        {
+          "id": 171,
+          "name": "6",
+          "price": 199,
+          "criterion": [
+            {
+              "id": "max_radius",
+              "description": "Максимальное расстояние (км)",
+              "value": 50
+            },
+            {
+              "id": "min_radius",
+              "description": "Минимальное расстояние (км)",
+              "value": 20
+            },
+            {
+              "id": "min_price",
+              "description": "Минимальная стоимость корзины (руб)",
+              "value": 10000
+            },
+            {
+              "id": "max_price",
+              "description": "Максимальная стоимость корзины (руб)",
+              "value": 100000
+            }
+          ]
+        },
+        {
+          "id": 167,
+          "name": "2",
+          "price": 599,
+          "criterion": [
+            {
+              "id": "min_radius",
+              "description": "Минимальное расстояние (км)",
+              "value": 20
+            },
+            {
+              "id": "max_radius",
+              "description": "Максимальное расстояние (км)",
+              "value": 50
+            },
+            {
+              "id": "min_price",
+              "description": "Минимальная стоимость корзины (руб)",
+              "value": 50
+            },
+            {
+              "id": "max_price",
+              "description": "Максимальная стоимость корзины (руб)",
+              "value": 199
+            }
+          ]
+        },
+        {
+          "id": 169,
+          "name": "4",
+          "price": 399,
+          "criterion": [
+            {
+              "id": "max_price",
+              "description": "Максимальная стоимость корзины (руб)",
+              "value": 9999
+            },
+            {
+              "id": "min_radius",
+              "description": "Минимальное расстояние (км)",
+              "value": 20
+            },
+            {
+              "id": "max_radius",
+              "description": "Максимальное расстояние (км)",
+              "value": 50
+            },
+            {
+              "id": "min_price",
+              "description": "Минимальная стоимость корзины (руб)",
+              "value": 200
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "zoneId": "S002",
+    "handoverOptionName": "eta-delivery",
+    "priceList": {
+      "id": 41,
+      "name": "eta-delivery",
+      "rules": [
+        {
+          "id": 168,
+          "name": "3",
+          "price": 300,
+          "criterion": [
+            {
+              "id": "min_price",
+              "description": "Минимальная стоимость корзины (руб)",
+              "value": 200
+            },
+            {
+              "id": "max_radius",
+              "description": "Максимальное расстояние (км)",
+              "value": 20
+            },
+            {
+              "id": "max_price",
+              "description": "Максимальная стоимость корзины (руб)",
+              "value": 9999
+            },
+            {
+              "id": "min_radius",
+              "description": "Минимальное расстояние (км)",
+              "value": 0
+            }
+          ]
+        },
+        {
+          "id": 166,
+          "name": "1",
+          "price": 500,
+          "criterion": [
+            {
+              "id": "min_price",
+              "description": "Минимальная стоимость корзины (руб)",
+              "value": 50
+            },
+            {
+              "id": "max_radius",
+              "description": "Максимальное расстояние (км)",
+              "value": 20
+            },
+            {
+              "id": "min_radius",
+              "description": "Минимальное расстояние (км)",
+              "value": 0
+            },
+            {
+              "id": "max_price",
+              "description": "Максимальная стоимость корзины (руб)",
+              "value": 199
+            }
+          ]
+        },
+        {
+          "id": 170,
+          "name": "5",
+          "price": 100,
+          "criterion": [
+            {
+              "id": "min_price",
+              "description": "Минимальная стоимость корзины (руб)",
+              "value": 10000
+            },
+            {
+              "id": "max_price",
+              "description": "Максимальная стоимость корзины (руб)",
+              "value": 100000
+            },
+            {
+              "id": "min_radius",
+              "description": "Минимальное расстояние (км)",
+              "value": 0
+            },
+            {
+              "id": "max_radius",
+              "description": "Максимальное расстояние (км)",
+              "value": 20
+            }
+          ]
+        },
+        {
+          "id": 171,
+          "name": "6",
+          "price": 199,
+          "criterion": [
+            {
+              "id": "max_radius",
+              "description": "Максимальное расстояние (км)",
+              "value": 50
+            },
+            {
+              "id": "min_radius",
+              "description": "Минимальное расстояние (км)",
+              "value": 20
+            },
+            {
+              "id": "min_price",
+              "description": "Минимальная стоимость корзины (руб)",
+              "value": 10000
+            },
+            {
+              "id": "max_price",
+              "description": "Максимальная стоимость корзины (руб)",
+              "value": 100000
+            }
+          ]
+        },
+        {
+          "id": 167,
+          "name": "2",
+          "price": 599,
+          "criterion": [
+            {
+              "id": "min_radius",
+              "description": "Минимальное расстояние (км)",
+              "value": 20
+            },
+            {
+              "id": "max_radius",
+              "description": "Максимальное расстояние (км)",
+              "value": 50
+            },
+            {
+              "id": "min_price",
+              "description": "Минимальная стоимость корзины (руб)",
+              "value": 50
+            },
+            {
+              "id": "max_price",
+              "description": "Максимальная стоимость корзины (руб)",
+              "value": 199
+            }
+          ]
+        },
+        {
+          "id": 169,
+          "name": "4",
+          "price": 399,
+          "criterion": [
+            {
+              "id": "max_price",
+              "description": "Максимальная стоимость корзины (руб)",
+              "value": 9999
+            },
+            {
+              "id": "min_radius",
+              "description": "Минимальное расстояние (км)",
+              "value": 20
+            },
+            {
+              "id": "max_radius",
+              "description": "Максимальное расстояние (км)",
+              "value": 50
+            },
+            {
+              "id": "min_price",
+              "description": "Минимальная стоимость корзины (руб)",
+              "value": 200
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "zoneId": "S002",
+    "handoverOptionName": "pickup-seamless",
+    "priceList": {
+      "id": 48,
+      "name": "pickup-seamless",
+      "rules": [
+        {
+          "id": 165,
+          "name": "pickup-seamless",
+          "price": 0,
+          "criterion": [
+            {
+              "id": "max_radius",
+              "description": "Максимальное расстояние (км)",
+              "value": 50
+            },
+            {
+              "id": "min_price",
+              "description": "Минимальная стоимость корзины (руб)",
+              "value": 5000
+            },
+            {
+              "id": "min_radius",
+              "description": "Минимальное расстояние (км)",
+              "value": 0
+            },
+            {
+              "id": "max_price",
+              "description": "Максимальная стоимость корзины (руб)",
+              "value": 999999999
+            }
+          ]
+        }
+      ]
+    }
+  }
+]

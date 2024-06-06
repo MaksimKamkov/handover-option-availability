@@ -1,0 +1,79 @@
+{
+  "request": {
+    "url": "/logistic/rest/availability/dates",
+    "method": "POST",
+    "bodyPatterns": [
+      {
+        "ignoreArrayOrder": true,
+        "equalToJson": {
+          "RequestBody": {
+            "handoverOptions": [
+              {
+                "handoverObjects": [
+                  "S002"
+                ],
+                "handoverType": "COURIER"
+              }
+            ],
+            "optionParams": [
+              {
+                "key": "displayMode",
+                "value": "all"
+              },
+              {
+                "key": "displayShowcase",
+                "value": "true"
+              },
+              {
+                "key": "displayNextCalendar",
+                "value": "true"
+              },
+              {
+                "key": "displayPreorderInfo",
+                "value": "true"
+              },
+              {
+                "key": "minDisplayQty",
+                "value": "0"
+              },
+              {
+                "key": "excludeZeroStock",
+                "value": "true"
+              },
+              {
+                "key": "excludeCourierShowCase",
+                "value": "true"
+              },
+              {
+                "key": "excludePickupMovementShowCase",
+                "value": "true"
+              }
+            ],
+            "positions": [
+              {
+                "material": "50044074",
+                "params": [
+                  {
+                    "key": "treshold",
+                    "value": "true"
+                  }
+                ],
+                "qty": 1
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  "response": {
+    "status": 200,
+    "bodyFileName": "handoveroptionsdelivery/9363/9363-logistic-rest-availability-dates-mock-response.json",
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "transformers": [
+      "response-template"
+    ]
+  }
+}

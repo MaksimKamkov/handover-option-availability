@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Список изменений checkout-service</title>
+    <style>
+        h2 {
+            text-decoration: underline;
+        }
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        th, td {
+            text-align: left;
+            padding: 8px;
+        }
+        tr:nth-child(even){background-color: #f2f2f2}
+        th {
+            background-color: #0099cc;
+            color: white;
+        }
+    </style>
+    <script>
+        function parser() {
+            let docAsString = new XMLSerializer().serializeToString(document);
+            docAsString = docAsString.replace(
+                /[A-Za-z]+-\d\d+/gi,
+                '<a href="https://jira.mvideo.ru/jira/browse/$&">$&</a>'
+            );
+            document.write(docAsString);
+        }
+    </script>
+</head>
+<body onload="parser()">
+
+<h1>Версии</h1>
+<table style="width: auto">
+    <tr>
+        <th>Версия</th>
+        <th>Дата</th>
+    </tr>
+    {{#tags}}
+    <tr>
+        <td><a href="#{{name}}">{{name}}</a></td>
+        <td>{{tagTime}}</td>
+    </tr>
+    {{/tags}}
+</table>
+
+<h1>Изменения</h1>
+<table>
+    <tr>
+        <th>Сообщение</th>
+        <th>Git</th>
+        <th>Автор</th>
+        <th>Дата</th>
+    </tr>
+
+    {{#tags}}
+    <tr>
+        <td colspan="4"><a id="{{name}}"></a><h2>{{name}}</h2></td>
+    </tr>
+
+    {{#commits}}
+    <tr>
+        <td>{{{message}}}</td>
+        <td><a href="https://gitlab.com/mvideoru/core-services/order-placement/services/checkout-service/-/commit/{{hash}}">{{hash}}</a></td>
+        <td>{{authorName}}</td>
+        <td>{{commitTime}}</td>
+    </tr>
+    {{/commits}}
+
+    {{/tags}}
+</table>
+</body>
+</html>

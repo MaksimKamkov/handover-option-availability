@@ -1,0 +1,29 @@
+{
+  "request": {
+    "url": "/api/v2/zone-option-price-list/list/details",
+    "method": "POST",
+    "bodyPatterns": [
+      {
+        "ignoreArrayOrder": true,
+        "equalToJson": {
+          "zoneIds": [
+            "S002"
+          ],
+          "handoverOptionNames": [
+            "pickup-partner",
+            "exactly-time-delivery",
+            "eta-delivery",
+            "pickup-seamless"
+          ]
+        }
+      }
+    ]
+  },
+  "response": {
+    "status": 200,
+    "bodyFileName": "handoveroptions/2459/2459-zone-option-price-list-list-details-mock-response.json",
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}

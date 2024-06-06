@@ -1,0 +1,148 @@
+[
+  {
+    "id": 1712,
+    "zoneId": "S002",
+    "handoverOptionId": 12,
+    "attribute": [
+      {
+        "name": "supplierPriority",
+        "marketingName": "Приоритет провайдера",
+        "description": "Приоритет провайдера",
+        "dataType": "NUMBER",
+        "value": "2"
+      }
+    ]
+  },
+  {
+    "id": 1826,
+    "zoneId": "S002",
+    "handoverOptionId": 1140,
+    "attribute": [
+      {
+        "name": "supplierPriority",
+        "marketingName": "Приоритет провайдера",
+        "description": "Приоритет провайдера",
+        "dataType": "NUMBER",
+        "value": "99"
+      }
+    ]
+  },
+  {
+    "id": 1572,
+    "zoneId": "S002",
+    "handoverOptionId": 633,
+    "attribute": [
+      {
+        "name": "allowImport",
+        "marketingName": "вкл/выкл импорта ПВЗ",
+        "description": "Разрешен импорт ПВЗ",
+        "dataType": "BOOLEAN",
+        "value": "true"
+      },
+      {
+        "name": "virtualWarehouse",
+        "marketingName": "САП-код объекта",
+        "description": "САП-код объекта выдачи заказа",
+        "dataType": "STRING",
+        "value": "SJ99"
+      },
+      {
+        "name": "defaultEnabled",
+        "marketingName": "Активация ПВЗ при добавлении",
+        "description": "По умолчанию активировать ПВЗ после импорта",
+        "dataType": "BOOLEAN",
+        "value": "true"
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "zoneId": "S002",
+    "handoverOptionId": 9,
+    "attribute": [
+      {
+        "name": "allowImport",
+        "marketingName": "вкл/выкл импорта ПВЗ",
+        "description": "Разрешен импорт ПВЗ",
+        "dataType": "BOOLEAN",
+        "value": "true"
+      },
+      {
+        "name": "virtualWarehouse",
+        "marketingName": "САП-код объекта",
+        "description": "САП-код объекта выдачи заказа",
+        "dataType": "STRING",
+        "value": "SJ20"
+      },
+      {
+        "name": "defaultEnabled",
+        "marketingName": "Активация ПВЗ при добавлении",
+        "description": "По умолчанию активировать ПВЗ после импорта",
+        "dataType": "BOOLEAN",
+        "value": "true"
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "zoneId": "S002",
+    "handoverOptionId": 11,
+    "attribute": [
+      {
+        "name": "defaultEnabled",
+        "marketingName": "Активация ПВЗ при добавлении",
+        "description": "По умолчанию активировать ПВЗ после импорта",
+        "dataType": "BOOLEAN",
+        "value": "true"
+      },
+      {
+        "name": "allowImport",
+        "marketingName": "вкл/выкл импорта ПВЗ",
+        "description": "Разрешен импорт ПВЗ",
+        "dataType": "BOOLEAN",
+        "value": "true"
+      },
+      {
+        "name": "virtualWarehouse",
+        "marketingName": "САП-код объекта",
+        "description": "САП-код объекта выдачи заказа",
+        "dataType": "STRING",
+        "value": "SJ00"
+      }
+    ]
+  },
+  {
+    "id": 1795,
+    "zoneId": "S002",
+    "handoverOptionId": 10,
+    "attribute": []
+  },
+  {
+    "id": 1723,
+    "zoneId": "S002",
+    "handoverOptionId": 608,
+    "attribute": [
+      {
+        "name": "allowImport",
+        "marketingName": "вкл/выкл импорта ПВЗ",
+        "description": "Разрешен импорт ПВЗ",
+        "dataType": "BOOLEAN",
+        "value": "true"
+      }
+    ]
+  },
+  {
+    "id": 1722,
+    "zoneId": "S002",
+    "handoverOptionId": 652,
+    "attribute": [
+      {
+        "name": "supplierPriority",
+        "marketingName": "Приоритет провайдера",
+        "description": "Приоритет провайдера",
+        "dataType": "NUMBER",
+        "value": "4"
+      }
+    ]
+  }
+]

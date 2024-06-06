@@ -1,0 +1,429 @@
+[
+  {
+    "cellLimitId": "f4358d42-1845-4202-adc3-ed81392767c4",
+    "maxWidthMillimetre": 548,
+    "maxHeightMillimetre": 383,
+    "maxDepthMillimetre": 405,
+    "maxWeightGram": 15000
+  },
+  {
+    "cellLimitId": "88814768-69a4-4ed9-beb3-49c5a6681e4e",
+    "maxWidthMillimetre": 640,
+    "maxHeightMillimetre": 350,
+    "maxDepthMillimetre": 410,
+    "maxWeightGram": 15000
+  },
+  {
+    "cellLimitId": "fc855ede-a2a2-4904-9551-6c8594fb1a59",
+    "maxWidthMillimetre": 370,
+    "maxHeightMillimetre": 360,
+    "maxDepthMillimetre": 400,
+    "maxWeightGram": 15000
+  },
+  {
+    "cellLimitId": "c31f40b2-7cf7-47f1-a76c-bc6034290bae",
+    "maxWidthMillimetre": 550,
+    "maxHeightMillimetre": 360,
+    "maxDepthMillimetre": 410,
+    "maxWeightGram": 15000
+  },
+  {
+    "cellLimitId": "8ad455bd-54fe-40c9-9bb2-5e45b59dcc2c",
+    "maxWidthMillimetre": 340,
+    "maxHeightMillimetre": 340,
+    "maxDepthMillimetre": 540,
+    "maxWeightGram": 15000
+  },
+  {
+    "cellLimitId": "f1be62e5-5e47-4913-a20a-3a5a7c797f13",
+    "maxWidthMillimetre": 640,
+    "maxHeightMillimetre": 360,
+    "maxDepthMillimetre": 410,
+    "maxWeightGram": 15000
+  },
+  {
+    "cellLimitId": "173b0c2d-273a-42a6-a131-bc58680bb6bf",
+    "maxWidthMillimetre": 393,
+    "maxHeightMillimetre": 4,
+    "maxDepthMillimetre": 427,
+    "maxWeightGram": 15000
+  },
+  {
+    "cellLimitId": "801ede46-2c1f-472c-85e1-305febe1a0cf",
+    "maxWidthMillimetre": 393,
+    "maxHeightMillimetre": 320,
+    "maxDepthMillimetre": 427,
+    "maxWeightGram": 10000
+  },
+  {
+    "cellLimitId": "875a28ba-baea-4d50-8455-653fdc9ffb7c",
+    "maxWidthMillimetre": 1500,
+    "maxHeightMillimetre": 750,
+    "maxDepthMillimetre": 750,
+    "maxWeightGram": 30000
+  },
+  {
+    "cellLimitId": "a5f8beaf-daf8-4a42-ad0f-324ff6be0ad7",
+    "maxWidthMillimetre": 1500,
+    "maxHeightMillimetre": 750,
+    "maxDepthMillimetre": 750,
+    "maxWeightGram": 45000
+  },
+  {
+    "cellLimitId": "63eb6650-8a0a-4635-be55-a89b9c5ad23a",
+    "maxWidthMillimetre": 1500,
+    "maxHeightMillimetre": 750,
+    "maxDepthMillimetre": 750,
+    "maxWeightGram": 20000
+  },
+  {
+    "cellLimitId": "67e37566-fe74-4dcd-a8fc-b6fbd165eb41",
+    "maxWidthMillimetre": 393,
+    "maxHeightMillimetre": 440,
+    "maxDepthMillimetre": 427,
+    "maxWeightGram": 15000
+  },
+  {
+    "cellLimitId": "618c476b-0716-4a72-9f5c-c6a0f1d576b2",
+    "maxWidthMillimetre": 401,
+    "maxHeightMillimetre": 361,
+    "maxDepthMillimetre": 611,
+    "maxWeightGram": 15000
+  },
+  {
+    "cellLimitId": "eb02b369-5591-4ab8-aa0c-ada80923b478",
+    "maxWidthMillimetre": 393,
+    "maxHeightMillimetre": 320,
+    "maxDepthMillimetre": 427,
+    "maxWeightGram": 15000
+  },
+  {
+    "cellLimitId": "aebb4d8e-ea86-4a9c-aa72-90cabd5f5704",
+    "maxWidthMillimetre": 0,
+    "maxHeightMillimetre": 0,
+    "maxDepthMillimetre": 0,
+    "maxWeightGram": 0
+  },
+  {
+    "cellLimitId": "61582152-56cb-4675-9d8c-64d8a72c8d03",
+    "maxWidthMillimetre": 625,
+    "maxHeightMillimetre": 405,
+    "maxDepthMillimetre": 565,
+    "maxWeightGram": 15000
+  },
+  {
+    "cellLimitId": "aa251887-77ea-4b09-b1d1-e0ca4b000700",
+    "maxWidthMillimetre": 636,
+    "maxHeightMillimetre": 618,
+    "maxDepthMillimetre": 555,
+    "maxWeightGram": 15000
+  },
+  {
+    "cellLimitId": "54e48104-2596-474c-97ff-d591e48b74c5",
+    "maxWidthMillimetre": 368,
+    "maxHeightMillimetre": 620,
+    "maxDepthMillimetre": 370,
+    "maxWeightGram": 15000
+  },
+  {
+    "cellLimitId": "c695bf98-09f8-42f5-91ca-4d35a20f18aa",
+    "maxWidthMillimetre": 368,
+    "maxHeightMillimetre": 618,
+    "maxDepthMillimetre": 360,
+    "maxWeightGram": 15000
+  },
+  {
+    "cellLimitId": "213f98e5-e151-481e-a978-5b072c05fdfe",
+    "maxWidthMillimetre": 600,
+    "maxHeightMillimetre": 600,
+    "maxDepthMillimetre": 600,
+    "maxWeightGram": 15000
+  },
+  {
+    "cellLimitId": "0cc78a68-32c9-473f-9dcc-dd6e26432e62",
+    "maxWidthMillimetre": 360,
+    "maxHeightMillimetre": 600,
+    "maxDepthMillimetre": 360,
+    "maxWeightGram": 15000
+  },
+  {
+    "cellLimitId": "1a3e5bb8-85ac-40c7-bc83-c44743f07aed",
+    "maxWidthMillimetre": 360,
+    "maxHeightMillimetre": 405,
+    "maxDepthMillimetre": 629,
+    "maxWeightGram": 15000
+  },
+  {
+    "cellLimitId": "9ffaf294-d368-40c2-a067-c7b82062bb17",
+    "maxWidthMillimetre": 629,
+    "maxHeightMillimetre": 405,
+    "maxDepthMillimetre": 197,
+    "maxWeightGram": 15000
+  },
+  {
+    "cellLimitId": "cc8a8b8f-58f1-475e-833f-1a716883d4c2",
+    "maxWidthMillimetre": 360,
+    "maxHeightMillimetre": 620,
+    "maxDepthMillimetre": 372,
+    "maxWeightGram": 15000
+  },
+  {
+    "cellLimitId": "022acdd9-ff41-4e29-92e3-45c4ef68bd7a",
+    "maxWidthMillimetre": 445,
+    "maxHeightMillimetre": 427,
+    "maxDepthMillimetre": 367,
+    "maxWeightGram": 15000
+  },
+  {
+    "cellLimitId": "e15ee3c2-d5ef-4664-a416-a2d64d83084b",
+    "maxWidthMillimetre": 436,
+    "maxHeightMillimetre": 346,
+    "maxDepthMillimetre": 230,
+    "maxWeightGram": 15000
+  },
+  {
+    "cellLimitId": "7c252b81-e749-4a50-bf86-bd60c7837920",
+    "maxWidthMillimetre": 629,
+    "maxHeightMillimetre": 405,
+    "maxDepthMillimetre": 358,
+    "maxWeightGram": 15000
+  },
+  {
+    "cellLimitId": "b4ee77ae-d2a9-4c69-90f0-e8a73d88362b",
+    "maxWidthMillimetre": 470,
+    "maxHeightMillimetre": 405,
+    "maxDepthMillimetre": 353,
+    "maxWeightGram": 15000
+  },
+  {
+    "cellLimitId": "14719abb-41d5-4445-9288-6c2358db2e99",
+    "maxWidthMillimetre": 234,
+    "maxHeightMillimetre": 340,
+    "maxDepthMillimetre": 430,
+    "maxWeightGram": 15000
+  },
+  {
+    "cellLimitId": "edb399be-a5c5-4d9a-a307-1d446c58b2a6",
+    "maxWidthMillimetre": 300,
+    "maxHeightMillimetre": 300,
+    "maxDepthMillimetre": 300,
+    "maxWeightGram": 5000
+  },
+  {
+    "cellLimitId": "800c48bc-38f0-4afa-b3ed-a0f6f42f1095",
+    "maxWidthMillimetre": 457,
+    "maxHeightMillimetre": 427,
+    "maxDepthMillimetre": 110,
+    "maxWeightGram": 15000
+  },
+  {
+    "cellLimitId": "c6364c08-7537-457a-a07f-445f5d5b9177",
+    "maxWidthMillimetre": 440,
+    "maxHeightMillimetre": 440,
+    "maxDepthMillimetre": 440,
+    "maxWeightGram": 15000
+  },
+  {
+    "cellLimitId": "97d46090-0d3c-43fd-b39b-970c5d38ca8c",
+    "maxWidthMillimetre": 565,
+    "maxHeightMillimetre": 405,
+    "maxDepthMillimetre": 625,
+    "maxWeightGram": 15000
+  },
+  {
+    "cellLimitId": "2a79a759-2ca5-4f41-87bf-3068cf60802d",
+    "maxWidthMillimetre": 560,
+    "maxHeightMillimetre": 620,
+    "maxDepthMillimetre": 570,
+    "maxWeightGram": 15000
+  },
+  {
+    "cellLimitId": "d77e8b0c-082d-42f9-b114-904a72d0f9ed",
+    "maxWidthMillimetre": 368,
+    "maxHeightMillimetre": 618,
+    "maxDepthMillimetre": 370,
+    "maxWeightGram": 15000
+  },
+  {
+    "cellLimitId": "309ce422-651f-4de3-9848-812da12b7453",
+    "maxWidthMillimetre": 570,
+    "maxHeightMillimetre": 620,
+    "maxDepthMillimetre": 560,
+    "maxWeightGram": 15000
+  },
+  {
+    "cellLimitId": "77c33017-87ad-4d74-8e4d-7e23155a6724",
+    "maxWidthMillimetre": 210,
+    "maxHeightMillimetre": 427,
+    "maxDepthMillimetre": 110,
+    "maxWeightGram": 15000
+  },
+  {
+    "cellLimitId": "960795f6-c831-4a87-a03e-e90b9e4478f0",
+    "maxWidthMillimetre": 600,
+    "maxHeightMillimetre": 600,
+    "maxDepthMillimetre": 600,
+    "maxWeightGram": 31500
+  },
+  {
+    "cellLimitId": "1d987555-d4a2-46f6-942e-7258d14abae3",
+    "maxWidthMillimetre": 210,
+    "maxHeightMillimetre": 427,
+    "maxDepthMillimetre": 111,
+    "maxWeightGram": 15000
+  },
+  {
+    "cellLimitId": "f1da567c-44f3-4541-86c9-5117d212febf",
+    "maxWidthMillimetre": 370,
+    "maxHeightMillimetre": 620,
+    "maxDepthMillimetre": 368,
+    "maxWeightGram": 15000
+  },
+  {
+    "cellLimitId": "d88cee42-88cd-4cb1-802c-0e89cb53a064",
+    "maxWidthMillimetre": 436,
+    "maxHeightMillimetre": 346,
+    "maxDepthMillimetre": 358,
+    "maxWeightGram": 15000
+  },
+  {
+    "cellLimitId": "1112193b-f635-4ab6-899f-28e2656344e8",
+    "maxWidthMillimetre": 367,
+    "maxHeightMillimetre": 427,
+    "maxDepthMillimetre": 445,
+    "maxWeightGram": 15000
+  },
+  {
+    "cellLimitId": "271a0840-e9b3-43cf-b3ae-9217ff3d0a48",
+    "maxWidthMillimetre": 300,
+    "maxHeightMillimetre": 300,
+    "maxDepthMillimetre": 300,
+    "maxWeightGram": 31500
+  },
+  {
+    "cellLimitId": "f957c803-8f55-4eee-bbc5-d31e32018fdd",
+    "maxWidthMillimetre": 180,
+    "maxHeightMillimetre": 346,
+    "maxDepthMillimetre": 190,
+    "maxWeightGram": 15000
+  },
+  {
+    "cellLimitId": "a0d66160-4cfc-4a3f-bccc-5b8754c77681",
+    "maxWidthMillimetre": 363,
+    "maxHeightMillimetre": 405,
+    "maxDepthMillimetre": 358,
+    "maxWeightGram": 15000
+  },
+  {
+    "cellLimitId": "88ec79ff-7f31-4197-85e2-c0d61b2b0687",
+    "maxWidthMillimetre": 393,
+    "maxHeightMillimetre": 427,
+    "maxDepthMillimetre": 100,
+    "maxWeightGram": 15000
+  },
+  {
+    "cellLimitId": "dcd6bd06-65bb-4b82-befd-a1d4841669ca",
+    "maxWidthMillimetre": 230,
+    "maxHeightMillimetre": 346,
+    "maxDepthMillimetre": 436,
+    "maxWeightGram": 15000
+  },
+  {
+    "cellLimitId": "89147d6e-79f9-456d-b45c-f635eb37a671",
+    "maxWidthMillimetre": 600,
+    "maxHeightMillimetre": 600,
+    "maxDepthMillimetre": 600,
+    "maxWeightGram": 31000
+  },
+  {
+    "cellLimitId": "443c906f-7f3f-408b-afcf-9afea50ec2f5",
+    "maxWidthMillimetre": 436,
+    "maxHeightMillimetre": 346,
+    "maxDepthMillimetre": 110,
+    "maxWeightGram": 15000
+  },
+  {
+    "cellLimitId": "82359ab7-ea53-417f-bc46-6afaf2d194bc",
+    "maxWidthMillimetre": 358,
+    "maxHeightMillimetre": 346,
+    "maxDepthMillimetre": 436,
+    "maxWeightGram": 15000
+  },
+  {
+    "cellLimitId": "90c6e03d-9919-46b0-9087-150305a44fe6",
+    "maxWidthMillimetre": 600,
+    "maxHeightMillimetre": 600,
+    "maxDepthMillimetre": 600,
+    "maxWeightGram": 25000
+  },
+  {
+    "cellLimitId": "d7061688-87a1-4b7d-9d1a-44a2fe89d3a0",
+    "maxWidthMillimetre": 457,
+    "maxHeightMillimetre": 427,
+    "maxDepthMillimetre": 111,
+    "maxWeightGram": 15000
+  },
+  {
+    "cellLimitId": "644180d2-5037-4cf7-adc6-864365599f78",
+    "maxWidthMillimetre": 380,
+    "maxHeightMillimetre": 405,
+    "maxDepthMillimetre": 210,
+    "maxWeightGram": 15000
+  },
+  {
+    "cellLimitId": "8a2e7d40-ca53-4d8f-88b9-2ddd9bf820cc",
+    "maxWidthMillimetre": 372,
+    "maxHeightMillimetre": 620,
+    "maxDepthMillimetre": 360,
+    "maxWeightGram": 15000
+  },
+  {
+    "cellLimitId": "82e73275-4d6e-47ea-ba0c-0943a327b397",
+    "maxWidthMillimetre": 240,
+    "maxHeightMillimetre": 350,
+    "maxDepthMillimetre": 430,
+    "maxWeightGram": 15000
+  },
+  {
+    "cellLimitId": "407ba25c-9caf-445b-90a2-970342688a02",
+    "maxWidthMillimetre": 363,
+    "maxHeightMillimetre": 405,
+    "maxDepthMillimetre": 419,
+    "maxWeightGram": 15000
+  },
+  {
+    "cellLimitId": "898351cc-7734-4695-8a63-df3657d40e11",
+    "maxWidthMillimetre": 633,
+    "maxHeightMillimetre": 633,
+    "maxDepthMillimetre": 633,
+    "maxWeightGram": 31500
+  },
+  {
+    "cellLimitId": "ea100648-e12a-4412-890a-970c3aab314d",
+    "maxWidthMillimetre": 500,
+    "maxHeightMillimetre": 500,
+    "maxDepthMillimetre": 500,
+    "maxWeightGram": 31500
+  },
+  {
+    "cellLimitId": "255c0914-44e1-4a49-8446-b2d94e8d4e6d",
+    "maxWidthMillimetre": 600,
+    "maxHeightMillimetre": 600,
+    "maxDepthMillimetre": 600,
+    "maxWeightGram": 20000
+  },
+  {
+    "cellLimitId": "f26392f1-772f-45e8-bf2a-f5305e6300c6",
+    "maxWidthMillimetre": 555,
+    "maxHeightMillimetre": 636,
+    "maxDepthMillimetre": 618,
+    "maxWeightGram": 15000
+  },
+  {
+    "cellLimitId": "0c90af1c-5c12-4d0e-af89-f0be91fd3048",
+    "maxWidthMillimetre": 603,
+    "maxHeightMillimetre": 603,
+    "maxDepthMillimetre": 603,
+    "maxWeightGram": 31500
+  }
+]

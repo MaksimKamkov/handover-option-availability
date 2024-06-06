@@ -1,0 +1,927 @@
+openapi: 3.0.1
+info:
+  description: Сервис предоставляет методы для получения информации о доступных способах получения товара.
+  version: 1.0.0
+  title: handover-option-availability
+  license:
+    name: "User story использования сервисов доступности"
+    url: "https://wiki.mvideo.ru/pages/viewpage.action?pageId=234013529"
+
+paths:
+  /api/v1/handover-options:
+    post:
+      tags:
+        - handover-option
+      summary: Метод возвращает краткую информацию о доступных способах получения товара(ов).
+      description: Метод возвращает краткую информацию о доступных способах получения товара(ов).
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/AvailableHandoverOptionRequest"
+      responses:
+        "200":
+          description: OK.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/AvailableHandoverOptionResponse"
+        "400":
+          description: In case of invalid request data
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ErrorResponse"
+        "500":
+          description: In case internal server error.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ErrorResponse"
+              examples:
+                response:
+                  value:
+                    timestamp: 2020-07-31T06:12:18.999+0000
+                    path: /api/v1/available-pickup-points
+                    status: 500
+                    error: Internal Server Error
+                    message: Internal server error
+                    requestId: 1355cce0-2
+  /api/v1/handover-options/delivery:
+    post:
+      tags:
+        - handover-option
+      summary: Метод возвращает подробную информацию о доставке товара (ов) по идентификатору опции получения.
+      description: Метод возвращает подробную информацию о доставке товара (ов) по идентификатору опции получения.
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/DeliveryRequest"
+      responses:
+        "200":
+          description: OK.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/DeliveryResponse"
+        "400":
+          description: In case of invalid request data
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ErrorResponse"
+        "500":
+          description: In case internal server error.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ErrorResponse"
+              examples:
+                response:
+                  value:
+                    timestamp: 2020-07-31T06:12:18.999+0000
+                    path: /api/v1/available-pickup-points
+                    status: 500
+                    error: Internal Server Error
+                    message: Internal server error
+                    requestId: 1355cce0-2
+  /api/v1/handover-options/delivery-providers:
+    post:
+      tags:
+        - handover-option
+      summary: Метод возвращает наименования брендов поставщиков и их приоритеты, доступных для связки объект резерва + адреса доставки + номенклатурный номер опции получения товара(ов)
+      description: Метод возвращает наименования брендов поставщиков и их приоритеты, доступных для связки объект резерва + адреса доставки + номенклатурный номер опции получения товара(ов)
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/DeliveryProvidersRequest"
+      responses:
+        "200":
+          description: OK.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/DeliveryProvidersResponse"
+        "400":
+          description: In case of invalid request data
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ErrorResponse"
+        "500":
+          description: In case internal server error.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ErrorResponse"
+              examples:
+                response:
+                  value:
+                    timestamp: 2020-07-31T06:12:18.999+0000
+                    path: /api/v1/available-pickup-points
+                    status: 500
+                    error: Internal Server Error
+                    message: Internal server error
+                    requestId: 1355cce0-2
+  /api/v1/handover-options/pickup:
+    post:
+      tags:
+        - handover-option
+      summary: Метод возвращает подробную информацию о самовывозе товара(ов) по идентификаторам способа получения.
+      description: Метод возвращает подробную информацию о самовывозе товара(ов) по идентификаторам способа получения.
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/PickupRequest"
+      responses:
+        "200":
+          description: OK.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/PickupResponse"
+        "400":
+          description: In case of invalid request data
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ErrorResponse"
+        "500":
+          description: In case internal server error.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ErrorResponse"
+              examples:
+                response:
+                  value:
+                    timestamp: 2020-07-31T06:12:18.999+0000
+                    path: /api/v1/available-pickup-points
+                    status: 500
+                    error: Internal Server Error
+                    message: Internal server error
+                    requestId: 1355cce0-2
+
+components:
+  schemas:
+    AvailableInterval:
+      type: object
+      required:
+        - minPrice
+        - dateTimeFrom
+        - dateTimeTo
+        - availabilityDate
+      properties:
+        minPrice:
+          type: number
+          format: double
+        dateTimeFrom:
+          type: string
+        #          format: date
+        dateTimeTo:
+          type: string
+        #          format: date
+        availabilityDate:
+          type: string
+          format: date
+    ReservationAvailableAt:
+      description: Контейнер содержащий объекты, даты доступности, материалы и стоки
+      type: object
+      required:
+        - handoverObject
+        - availableDates
+      properties:
+        handoverObject:
+          type: string
+        availableDates:
+          type: array
+          minItems: 0
+          items:
+            $ref: "#/components/schemas/AvailableDate"
+    PickupAvailableAt:
+      type: object
+      required:
+        - handoverObject
+        - availableMaterials
+      properties:
+        handoverObject:
+          type: string
+        availableMaterials:
+          type: array
+          minItems: 0
+          items:
+            $ref: "#/components/schemas/AvailableDate"
+        availablePickupPoints:
+          type: array
+          minItems: 0
+          items:
+            $ref: "#/components/schemas/AvailablePickupPoint"
+    AvailablePickupPoint:
+      description: Контейнер содержит в себе идентификаторы пунктов выдачи с рассчитанным leadTime Обязателен для handoverOption = "pickup-partner"
+      type: object
+      properties:
+        pickupPointId:
+          type: string
+          description: "Идентификатор пункта выдачи"
+        leadTimeMin:
+          type: string
+          format: date
+          description: "Минимальная дата с которой возможен самовывоз всех товаров из пункта выдачи с учетом leadTime"
+        leadTimeMax:
+          type: string
+          format: date
+          description: "Максимальная дата с которой возможен самовывоз всех товаров из пункта выдачи с учетом leadTime"
+    AvailableDate:
+      type: object
+      required:
+        - date
+        - applicableTo
+      properties:
+        date:
+          type: string
+          format: date
+          description: "Дата доступности получения товара"
+        time:
+          type: string
+          description: "Время к которому будет доставлен товар из магазина А в магазин B для опции pickup-seamless"
+        applicableTo:
+          type: array
+          minItems: 0
+          description: "Контейнер содержащий склады и остатки на них. Ключ - идентификатор склада/магазина"
+          items:
+            $ref: "#/components/schemas/DetailedApplicableTo"
+    DetailedApplicableTo:
+      type: object
+      description: "Позиция материалов"
+      required:
+        - material
+        - qty
+        - handoverObjectQty
+        - prepaidQty
+        - showcaseQty
+        - stocks
+      properties:
+        material:
+          type: string
+          description: "Номер материала"
+          example: "50044074"
+        qty:
+          type: integer
+          description: "Количество материалов всего (объект выдачи + stocks)"
+          example: 2
+          default: 0
+        handoverObjectQty:
+          type: integer
+          description: "Количество товара на объекте выдачи"
+          example: 2
+          default: 0
+        prepaidQty:
+          type: integer
+          description: "Количество материалов доступных по предоплате (объект выдачи + stocks)"
+          example: 0
+          default: 0
+        showcaseQty:
+          type: integer
+          description: "Количество витринных образцов (объект выдачи + stocks)"
+          example: 1
+          default: 0
+        stocks:
+          type: object
+          minItems: 0
+          description: "Контейнер содержащий склады и остатки на них. Ключ - идентификатор склада/магазина"
+          additionalProperties:
+            $ref: "#/components/schemas/StockValue"
+    StockValue:
+      type: object
+      description: "Склад и остатки на нем"
+      required:
+        - qty
+        - showcaseQty
+        - prepaid
+        - priority
+      properties:
+        qty:
+          type: integer
+          description: "Количество всего материалов на объекте"
+          default: 0
+        showcaseQty:
+          type: integer
+          description: "Количество витринных образцов на объекте"
+          default: 0
+        prepaid:
+          type: boolean
+          description: "Признак доступности материала только по предоплате"
+          default: false
+        priority:
+          type: integer
+          description: "Приоритет объекта в цепочках"
+          default: 0
+    CoordinatePoint:
+      type: object
+      description: "Географические координаты"
+      required:
+        - latitude
+        - longitude
+      properties:
+        latitude:
+          type: number
+          format: double
+          description: "Широта"
+          example: 55.7668
+        longitude:
+          type: number
+          format: double
+          description: "Долгота"
+          example: 37.6079
+        qcGeo:
+          type: string
+          description: "Код точности координат"
+          example: "3"
+          enum:
+            - 0
+            - 1
+            - 2
+            - 3
+            - 4
+            - 5
+          x-enum-varnames:
+            - EXACTLY
+            - NEAREST_BUILDING
+            - STREET
+            - LOCALITY
+            - CITY
+            - UNDEFINED
+    Address:
+      type: object
+      description: "Адресные данные"
+      required:
+        - representation
+      properties:
+        representation:
+          type: string
+          description: "Адрес одной строкой"
+        coordinate:
+          $ref: "#/components/schemas/CoordinatePoint"
+        data:
+          $ref: "#/components/schemas/AddressDetails"
+    AddressDetails:
+      type: object
+      description: "Детальная информация об адресе"
+      properties:
+        kladrId:
+          type: string
+          description: "Код КЛАДР"
+          example: "50045000745000900"
+        cityKladrId:
+          type: string
+          description: "КЛАДР города"
+          example: "5004500000000"
+        fiasId:
+          type: string
+          description: "Идентификатор ФИАС"
+          example: "de1a9352-16b4-44fc-9e17-6cea1002f4dc"
+        fiasCode:
+          type: string
+          description: "Код ФИАС"
+          example: "50045000745000000090000"
+        postalCode:
+          type: string
+          description: "Почтовый индекс"
+          example: "141865"
+        country:
+          type: string
+          description: "Страна"
+          example: "Россия"
+        regionType:
+          type: string
+          description: "Тип региона (краткий)"
+          example: "обл"
+        region:
+          type: string
+          description: "Наименование региона"
+          example: "Московская"
+        areaType:
+          type: string
+          description: "Тип района в регионе (краткий)"
+          example: "г"
+        area:
+          type: string
+          description: "Наименование района в регионе"
+          example: "Дмитров"
+        cityType:
+          type: string
+          description: "Тип города (краткий)"
+          example: "г"
+        city:
+          type: string
+          description: "Наименование города"
+          example: "Дмитров"
+        districtType:
+          type: string
+          description: "Тип района города (краткий)"
+        district:
+          type: string
+          description: "Наименование района города"
+        settlementType:
+          type: string
+          description: "Тип населенного пункта (краткий)"
+          example: "д"
+        settlement:
+          type: string
+          description: "Наименование населенного пункта"
+          example: "Горки Сухаревские"
+        streetType:
+          type: string
+          description: "Тип улицы (краткий)"
+          example: "ул"
+        street:
+          type: string
+          description: "Наименование улицы"
+          example: "Центральная"
+        houseType:
+          type: string
+          description: "Тип дома (краткий)"
+          example: "д"
+        house:
+          type: string
+          description: "Номер дома"
+          example: "20"
+        blockType:
+          type: string
+          description: "Тип блока (краткий)"
+          example: "к"
+        block:
+          type: string
+          description: "Номер блока"
+          example: "1"
+        flatType:
+          type: string
+          description: "Тип квартиры (краткий)"
+          example: "кв"
+        flat:
+          type: string
+          description: "Номер квартиры"
+          example: "25"
+        postalBox:
+          type: string
+          description: "Абонентский ящик"
+          example: "3"
+    RetailBrand:
+      type: string
+      description: "Бренд"
+      enum:
+        - MVIDEO
+        - ELDORADO
+    PartnerBrand:
+      type: string
+      description: "Бренд партнера"
+      enum:
+        - 5post
+        - POST
+        - PickPoint
+        - boxberry
+      x-enum-varnames:
+        - FIVE
+        - POST
+        - PICK_POINT
+        - BOXBERRY
+    HandoverOption:
+      type: string
+      description: "Идентификатор опции получения товара"
+      example: eta-delivery
+      enum:
+        - quota-delivery-express
+        - quota-delivery-regular
+        - eta-delivery
+        - exactly-time-delivery
+        - electronic-delivery
+        - dpd-delivery
+        - pickup
+        - pickup-partner
+        - pickup-seamless
+    HandoverOptionType:
+      type: string
+      description: "Тип способа получения товара"
+      enum:
+        - delivery
+        - pickup
+    Material:
+      type: object
+      description: "Позиция материалов"
+      required:
+        - material
+        - qty
+        - price
+      properties:
+        material:
+          type: string
+          description: "Номенклатурный номер материала"
+          example: "50044074"
+        qty:
+          type: integer
+          description: "Количество товара"
+          example: 2
+        price:
+          type: number
+          format: double
+          description: "Стоимость одного материала с учетом ценовых скидок (без учета применения скидочных средств)"
+          example: 3999.5
+    InvalidPickupPoint:
+      type: object
+      required:
+        - pickupPointId
+        - reason
+      properties:
+        pickupPointId:
+          type: string
+        reason:
+          $ref: "#/components/schemas/InvalidPickupPointReason"
+    InvalidPickupPointReason:
+      type: string
+      enum:
+        - MIN_PRICE
+        - MAX_PRICE
+        - MAX_WEIGHT
+        - DIMENSIONS
+        - NO_DELIVERY_DATE
+        - NO_AVAILABLE_STOCK
+    LocationDescription:
+      type: object
+      properties:
+        coordinate:
+          $ref: "#/components/schemas/CoordinatePoint"
+        objectId:
+          type: string
+          description: "Идентификатор магазина"
+          example: "S191"
+        address:
+          type: string
+          description: "Адрес"
+          example: "Большой Путинковский пер., 5"
+
+
+    AvailableHandoverOptionRequest:
+      type: object
+      description: "Запрос доступности способов получения"
+      required:
+        - regionId
+        - retailBrand
+        - materials
+      properties:
+        regionId:
+          type: string
+          description: "Код РИМ"
+          example: S002
+        retailBrand:
+          $ref: "#/components/schemas/RetailBrand"
+        cachebust:
+          type: boolean
+          description: Если флаг true, то данные будут возвращены из кэша сервиса
+          default: false
+        getQuota:
+          type: boolean
+          description: Если флаг true, то данные будут возвращены для курьерки
+          default: false
+        materials:
+          type: array
+          description: "Список позиций материалов"
+          minItems: 1
+          items:
+            $ref: "#/components/schemas/Material"
+    AvailableHandoverOptionResponse:
+      type: array
+      description: "Ответ доступности способов получения"
+      items:
+        $ref: "#/components/schemas/HandoverOptionsBriefResponse"
+      minItems: 0
+    HandoverOptionsBriefResponse:
+      type: object
+      required:
+        - options
+      properties:
+        type:
+          $ref: "#/components/schemas/HandoverOptionType"
+        options:
+          type: array
+          minItems: 1
+          items:
+            $ref: "#/components/schemas/HandoverOptionBrief"
+          description: "Опции доступности материалов"
+    HandoverOptionBrief:
+      type: object
+      description: "Опция доступности материалов"
+      required:
+        - handoverOption
+        - minPrice
+        - availabilityDate
+        - applicableTo
+      properties:
+        handoverOption:
+          $ref: "#/components/schemas/HandoverOption"
+        minPrice:
+          type: number
+          format: double
+          description: "Минимальная стоимость опции получения товара"
+          example: 300.8
+        time:
+          type: string
+          description: "Время к которому будет доставлен товар из магазина А в магазин B для опции pickup-seamless"
+        eta:
+          type: integer
+          description: "Максимальное время за которое доставят заказ (в минутах)"
+        availabilityDate:
+          type: string
+          format: date
+          description: "Дата доступности получения товара"
+        availableIntervals:
+          type: array
+          description: ""
+          minItems: 1
+          items:
+            $ref: "#/components/schemas/AvailableInterval"
+        sumObjectsOfDate:
+          type: array
+          description: ""
+          minItems: 1
+          items:
+            $ref: "#/components/schemas/SumObjectsOfDate"
+        partnerBrand:
+          type: array
+          description: "Бренды pickup-partner из которых доступен самовывоз"
+          items:
+            $ref: "#/components/schemas/PartnerBrand"
+        applicableTo:
+          type: array
+          description: "Материалы в разрезе дат доступности"
+          minItems: 1
+          items:
+            $ref: "#/components/schemas/AvailabilityApplicableTo"
+    SumObjectsOfDate:
+      type: object
+      required:
+        - qtyObjects
+        - availabilityDate
+      properties:
+        qtyObjects:
+          type: integer
+          description: "Сумма объектов с которых возможен самовывоз товара(ов) на определенную дату"
+        availabilityDate:
+          type: string
+          format: date
+          description: "Дата доступности товара(ов)"
+    AvailabilityApplicableTo:
+      type: object
+      description: "Позиция материалов"
+      required:
+        - material
+        - qty
+        - availabilityDate
+        - prepaidQty
+        - showcaseQty
+      properties:
+        material:
+          type: string
+          description: "Номенклатурный номер материала"
+          example: "100087"
+        qty:
+          type: integer
+          description: "Количество материалов"
+          example: 2
+          default: 0
+        availabilityDate:
+          type: string
+          format: date
+          description: "Дата доступности материала"
+        prepaidQty:
+          type: integer
+          description: "Сумма конкретного material на дату (availabilityDate) доступного только по предоплате"
+          default: 0
+        showcaseQty:
+          type: boolean
+          description: "Признак, показывающий, что все остатки конкретного material являются витринным образцом"
+          default: false
+
+    DeliveryRequest:
+      type: object
+      description: "Запрос доступности способов получения"
+      required:
+        - regionId
+        - retailBrand
+        - handoverOption
+        - materials
+      properties:
+        regionId:
+          type: string
+          description: "Код РИМ"
+          example: "S002"
+        retailBrand:
+          $ref: "#/components/schemas/RetailBrand"
+        handoverOption:
+          $ref: "#/components/schemas/HandoverOption"
+        destination:
+          type: string
+          description: "Адрес доставки"
+          example: "Большой Путинковский пер., 5"
+        coordinate:
+          $ref: "#/components/schemas/CoordinatePoint"
+        materials:
+          type: array
+          description: "Список позиций материалов"
+          minItems: 1
+          items:
+            $ref: "#/components/schemas/Material"
+        address:
+          $ref: "#/components/schemas/Address"
+        includeStocks:
+          type: boolean
+          description: Требуется ли возвращать детальную информацию о способах получения
+          example: false
+          default: true
+    DeliveryResponse:
+      type: object
+      description: "Ответ доступности способов получения"
+      required:
+        - handoverOption
+        - minPrice
+        - availabilityDate
+        - availableAt
+      properties:
+        handoverOption:
+          $ref: "#/components/schemas/HandoverOption"
+        minPrice:
+          type: number
+          format: double
+        availabilityDate:
+          type: string
+          format: date
+          description: "Дата доступности получения товара"
+        eta:
+          type: integer
+          description: "Максимальное время за которое доставят заказ (в минутах)"
+        handoverOptionMaterial:
+          type: string
+        availableIntervals:
+          type: array
+          description: ""
+          minItems: 1
+          items:
+            $ref: "#/components/schemas/AvailableInterval"
+        availableAt:
+          type: array
+          description: "Список позиций материалов"
+          minItems: 1
+          items:
+            $ref: "#/components/schemas/ReservationAvailableAt"
+
+    DeliveryProvidersRequest:
+      type: object
+      description: "Запрос брендов поставщиков и их приоритетов"
+      required:
+        - retailBrand
+        - recipient
+        - source
+        - handoverOptionMaterial
+        - materials
+      properties:
+        retailBrand:
+          $ref: "#/components/schemas/RetailBrand"
+        recipient:
+          $ref: "#/components/schemas/LocationDescription"
+        source:
+          $ref: "#/components/schemas/LocationDescription"
+        handoverOptionMaterial:
+          type: string
+          example: "6004957"
+        materials:
+          type: array
+          description: "Список позиций материалов"
+          minItems: 1
+          items:
+            $ref: "#/components/schemas/Material"
+    DeliveryProvidersResponse:
+      type: object
+      description: "Ответ наименования брендов поставщиков и их приоритеты"
+      properties:
+        optionProviders:
+          type: array
+          items:
+            $ref: "#/components/schemas/DeliveryProvidersResponseItem"
+          minItems: 0
+    DeliveryProvidersResponseItem:
+      type: object
+      description: "Ответ доступности способов получения"
+      required:
+        - provider
+        - priority
+      properties:
+        provider:
+          type: string
+          description: "Бренд поставщика услуги"
+        priority:
+          type: integer
+          description: "	Приоритет выбора поставщика"
+
+    PickupRequest:
+      type: object
+      description: "Запрос доступности информации о самовывозе товара(ов) по идентификаторам способа получения"
+      required:
+        - regionId
+        - retailBrand
+        - materials
+      properties:
+        regionId:
+          type: string
+          example: "S002"
+        retailBrand:
+          $ref: "#/components/schemas/RetailBrand"
+        handoverOption:
+          example: [ "pickup", "pickup-partner" ]
+          type: array
+          items:
+            $ref: "#/components/schemas/HandoverOption"
+        materials:
+          type: array
+          description: "Список позиций материалов"
+          minItems: 1
+          items:
+            $ref: "#/components/schemas/Material"
+        pickupPointBrands:
+          type: array
+          items:
+            $ref: "#/components/schemas/PartnerBrand"
+        includeStocks:
+          type: boolean
+          description: Требуется ли возвращать детальную информацию о способах получения
+          example: false
+          default: true
+    PickupResponseItem:
+      type: object
+      description: "Ответ доступности информации о самовывозе товара(ов)"
+      required:
+        - handoverOption
+        - minPrice
+        - availabilityDate
+        - availableAt
+      properties:
+        handoverOption:
+          $ref: "#/components/schemas/HandoverOption"
+        minPrice:
+          type: number
+          format: double
+        availabilityDate:
+          type: string
+          format: date
+          description: "Дата доступности получения товара"
+        handoverOptionMaterial:
+          type: string
+        availableAt:
+          type: array
+          description: "Контейнер содержащий объекты, даты доступности, материалы и стоки"
+          minItems: 1
+          items:
+            $ref: "#/components/schemas/PickupAvailableAt"
+        invalidPickupPoints:
+          type: array
+          minItems: 1
+          items:
+            $ref: "#/components/schemas/InvalidPickupPoint"
+    PickupResponse:
+      type: array
+      description: " "
+      items:
+        $ref: "#/components/schemas/PickupResponseItem"
+      minItems: 0
+
+    ErrorResponse:
+      type: object
+      description: "Стандартное описание ошибки"
+      required:
+        - errorCode
+        - message
+      properties:
+        path:
+          type: string
+          example: /api/v1/handover-option-service
+        status:
+          type: integer
+          example: 404
+        error:
+          type: string
+          example: Not Found
+        message:
+          type: string
+          example: Region not found
+        timestamp:
+          type: string
+          format: date-time
+          example: 2020-11-09T09:01:26.131920500Z
+        requestId:
+          type: string
+          example: 1355cce0-2
+
+externalDocs:
+  description: Документация Сonfluence
+  url: https://wiki.mvideo.ru/pages/viewpage.action?pageId=209296167

@@ -1,0 +1,9 @@
+[
+  {
+    "zoneId": "S002",
+    "handoverOptionName": "pickup-partner",
+    "price": 0,
+    "minRadius": 0,
+    "maxRadius": 10
+  }
+]

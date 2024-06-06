@@ -1,0 +1,947 @@
+[
+  {
+    "zoneId": "S002",
+    "handoverPickupObjects": [
+      {
+        "objectId": "S073",
+        "objectType": "SHOP",
+        "coordinate": {
+          "latitude": 55.767,
+          "longitude": 37.622
+        },
+        "timeZone": 3,
+        "distance": 0.67
+      },
+      {
+        "objectId": "S029",
+        "objectType": "SHOP",
+        "coordinate": {
+          "latitude": 55.771,
+          "longitude": 37.642
+        },
+        "timeZone": 3,
+        "distance": 1.99
+      },
+      {
+        "objectId": "S064",
+        "objectType": "SHOP",
+        "coordinate": {
+          "latitude": 55.762,
+          "longitude": 37.568
+        },
+        "timeZone": 3,
+        "distance": 2.78
+      },
+      {
+        "objectId": "S783",
+        "objectType": "SHOP",
+        "coordinate": {
+          "latitude": 55.757226,
+          "longitude": 37.659037
+        },
+        "timeZone": 3,
+        "distance": 3.04
+      },
+      {
+        "objectId": "S215",
+        "objectType": "SHOP",
+        "coordinate": {
+          "latitude": 55.793,
+          "longitude": 37.636
+        },
+        "timeZone": 3,
+        "distance": 3.49
+      },
+      {
+        "objectId": "S722",
+        "objectType": "SHOP",
+        "coordinate": {
+          "latitude": 55.745,
+          "longitude": 37.566
+        },
+        "timeZone": 3,
+        "distance": 3.62
+      },
+      {
+        "objectId": "SA02",
+        "objectType": "SHOP",
+        "coordinate": {
+          "latitude": 55.77475,
+          "longitude": 37.668857
+        },
+        "timeZone": 3,
+        "distance": 3.72
+      },
+      {
+        "objectId": "SP01",
+        "objectType": "SHOP",
+        "coordinate": {
+          "latitude": 55.773849,
+          "longitude": 37.671462
+        },
+        "timeZone": 3,
+        "distance": 3.85
+      },
+      {
+        "objectId": "S067",
+        "objectType": "SHOP",
+        "coordinate": {
+          "latitude": 55.785751,
+          "longitude": 37.665538
+        },
+        "timeZone": 3,
+        "distance": 4.08
+      },
+      {
+        "objectId": "S205",
+        "objectType": "SHOP",
+        "coordinate": {
+          "latitude": 55.791,
+          "longitude": 37.559
+        },
+        "timeZone": 3,
+        "distance": 4.44
+      },
+      {
+        "objectId": "S025",
+        "objectType": "SHOP",
+        "coordinate": {
+          "latitude": 55.786,
+          "longitude": 37.678
+        },
+        "timeZone": 3,
+        "distance": 4.75
+      },
+      {
+        "objectId": "S018",
+        "objectType": "SHOP",
+        "coordinate": {
+          "latitude": 55.805356,
+          "longitude": 37.635278
+        },
+        "timeZone": 3,
+        "distance": 4.75
+      },
+      {
+        "objectId": "S506",
+        "objectType": "SHOP",
+        "coordinate": {
+          "latitude": 55.749,
+          "longitude": 37.54
+        },
+        "timeZone": 3,
+        "distance": 4.84
+      },
+      {
+        "objectId": "S526",
+        "objectType": "SHOP",
+        "coordinate": {
+          "latitude": 55.749,
+          "longitude": 37.539
+        },
+        "timeZone": 3,
+        "distance": 4.9
+      },
+      {
+        "objectId": "S094",
+        "objectType": "SHOP",
+        "coordinate": {
+          "latitude": 55.790142,
+          "longitude": 37.532622
+        },
+        "timeZone": 3,
+        "distance": 5.73
+      },
+      {
+        "objectId": "S757",
+        "objectType": "SHOP",
+        "coordinate": {
+          "latitude": 55.709,
+          "longitude": 37.622
+        },
+        "timeZone": 3,
+        "distance": 6.22
+      },
+      {
+        "objectId": "S087",
+        "objectType": "SHOP",
+        "coordinate": {
+          "latitude": 55.747,
+          "longitude": 37.707
+        },
+        "timeZone": 3,
+        "distance": 6.25
+      },
+      {
+        "objectId": "S099",
+        "objectType": "SHOP",
+        "coordinate": {
+          "latitude": 55.707,
+          "longitude": 37.592
+        },
+        "timeZone": 3,
+        "distance": 6.53
+      },
+      {
+        "objectId": "S014",
+        "objectType": "SHOP",
+        "coordinate": {
+          "latitude": 55.781,
+          "longitude": 37.718
+        },
+        "timeZone": 3,
+        "distance": 6.86
+      },
+      {
+        "objectId": "S058",
+        "objectType": "SHOP",
+        "coordinate": {
+          "latitude": 55.834,
+          "longitude": 37.572
+        },
+        "timeZone": 3,
+        "distance": 8.11
+      },
+      {
+        "objectId": "S747",
+        "objectType": "SHOP",
+        "coordinate": {
+          "latitude": 55.696,
+          "longitude": 37.665
+        },
+        "timeZone": 3,
+        "distance": 8.32
+      },
+      {
+        "objectId": "S024",
+        "objectType": "SHOP",
+        "coordinate": {
+          "latitude": 55.781,
+          "longitude": 37.481
+        },
+        "timeZone": 3,
+        "distance": 8.41
+      },
+      {
+        "objectId": "S045",
+        "objectType": "SHOP",
+        "coordinate": {
+          "latitude": 55.689,
+          "longitude": 37.602
+        },
+        "timeZone": 3,
+        "distance": 8.43
+      },
+      {
+        "objectId": "S626",
+        "objectType": "SHOP",
+        "coordinate": {
+          "latitude": 55.845556,
+          "longitude": 37.667222
+        },
+        "timeZone": 3,
+        "distance": 9.63
+      },
+      {
+        "objectId": "S054",
+        "objectType": "SHOP",
+        "coordinate": {
+          "latitude": 55.823,
+          "longitude": 37.498
+        },
+        "timeZone": 3,
+        "distance": 9.65
+      },
+      {
+        "objectId": "S050",
+        "objectType": "SHOP",
+        "coordinate": {
+          "latitude": 55.853,
+          "longitude": 37.586
+        },
+        "timeZone": 3,
+        "distance": 9.96
+      },
+      {
+        "objectId": "S026",
+        "objectType": "SHOP",
+        "coordinate": {
+          "latitude": 55.725554,
+          "longitude": 37.463826
+        },
+        "timeZone": 3,
+        "distance": 10.25
+      },
+      {
+        "objectId": "S613",
+        "objectType": "SHOP",
+        "coordinate": {
+          "latitude": 55.809671,
+          "longitude": 37.463
+        },
+        "timeZone": 3,
+        "distance": 10.59
+      },
+      {
+        "objectId": "S412",
+        "objectType": "SHOP",
+        "coordinate": {
+          "latitude": 55.863,
+          "longitude": 37.602
+        },
+        "timeZone": 3,
+        "distance": 10.96
+      },
+      {
+        "objectId": "SA12",
+        "objectType": "SHOP",
+        "coordinate": {
+          "latitude": 55.664,
+          "longitude": 37.627
+        },
+        "timeZone": 3,
+        "distance": 11.23
+      },
+      {
+        "objectId": "S053",
+        "objectType": "SHOP",
+        "coordinate": {
+          "latitude": 55.719,
+          "longitude": 37.779
+        },
+        "timeZone": 3,
+        "distance": 11.61
+      },
+      {
+        "objectId": "S081",
+        "objectType": "SHOP",
+        "coordinate": {
+          "latitude": 55.869,
+          "longitude": 37.637
+        },
+        "timeZone": 3,
+        "distance": 11.71
+      },
+      {
+        "objectId": "S027",
+        "objectType": "SHOP",
+        "coordinate": {
+          "latitude": 55.704,
+          "longitude": 37.766
+        },
+        "timeZone": 3,
+        "distance": 11.75
+      },
+      {
+        "objectId": "S011",
+        "objectType": "SHOP",
+        "coordinate": {
+          "latitude": 55.653,
+          "longitude": 37.617
+        },
+        "timeZone": 3,
+        "distance": 12.42
+      },
+      {
+        "objectId": "S093",
+        "objectType": "SHOP",
+        "coordinate": {
+          "latitude": 55.653,
+          "longitude": 37.646
+        },
+        "timeZone": 3,
+        "distance": 12.59
+      },
+      {
+        "objectId": "S789",
+        "objectType": "SHOP",
+        "coordinate": {
+          "latitude": 55.651,
+          "longitude": 37.612
+        },
+        "timeZone": 3,
+        "distance": 12.63
+      },
+      {
+        "objectId": "S057",
+        "objectType": "SHOP",
+        "coordinate": {
+          "latitude": 55.664,
+          "longitude": 37.511
+        },
+        "timeZone": 3,
+        "distance": 12.86
+      },
+      {
+        "objectId": "S056",
+        "objectType": "SHOP",
+        "coordinate": {
+          "latitude": 55.752,
+          "longitude": 37.819
+        },
+        "timeZone": 3,
+        "distance": 13.01
+      },
+      {
+        "objectId": "S082",
+        "objectType": "SHOP",
+        "coordinate": {
+          "latitude": 55.855,
+          "longitude": 37.479
+        },
+        "timeZone": 3,
+        "distance": 13.05
+      },
+      {
+        "objectId": "S019",
+        "objectType": "SHOP",
+        "coordinate": {
+          "latitude": 55.654,
+          "longitude": 37.539
+        },
+        "timeZone": 3,
+        "distance": 13.13
+      },
+      {
+        "objectId": "S036",
+        "objectType": "SHOP",
+        "coordinate": {
+          "latitude": 55.678,
+          "longitude": 37.466
+        },
+        "timeZone": 3,
+        "distance": 13.29
+      },
+      {
+        "objectId": "S751",
+        "objectType": "SHOP",
+        "coordinate": {
+          "latitude": 55.888,
+          "longitude": 37.589
+        },
+        "timeZone": 3,
+        "distance": 13.8
+      },
+      {
+        "objectId": "S079",
+        "objectType": "SHOP",
+        "coordinate": {
+          "latitude": 55.85,
+          "longitude": 37.444
+        },
+        "timeZone": 3,
+        "distance": 14.16
+      },
+      {
+        "objectId": "S323",
+        "objectType": "SHOP",
+        "coordinate": {
+          "latitude": 55.659,
+          "longitude": 37.742
+        },
+        "timeZone": 3,
+        "distance": 14.28
+      },
+      {
+        "objectId": "S100",
+        "objectType": "SHOP",
+        "coordinate": {
+          "latitude": 55.806,
+          "longitude": 37.396
+        },
+        "timeZone": 3,
+        "distance": 14.28
+      },
+      {
+        "objectId": "S758",
+        "objectType": "SHOP",
+        "coordinate": {
+          "latitude": 55.766,
+          "longitude": 37.381
+        },
+        "timeZone": 3,
+        "distance": 14.46
+      },
+      {
+        "objectId": "S020",
+        "objectType": "SHOP",
+        "coordinate": {
+          "latitude": 55.81,
+          "longitude": 37.831
+        },
+        "timeZone": 3,
+        "distance": 14.58
+      },
+      {
+        "objectId": "S044",
+        "objectType": "SHOP",
+        "coordinate": {
+          "latitude": 55.899,
+          "longitude": 37.629
+        },
+        "timeZone": 3,
+        "distance": 14.98
+      },
+      {
+        "objectId": "S503",
+        "objectType": "SHOP",
+        "coordinate": {
+          "latitude": 55.63,
+          "longitude": 37.659
+        },
+        "timeZone": 3,
+        "distance": 15.25
+      },
+      {
+        "objectId": "S047",
+        "objectType": "SHOP",
+        "coordinate": {
+          "latitude": 55.823,
+          "longitude": 37.39
+        },
+        "timeZone": 3,
+        "distance": 15.33
+      },
+      {
+        "objectId": "S016",
+        "objectType": "SHOP",
+        "coordinate": {
+          "latitude": 55.649,
+          "longitude": 37.746
+        },
+        "timeZone": 3,
+        "distance": 15.35
+      },
+      {
+        "objectId": "S797",
+        "objectType": "SHOP",
+        "coordinate": {
+          "latitude": 55.707,
+          "longitude": 37.385
+        },
+        "timeZone": 3,
+        "distance": 15.6
+      },
+      {
+        "objectId": "S051",
+        "objectType": "SHOP",
+        "coordinate": {
+          "latitude": 55.738,
+          "longitude": 37.857
+        },
+        "timeZone": 3,
+        "distance": 15.6
+      },
+      {
+        "objectId": "S034",
+        "objectType": "SHOP",
+        "coordinate": {
+          "latitude": 55.901772,
+          "longitude": 37.548407
+        },
+        "timeZone": 3,
+        "distance": 15.76
+      },
+      {
+        "objectId": "S504",
+        "objectType": "SHOP",
+        "coordinate": {
+          "latitude": 55.65,
+          "longitude": 37.77
+        },
+        "timeZone": 3,
+        "distance": 16.13
+      },
+      {
+        "objectId": "S041",
+        "objectType": "SHOP",
+        "coordinate": {
+          "latitude": 55.6593785737,
+          "longitude": 37.4291734003
+        },
+        "timeZone": 3,
+        "distance": 16.38
+      },
+      {
+        "objectId": "S229",
+        "objectType": "SHOP",
+        "coordinate": {
+          "latitude": 55.913216,
+          "longitude": 37.57066
+        },
+        "timeZone": 3,
+        "distance": 16.73
+      },
+      {
+        "objectId": "S096",
+        "objectType": "SHOP",
+        "coordinate": {
+          "latitude": 55.611,
+          "longitude": 37.607
+        },
+        "timeZone": 3,
+        "distance": 17.08
+      },
+      {
+        "objectId": "S745",
+        "objectType": "SHOP",
+        "coordinate": {
+          "latitude": 55.622,
+          "longitude": 37.714
+        },
+        "timeZone": 3,
+        "distance": 17.09
+      },
+      {
+        "objectId": "S097",
+        "objectType": "SHOP",
+        "coordinate": {
+          "latitude": 55.752,
+          "longitude": 37.887
+        },
+        "timeZone": 3,
+        "distance": 17.25
+      },
+      {
+        "objectId": "S077",
+        "objectType": "SHOP",
+        "coordinate": {
+          "latitude": 55.619,
+          "longitude": 37.509
+        },
+        "timeZone": 3,
+        "distance": 17.44
+      },
+      {
+        "objectId": "S028",
+        "objectType": "SHOP",
+        "coordinate": {
+          "latitude": 55.889,
+          "longitude": 37.433
+        },
+        "timeZone": 3,
+        "distance": 17.79
+      },
+      {
+        "objectId": "S039",
+        "objectType": "SHOP",
+        "coordinate": {
+          "latitude": 55.625,
+          "longitude": 37.761
+        },
+        "timeZone": 3,
+        "distance": 18.11
+      },
+      {
+        "objectId": "S048",
+        "objectType": "SHOP",
+        "coordinate": {
+          "latitude": 55.847,
+          "longitude": 37.362
+        },
+        "timeZone": 3,
+        "distance": 18.12
+      },
+      {
+        "objectId": "S318",
+        "objectType": "SHOP",
+        "coordinate": {
+          "latitude": 55.699,
+          "longitude": 37.346
+        },
+        "timeZone": 3,
+        "distance": 18.19
+      },
+      {
+        "objectId": "S756",
+        "objectType": "SHOP",
+        "coordinate": {
+          "latitude": 55.92,
+          "longitude": 37.709
+        },
+        "timeZone": 3,
+        "distance": 18.3
+      },
+      {
+        "objectId": "S704",
+        "objectType": "SHOP",
+        "coordinate": {
+          "latitude": 55.686,
+          "longitude": 37.876
+        },
+        "timeZone": 3,
+        "distance": 18.69
+      },
+      {
+        "objectId": "S046",
+        "objectType": "SHOP",
+        "coordinate": {
+          "latitude": 55.658,
+          "longitude": 37.845
+        },
+        "timeZone": 3,
+        "distance": 18.79
+      },
+      {
+        "objectId": "S614",
+        "objectType": "SHOP",
+        "coordinate": {
+          "latitude": 55.653119,
+          "longitude": 37.844845
+        },
+        "timeZone": 3,
+        "distance": 19.13
+      },
+      {
+        "objectId": "S740",
+        "objectType": "SHOP",
+        "coordinate": {
+          "latitude": 55.917,
+          "longitude": 37.758
+        },
+        "timeZone": 3,
+        "distance": 19.23
+      },
+      {
+        "objectId": "S780",
+        "objectType": "SHOP",
+        "coordinate": {
+          "latitude": 55.624,
+          "longitude": 37.428
+        },
+        "timeZone": 3,
+        "distance": 19.44
+      },
+      {
+        "objectId": "S055",
+        "objectType": "SHOP",
+        "coordinate": {
+          "latitude": 55.912,
+          "longitude": 37.78
+        },
+        "timeZone": 3,
+        "distance": 19.45
+      },
+      {
+        "objectId": "S070",
+        "objectType": "SHOP",
+        "coordinate": {
+          "latitude": 55.916,
+          "longitude": 37.772
+        },
+        "timeZone": 3,
+        "distance": 19.57
+      },
+      {
+        "objectId": "S069",
+        "objectType": "SHOP",
+        "coordinate": {
+          "latitude": 55.829,
+          "longitude": 37.308
+        },
+        "timeZone": 3,
+        "distance": 20.32
+      },
+      {
+        "objectId": "S038",
+        "objectType": "SHOP",
+        "coordinate": {
+          "latitude": 55.794,
+          "longitude": 37.939
+        },
+        "timeZone": 3,
+        "distance": 20.7
+      },
+      {
+        "objectId": "S035",
+        "objectType": "SHOP",
+        "coordinate": {
+          "latitude": 55.91,
+          "longitude": 37.401
+        },
+        "timeZone": 3,
+        "distance": 20.86
+      },
+      {
+        "objectId": "S089",
+        "objectType": "SHOP",
+        "coordinate": {
+          "latitude": 55.585,
+          "longitude": 37.725
+        },
+        "timeZone": 3,
+        "distance": 21.19
+      },
+      {
+        "objectId": "S748",
+        "objectType": "SHOP",
+        "coordinate": {
+          "latitude": 55.946,
+          "longitude": 37.506
+        },
+        "timeZone": 3,
+        "distance": 21.23
+      },
+      {
+        "objectId": "S085",
+        "objectType": "SHOP",
+        "coordinate": {
+          "latitude": 55.574,
+          "longitude": 37.565
+        },
+        "timeZone": 3,
+        "distance": 21.4
+      },
+      {
+        "objectId": "S091",
+        "objectType": "SHOP",
+        "coordinate": {
+          "latitude": 55.876,
+          "longitude": 37.332
+        },
+        "timeZone": 3,
+        "distance": 21.44
+      },
+      {
+        "objectId": "S063",
+        "objectType": "SHOP",
+        "coordinate": {
+          "latitude": 55.678,
+          "longitude": 37.281
+        },
+        "timeZone": 3,
+        "distance": 22.87
+      },
+      {
+        "objectId": "S499",
+        "objectType": "SHOP",
+        "coordinate": {
+          "latitude": 55.557,
+          "longitude": 37.494
+        },
+        "timeZone": 3,
+        "distance": 24.25
+      },
+      {
+        "objectId": "S071",
+        "objectType": "SHOP",
+        "coordinate": {
+          "latitude": 55.548,
+          "longitude": 37.543
+        },
+        "timeZone": 3,
+        "distance": 24.48
+      },
+      {
+        "objectId": "S065",
+        "objectType": "SHOP",
+        "coordinate": {
+          "latitude": 55.501,
+          "longitude": 37.562
+        },
+        "timeZone": 3,
+        "distance": 29.48
+      },
+      {
+        "objectId": "S090",
+        "objectType": "SHOP",
+        "coordinate": {
+          "latitude": 55.975,
+          "longitude": 37.907
+        },
+        "timeZone": 3,
+        "distance": 29.76
+      },
+      {
+        "objectId": "S092",
+        "objectType": "SHOP",
+        "coordinate": {
+          "latitude": 55.928,
+          "longitude": 38.008
+        },
+        "timeZone": 3,
+        "distance": 30.67
+      },
+      {
+        "objectId": "S669",
+        "objectType": "SHOP",
+        "coordinate": {
+          "latitude": 56.001,
+          "longitude": 37.881
+        },
+        "timeZone": 3,
+        "distance": 31.18
+      },
+      {
+        "objectId": "S798",
+        "objectType": "SHOP",
+        "coordinate": {
+          "latitude": 55.901,
+          "longitude": 38.069
+        },
+        "timeZone": 3,
+        "distance": 32.31
+      },
+      {
+        "objectId": "S095",
+        "objectType": "SHOP",
+        "coordinate": {
+          "latitude": 55.608,
+          "longitude": 38.091
+        },
+        "timeZone": 3,
+        "distance": 34.7
+      },
+      {
+        "objectId": "S084",
+        "objectType": "SHOP",
+        "coordinate": {
+          "latitude": 55.452,
+          "longitude": 37.763
+        },
+        "timeZone": 3,
+        "distance": 36.03
+      },
+      {
+        "objectId": "S060",
+        "objectType": "SHOP",
+        "coordinate": {
+          "latitude": 55.984,
+          "longitude": 37.176
+        },
+        "timeZone": 3,
+        "distance": 36.54
+      },
+      {
+        "objectId": "S066",
+        "objectType": "SHOP",
+        "coordinate": {
+          "latitude": 56.009,
+          "longitude": 37.2
+        },
+        "timeZone": 3,
+        "distance": 37.41
+      },
+      {
+        "objectId": "S061",
+        "objectType": "SHOP",
+        "coordinate": {
+          "latitude": 55.425,
+          "longitude": 37.528
+        },
+        "timeZone": 3,
+        "distance": 38.13
+      },
+      {
+        "objectId": "S716",
+        "objectType": "SHOP",
+        "coordinate": {
+          "latitude": 55.582,
+          "longitude": 38.199
+        },
+        "timeZone": 3,
+        "distance": 42.03
+      }
+    ]
+  }
+]

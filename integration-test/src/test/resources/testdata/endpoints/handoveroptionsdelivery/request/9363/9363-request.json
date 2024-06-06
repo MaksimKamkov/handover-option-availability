@@ -1,0 +1,18 @@
+{
+  "regionId": "S002",
+  "retailBrand": "MVIDEO",
+  "address": {
+    "representation": "Москва, Пушкина"
+  },
+  "handoverOption": [
+    "interval-delivery"
+  ],
+  "materials": [
+    {
+      "material": "50044074",
+      "qty": 1,
+      "price": 500
+    }
+  ],
+  "includeStocks": false
+}

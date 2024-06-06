@@ -1,0 +1,32 @@
+{
+  "request": {
+    "url": "/api/v2/price-rules/get-min-price",
+    "method": "POST",
+    "bodyPatterns": [
+      {
+        "ignoreArrayOrder": true,
+        "equalToJson": {
+          "zoneIds": [
+            "S002"
+          ],
+          "handoverOptions": [
+            {
+              "name": "interval-delivery",
+              "price": 500.0
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "response": {
+    "status": 200,
+    "bodyFileName": "handoveroptionsdelivery/9363/9363-price-rules-get-min-price-mock-response.json",
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "transformers": [
+      "response-template"
+    ]
+  }
+}

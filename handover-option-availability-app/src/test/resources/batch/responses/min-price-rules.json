@@ -1,0 +1,18 @@
+[
+  {
+    "price": 2000.0,
+    "minPriceHandoverOptions": {
+      "eta-delivery": 300,
+      "pickup": 200,
+      "pickup-partner": 100
+    }
+  },
+  {
+    "price": 3000.0,
+    "minPriceHandoverOptions": {
+      "eta-delivery": 300,
+      "pickup": 200,
+      "pickup-partner": 100
+    }
+  }
+]

@@ -1,0 +1,172 @@
+[
+  {
+    "providerName": "CALLTOVISIT",
+    "zoneIds": [
+      "S002",
+      "MSKDelivery"
+    ],
+    "handoverOptions": [
+      {
+        "name": "exactly-time-delivery",
+        "materialNumber": "6004958"
+      },
+      {
+        "name": "eta-delivery",
+        "materialNumber": "6016405"
+      }
+    ],
+    "providerAttributes": [
+      {
+        "name": "max_length",
+        "value": "120"
+      },
+      {
+        "name": "max_weight",
+        "value": "30"
+      },
+      {
+        "name": "max_width",
+        "value": "80"
+      },
+      {
+        "name": "max_height",
+        "value": "80"
+      },
+      {
+        "name": "source_radius",
+        "value": "50"
+      }
+    ],
+    "zoneProviderAttributes": [
+      {
+        "zoneId": "S002",
+        "name": "supplierPriority",
+        "value": "2"
+      },
+      {
+        "zoneId": "MSKDelivery",
+        "name": "supplierPriority",
+        "value": "2"
+      }
+    ]
+  },
+  {
+    "providerName": "POST",
+    "zoneIds": [
+      "S002"
+    ],
+    "handoverOptions": [
+      {
+        "name": "pickup-partner",
+        "materialNumber": "6004956"
+      }
+    ],
+    "zoneProviderAttributes": [
+      {
+        "zoneId": "S002",
+        "name": "allowImport",
+        "value": "true"
+      },
+      {
+        "zoneId": "S002",
+        "name": "virtualWarehouse",
+        "value": "SJ00"
+      },
+      {
+        "zoneId": "S002",
+        "name": "defaultEnabled",
+        "value": "true"
+      }
+    ]
+  },
+  {
+    "providerName": "GETT",
+    "zoneIds": [
+      "MSKDelivery"
+    ],
+    "handoverOptions": [
+      {
+        "name": "exactly-time-delivery",
+        "materialNumber": "6004958"
+      },
+      {
+        "name": "eta-delivery",
+        "materialNumber": "6016405"
+      }
+    ],
+    "providerAttributes": [
+      {
+        "name": "max_length",
+        "value": "120"
+      },
+      {
+        "name": "max_weight",
+        "value": "30"
+      },
+      {
+        "name": "max_width",
+        "value": "80"
+      },
+      {
+        "name": "max_height",
+        "value": "80"
+      },
+      {
+        "name": "source_radius",
+        "value": "50"
+      }
+    ],
+    "zoneProviderAttributes": [
+      {
+        "zoneId": "MSKDelivery",
+        "name": "supplierPriority",
+        "value": "0"
+      }
+    ]
+  },
+  {
+    "providerName": "YANDEX",
+    "zoneIds": [
+      "MSKDelivery"
+    ],
+    "handoverOptions": [
+      {
+        "name": "exactly-time-delivery",
+        "materialNumber": "6004958"
+      },
+      {
+        "name": "eta-delivery",
+        "materialNumber": "6016405"
+      }
+    ],
+    "providerAttributes": [
+      {
+        "name": "max_length",
+        "value": "120"
+      },
+      {
+        "name": "max_weight",
+        "value": "30"
+      },
+      {
+        "name": "max_width",
+        "value": "80"
+      },
+      {
+        "name": "max_height",
+        "value": "80"
+      },
+      {
+        "name": "source_radius",
+        "value": "50"
+      }
+    ],
+    "zoneProviderAttributes": [
+      {
+        "zoneId": "MSKDelivery",
+        "name": "supplierPriority",
+        "value": "3"
+      }
+    ]
+  }
+]

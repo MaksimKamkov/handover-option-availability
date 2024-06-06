@@ -1,0 +1,17 @@
+{
+  "regionId": "S002",
+  "retailBrand": "MVIDEO",
+  "handoverOption": [
+    "eta-delivery",
+    "electronic-delivery",
+    "pickup",
+    "interval-delivery",
+    "pickup-partner"
+  ],
+  "materials": [
+    {
+      "material": "50044074",
+      "price": 15909.0
+    }
+  ]
+}

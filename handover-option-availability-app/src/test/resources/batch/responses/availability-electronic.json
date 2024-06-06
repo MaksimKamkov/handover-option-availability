@@ -1,0 +1,50 @@
+{
+  "ResponseHeader": {
+    "clientId": "TEP",
+    "interfaceVersion": "2.0",
+    "responseDate": "2022-04-06 15:49:1",
+    "responseCode": 200,
+    "responseMessage": "OK",
+    "responseDescription": null,
+    "headerErrors": null,
+    "headerParams": null
+  },
+  "ResponseBody": {
+    "availabilityOptions": [
+      {
+        "material": "6004613",
+        "handoverType": "ELECTRONIC",
+        "handoverObject": "S002",
+        "stockObject": "S002",
+        "stockObjectPriority": 0,
+        "availableStock": 50000,
+        "showCaseStock": 0,
+        "minQuantity": 0,
+        "freeAvailableStock": 0,
+        "availabilityDates": [
+          {
+            "availableDate": [
+              2022,
+              4,
+              6
+            ],
+            "validTo": "06.04.2022 23:59:59"
+          },
+          {
+            "availableDate": [
+              2022,
+              4,
+              7
+            ],
+            "validTo": "07.04.2022 23:59:59"
+          }
+        ],
+        "prepaidOnly": true,
+        "preorderCalendar": false,
+        "preorderPhase": null,
+        "storeType": null,
+        "schemaClass": 0
+      }
+    ]
+  }
+}

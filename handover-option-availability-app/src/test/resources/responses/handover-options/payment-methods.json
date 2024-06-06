@@ -1,0 +1,81 @@
+[
+  {
+    "handoverOption": "eta-delivery",
+    "paymentMethods": [
+      {
+        "name": "ADVANCE",
+        "postPayment": false
+      }
+    ]
+  },
+  {
+    "handoverOption": "pickup",
+    "paymentMethods": [
+      {
+        "name": "ADVANCE",
+        "postPayment": false
+      },
+      {
+        "name": "CREDIT",
+        "postPayment": false
+      },
+      {
+        "name": "ON_HANDOVER",
+        "postPayment": true
+      }
+    ]
+  },
+  {
+    "handoverOption": "pickup-partner",
+    "paymentMethods": [
+      {
+        "name": "ADVANCE",
+        "postPayment": false
+      }
+    ]
+  },
+  {
+    "handoverOption": "exactly-time-delivery",
+    "paymentMethods": [
+      {
+        "name": "ADVANCE",
+        "postPayment": false
+      }
+    ]
+  },
+  {
+    "handoverOption": "pickup-seamless",
+    "paymentMethods": [
+      {
+        "name": "ADVANCE",
+        "postPayment": false
+      }
+    ]
+  },
+  {
+    "handoverOption": "interval-delivery",
+    "paymentMethods": [
+      {
+        "name": "ADVANCE",
+        "postPayment": false
+      },
+      {
+        "name": "CREDIT",
+        "postPayment": false
+      },
+      {
+        "name": "ON_HANDOVER",
+        "postPayment": true
+      }
+    ]
+  },
+  {
+    "handoverOption": "electronic-delivery",
+    "paymentMethods": [
+      {
+        "name": "ADVANCE",
+        "postPayment": false
+      }
+    ]
+  }
+]

@@ -1,0 +1,83 @@
+server:
+  port: 8180
+  error:
+    include-message: always
+
+spring:
+  application:
+    name: handover-option-availability
+  codec:
+    max-in-memory-size: -1
+  cache:
+    handover-option-brief-ttl: 1M
+    handover-option-zone-objects-ttl: 1M
+    handover-option-zone-objects-cache-enabled: false
+    handover-option-objects-cache-enabled: false
+
+handover-option-availability:
+  config:
+    cache:
+      handover-option-brief-ttl: 1M
+    materials:
+      required-label-groups: 109030103, 116010223
+
+ru:
+  mvideo:
+    tp:
+      client:
+        catalog:
+          base-url: ${CATALOG_HOST:http://wiremock:52250}
+    lards:
+      zone-pickup-item:
+        host: ${ZONE_PICKUP_ITEM_HOST:http://wiremock:52250}
+      zone:
+        host: ${ZONE_HOST:http://wiremock:52250}
+      zone.handover.option:
+        host: ${ZONE_HANDOVER_OPTION_HOST:http://wiremock:52250}
+      handover.option:
+        host: ${HANDOVER_OPTION_HOST:http://wiremock:52250}
+      price.rules:
+        host: ${PRICE_RULES_HOST:http://wiremock:52250}
+      yandex-geocoder:
+        host: http://wiremock:52250
+      objects-public:
+        host: http://wiremock:52250
+      seamless:
+        baseUrl: http://wiremock:52250
+      pickup-point-restriction:
+        host: ${PICKUP_POINT_RESTRICTION_HOST:http://wiremock:52250}
+      delivery-time-calculation:
+        host: ${DELIVERY_TIME_CALCULATION_HOST:http://wiremock:52250}
+    msp:
+      base-url: http://wiremock:52250
+      max-in-memory-size: -1
+      username: TEP
+      password: weNDY234kj2
+
+mvideo:
+  pickup-points:
+    client:
+      ms-pickup-points:
+        base-url: ${MS_PICKUP_POINTS_HOST:http://wiremock:52250}
+        maxInMemorySize: 16777216
+
+lib:
+  logging:
+    enabled: ${LOGGING_ENABLED:true}
+    ignorePatterns: /(actuator|swagger|webjars|contracts|favicon).*
+
+management:
+  info:
+    git:
+      enabled: true
+  endpoint:
+    health:
+      show-details: always
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+
+opentracing:
+  jaeger:
+    enabled: false

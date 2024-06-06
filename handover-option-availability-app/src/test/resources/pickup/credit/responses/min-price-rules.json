@@ -1,0 +1,9 @@
+[
+  {
+    "zoneId": "S002",
+    "handoverOptionName": "pickup",
+    "price": 200,
+    "minRadius": 0,
+    "maxRadius": 10
+  }
+]

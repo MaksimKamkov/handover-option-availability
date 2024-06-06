@@ -1,0 +1,31 @@
+[
+  {
+    "type": "pickup",
+    "options": [
+      {
+        "handoverOption": "pickup-partner",
+        "minPrice": 0.0,
+        "availabilityDate": "${json-unit.any-string}",
+        "sumObjectsOfDate": [
+          {
+            "qtyObjects": 1508,
+            "availabilityDate": "${json-unit.any-string}"
+          }
+        ],
+        "partnerBrand": [
+          "5post",
+          "POST"
+        ],
+        "applicableTo": [
+          {
+            "material": "50044074",
+            "qty": 11592,
+            "availabilityDate": "${json-unit.any-string}",
+            "prepaidQty": 11592,
+            "showcaseQty": false
+          }
+        ]
+      }
+    ]
+  }
+]

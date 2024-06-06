@@ -1,0 +1,49 @@
+{
+  "items": [
+    {
+      "objectId": "S205",
+      "objectName": "М-н №205, Москва M.mobile+",
+      "objectType": null,
+      "cityName": "г.Москва",
+      "regionId": 1,
+      "regionalOnlineShop": "S002",
+      "params": null
+    },
+    {
+      "objectId": "S229",
+      "objectName": "М-н №229, Мытищи M.mobile+",
+      "objectType": null,
+      "cityName": "г.Мытищи",
+      "regionId": 1,
+      "regionalOnlineShop": "S002",
+      "params": null
+    },
+    {
+      "objectId": "S499",
+      "objectName": "М-н №499, Москва M.mobile+",
+      "objectType": null,
+      "cityName": "г.Москва",
+      "regionId": 1,
+      "regionalOnlineShop": "S002",
+      "params": null
+    },
+    {
+      "objectId": "S789",
+      "objectName": "М-н №789, Москва M.mobile+",
+      "objectType": null,
+      "cityName": "г.Москва",
+      "regionId": 1,
+      "regionalOnlineShop": "S002",
+      "params": null
+    },
+    {
+      "objectId": "S797",
+      "objectName": "М-н №797, Москва M.mobile+",
+      "objectType": null,
+      "cityName": "дер.Марфино",
+      "regionId": 1,
+      "regionalOnlineShop": "S002",
+      "params": null
+    }
+  ]
+}

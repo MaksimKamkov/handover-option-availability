@@ -1,0 +1,54 @@
+{
+  "ResponseHeader": {
+    "clientId": "1",
+    "interfaceVersion": "2.0",
+    "responseDate": "availableDateToday 14:37:37",
+    "responseCode": 200,
+    "responseMessage": "OK",
+    "headerErrors": []
+  },
+  "ResponseBody": {
+    "availabilityOptions": [
+      {
+        "material": "20030060",
+        "handoverType": "PICKUP",
+        "handoverObject": "S015",
+        "stockObject": "C097",
+        "stockObjectPriority": 2,
+        "availableStock": 20000,
+        "showCaseStock": 0,
+        "prepaidOnly": false,
+        "availabilityDates": [
+          {
+            "availableDate": "availableDateToday",
+            "validTo": "validToToday 13:00:00"
+          },
+          {
+            "availableDate": "availableDateTomorrow",
+            "validTo": "validToTomorrow 13:00:00"
+          }
+        ]
+      },
+      {
+        "material": "20030060",
+        "handoverType": "PICKUP",
+        "handoverObject": "SJ00",
+        "stockObject": "C025",
+        "stockObjectPriority": 0,
+        "availableStock": 19921,
+        "showCaseStock": 0,
+        "prepaidOnly": true,
+        "availabilityDates": [
+          {
+            "availableDate": "availableDatePlusThreeDays",
+            "validTo": "validToTomorrow 20:00:00"
+          },
+          {
+            "availableDate": "availableDatePlusTwoDays",
+            "validTo": "validToToday 20:00:00"
+          }
+        ]
+      }
+    ]
+  }
+}

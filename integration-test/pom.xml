@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>ru.mvideo</groupId>
+	<artifactId>handover-option-availability-test</artifactId>
+	<version>0.1.0-RELEASE</version>
+
+	<properties>
+		<!-- Generic properties -->
+		<release.version>14</release.version>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+
+		<maven-compiler-plugin.version>3.8.1</maven-compiler-plugin.version>
+		<maven-surefire-plugin.version>2.22.2</maven-surefire-plugin.version>
+		<maven-failsafe-plugin.version>2.22.2</maven-failsafe-plugin.version>
+		<allure-maven-plugin.version>2.10.0</allure-maven-plugin.version>
+
+		<mvideo-group-id>7433065</mvideo-group-id>
+
+		<!--AUTOTEST LIBS VERSION-->
+		<ru.mvideo.btt.version>2.18.2</ru.mvideo.btt.version>
+	</properties>
+
+	<dependencyManagement>
+		<dependencies>
+			<dependency>
+				<groupId>ru.mvideo.btt</groupId>
+				<artifactId>lib-test-bom</artifactId>
+				<version>${ru.mvideo.btt.version}</version>
+				<type>pom</type>
+				<scope>import</scope>
+			</dependency>
+		</dependencies>
+	</dependencyManagement>
+	<dependencies>
+		<dependency>
+			<groupId>ru.mvideo.btt</groupId>
+			<artifactId>lib-test-api</artifactId>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>ru.mvideo.btt</groupId>
+			<artifactId>lib-test-mock</artifactId>
+			<scope>test</scope>
+		</dependency>
+	</dependencies>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>${maven-compiler-plugin.version}</version>
+				<configuration>
+					<encoding>UTF-8</encoding>
+					<release>${release.version}</release>
+					<showDeprecation>true</showDeprecation>
+					<showWarnings>true</showWarnings>
+					<fork>true</fork>
+				</configuration>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-surefire-plugin</artifactId>
+				<version>${maven-surefire-plugin.version}</version>
+				<configuration>
+					<skip>true</skip>
+					<argLine>-Dfile.encoding=UTF-8</argLine>
+				</configuration>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-failsafe-plugin</artifactId>
+				<version>${maven-failsafe-plugin.version}</version>
+				<configuration>
+					<testFailureIgnore>false</testFailureIgnore>
+					<includes>
+						<include>**/IntegrationTestRunner.java</include>
+					</includes>
+					<argLine>-Xmx512m -Dfile.encoding=UTF-8</argLine>
+					<encoding>UTF-8</encoding>
+				</configuration>
+				<executions>
+					<execution>
+						<goals>
+							<goal>integration-test</goal>
+							<goal>verify</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
+			<plugin>
+				<groupId>io.qameta.allure</groupId>
+				<artifactId>allure-maven</artifactId>
+				<version>${allure-maven-plugin.version}</version>
+				<configuration>
+					<reportVersion>2.13.7</reportVersion>
+				</configuration>
+				<executions>
+					<execution>
+						<id>allure-reports</id>
+						<phase>post-integration-test</phase>
+						<goals>
+							<goal>report</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
+		</plugins>
+	</build>
+
+	<profiles>
+		<profile>
+			<id>local-report</id>
+			<build>
+				<plugins>
+					<plugin>
+						<groupId>io.qameta.allure</groupId>
+						<artifactId>allure-maven</artifactId>
+						<version>${allure-maven-plugin.version}</version>
+						<configuration>
+							<reportVersion>2.13.7</reportVersion>
+						</configuration>
+						<executions>
+							<execution>
+								<id>allure-reports</id>
+								<phase>post-integration-test</phase>
+								<goals>
+									<goal>serve</goal>
+								</goals>
+							</execution>
+						</executions>
+					</plugin>
+				</plugins>
+			</build>
+		</profile>
+	</profiles>
+
+	<repositories>
+		<repository>
+			<id>gitlab-maven</id>
+			<url>https://gitlab.com/api/v4/groups/${mvideo-group-id}/-/packages/maven</url>
+		</repository>
+	</repositories>
+
+</project>

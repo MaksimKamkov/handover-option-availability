@@ -1,0 +1,83 @@
+{
+  "request": {
+    "url": "/v2/pickup-points/compressed/cellLimit",
+    "method": "POST",
+    "bodyPatterns": [
+      {
+        "ignoreArrayOrder": true,
+        "equalToJson": {
+          "rimCode": "S002",
+          "brand": "MVIDEO",
+          "cellLimitIds": [
+            "88ec79ff-7f31-4197-85e2-c0d61b2b0687",
+            "54e48104-2596-474c-97ff-d591e48b74c5",
+            "801ede46-2c1f-472c-85e1-305febe1a0cf",
+            "eb02b369-5591-4ab8-aa0c-ada80923b478",
+            "644180d2-5037-4cf7-adc6-864365599f78",
+            "90c6e03d-9919-46b0-9087-150305a44fe6",
+            "c31f40b2-7cf7-47f1-a76c-bc6034290bae",
+            "dcd6bd06-65bb-4b82-befd-a1d4841669ca",
+            "88814768-69a4-4ed9-beb3-49c5a6681e4e",
+            "d88cee42-88cd-4cb1-802c-0e89cb53a064",
+            "63eb6650-8a0a-4635-be55-a89b9c5ad23a",
+            "f4358d42-1845-4202-adc3-ed81392767c4",
+            "022acdd9-ff41-4e29-92e3-45c4ef68bd7a",
+            "1d987555-d4a2-46f6-942e-7258d14abae3",
+            "14719abb-41d5-4445-9288-6c2358db2e99",
+            "d77e8b0c-082d-42f9-b114-904a72d0f9ed",
+            "d7061688-87a1-4b7d-9d1a-44a2fe89d3a0",
+            "407ba25c-9caf-445b-90a2-970342688a02",
+            "cc8a8b8f-58f1-475e-833f-1a716883d4c2",
+            "f957c803-8f55-4eee-bbc5-d31e32018fdd",
+            "2a79a759-2ca5-4f41-87bf-3068cf60802d",
+            "8ad455bd-54fe-40c9-9bb2-5e45b59dcc2c",
+            "c6364c08-7537-457a-a07f-445f5d5b9177",
+            "9ffaf294-d368-40c2-a067-c7b82062bb17",
+            "97d46090-0d3c-43fd-b39b-970c5d38ca8c",
+            "89147d6e-79f9-456d-b45c-f635eb37a671",
+            "b4ee77ae-d2a9-4c69-90f0-e8a73d88362b",
+            "f26392f1-772f-45e8-bf2a-f5305e6300c6",
+            "0cc78a68-32c9-473f-9dcc-dd6e26432e62",
+            "f1da567c-44f3-4541-86c9-5117d212febf",
+            "aa251887-77ea-4b09-b1d1-e0ca4b000700",
+            "a0d66160-4cfc-4a3f-bccc-5b8754c77681",
+            "255c0914-44e1-4a49-8446-b2d94e8d4e6d",
+            "309ce422-651f-4de3-9848-812da12b7453",
+            "77c33017-87ad-4d74-8e4d-7e23155a6724",
+            "960795f6-c831-4a87-a03e-e90b9e4478f0",
+            "fc855ede-a2a2-4904-9551-6c8594fb1a59",
+            "1a3e5bb8-85ac-40c7-bc83-c44743f07aed",
+            "edb399be-a5c5-4d9a-a307-1d446c58b2a6",
+            "ea100648-e12a-4412-890a-970c3aab314d",
+            "67e37566-fe74-4dcd-a8fc-b6fbd165eb41",
+            "a5f8beaf-daf8-4a42-ad0f-324ff6be0ad7",
+            "618c476b-0716-4a72-9f5c-c6a0f1d576b2",
+            "800c48bc-38f0-4afa-b3ed-a0f6f42f1095",
+            "0c90af1c-5c12-4d0e-af89-f0be91fd3048",
+            "1112193b-f635-4ab6-899f-28e2656344e8",
+            "213f98e5-e151-481e-a978-5b072c05fdfe",
+            "8a2e7d40-ca53-4d8f-88b9-2ddd9bf820cc",
+            "f1be62e5-5e47-4913-a20a-3a5a7c797f13",
+            "c695bf98-09f8-42f5-91ca-4d35a20f18aa",
+            "443c906f-7f3f-408b-afcf-9afea50ec2f5",
+            "7c252b81-e749-4a50-bf86-bd60c7837920",
+            "61582152-56cb-4675-9d8c-64d8a72c8d03",
+            "271a0840-e9b3-43cf-b3ae-9217ff3d0a48",
+            "875a28ba-baea-4d50-8455-653fdc9ffb7c",
+            "82e73275-4d6e-47ea-ba0c-0943a327b397",
+            "898351cc-7734-4695-8a63-df3657d40e11",
+            "82359ab7-ea53-417f-bc46-6afaf2d194bc",
+            "e15ee3c2-d5ef-4664-a416-a2d64d83084b"
+          ]
+        }
+      }
+    ]
+  },
+  "response": {
+    "status": 200,
+    "bodyFileName": "handoveroptions/2459/2459-pickup-points-compressed-celllimit-mock-response.json",
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}

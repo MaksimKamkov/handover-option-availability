@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<parent>
+		<artifactId>handover-option-availability</artifactId>
+		<groupId>ru.mvideo.lards</groupId>
+		<version>1.8.0-SNAPSHOT+eac2383d-2331013094</version>
+	</parent>
+	<modelVersion>4.0.0</modelVersion>
+
+	<artifactId>handover-option-availability-client-starter</artifactId>
+
+	<properties>
+		<maven.compiler.source>14</maven.compiler.source>
+		<maven.compiler.target>14</maven.compiler.target>
+
+		<client-lib.version>2.0.0-RELEASE</client-lib.version>
+		<lib-mvideo-lastmile-security-adapter-starter.version>1.6.12-RELEASE</lib-mvideo-lastmile-security-adapter-starter.version>
+	</properties>
+
+	<dependencies>
+		<dependency>
+			<groupId>ru.mvideo.lards</groupId>
+			<artifactId>handover-option-availability-api</artifactId>
+			<version>${project.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>ru.mvideo.lastmile</groupId>
+			<artifactId>lib-mvideo-lastmile-security-adapter-starter</artifactId>
+			<version>${lib-mvideo-lastmile-security-adapter-starter.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-webflux</artifactId>
+			<scope>provided</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<scope>provided</scope>
+		</dependency>
+		<dependency>
+			<groupId>ru.mvideo.tp</groupId>
+			<artifactId>client-lib</artifactId>
+			<version>${client-lib.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-test</artifactId>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>io.projectreactor</groupId>
+			<artifactId>reactor-test</artifactId>
+			<scope>test</scope>
+		</dependency>
+	</dependencies>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.jacoco</groupId>
+				<artifactId>jacoco-maven-plugin</artifactId>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-surefire-plugin</artifactId>
+			</plugin>
+		</plugins>
+	</build>
+</project>

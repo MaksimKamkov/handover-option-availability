@@ -1,0 +1,131 @@
+spring:
+  application:
+    name: handover-option-availability
+  codec:
+    max-in-memory-size: -1
+
+handover-option-availability:
+  config:
+    cache:
+      handover-option-brief-ttl: 1M
+      handover-option-zone-objects-ttl: ${HANDOVER_OPTION_ZONE_OBJECTS_TTL:1M}
+      handover-option-zone-objects-cache-enabled: ${HANDOVER_OPTION_ZONE_OBJECTS_CACHE_ENABLED:true}
+      handover-option-objects-cache-enabled: ${HANDOVER_OPTION_OBJECTS_CACHE_ENABLED:true}
+    materials:
+      required-label-groups: 109030103, 116010223
+    seamless:
+      start-time: ${SEAMLESS_START_TIME:10:00}
+      end-time: ${SEAMLESS_END_TIME:22:00}
+      delivery-time: ${SEAMLESS_DELIVERY_TIME:120}
+      delivery-return-time: ${SEAMLESS_DELIVERY_RETURN_TIME:120}
+    exactly-time-delivery:
+      start-time: ${EXACTLY_TIME_DELIVERY_START_TIME:09:00}
+      end-time: ${EXACTLY_TIME_DELIVERY_END_TIME:22:00}
+      delivery-time: ${EXACTLY_TIME_DELIVERY_DELIVERY_TIME:120}
+      delivery-return-time: ${EXACTLY_TIME_DELIVERY_RETURN_TIME:0}
+    msp:
+      maxCountShops: 20
+    quota:
+      max-days: 3
+    credit:
+      maxDeliveryDays: 30
+      minStock: 5
+    kafka:
+      objects-consumer:
+        bootstrap-servers: ${KAFKA_BOOTSTRAP_SERVERS:rc1a-t6kqii1i6m3n7i80.mdb.yandexcloud.net:9092,rc1b-3j33reatjs2h1ub3.mdb.yandexcloud.net:9092,rc1c-4v58q9gc8lflmm2q.mdb.yandexcloud.net:9092}
+        consumer-group-id: ${KAFKA_CONSUMER_GROUP_ID:handover-option-availability-dev}
+        topic: ${KAFKA_OBJECTS_TOPIC:cs-objects-info-dev}
+        user: ${KAFKA_OBJECTS_USER:cs-objects-info-clop-hoa-dev}
+        password: ${KAFKA_OBJECTS_PASSWORD:orDDjc93hjZHVEgh}
+        securityEnabled: ${KAFKA_OBJECTS_SECURITY_ENABLED:true}
+        security-protocol: ${KAFKA_OBJECTS_SECURITY_PROTOCOL:SASL_PLAINTEXT}
+        session-timeout: ${KAFKA_OBJECTS_SESSION_TIMEOUT:90000}
+        heartbeat-interval: ${KAFKA_OBJECTS_INTERVAL:30000}
+        delay: ${KAFKA_BASE_INFO_DELAY:}
+        max-poll-records: ${KAFKA_BASE_INFO_MAX_POLL_RECORDS:3}
+        offsets: ${KAFKA_OBJECTS_PARTITION_OFFSETS:cs-objects-info-dev-0:0,cs-objects-info-dev-1:0,cs-objects-info-dev-2:0,cs-objects-info-dev-3:0,cs-objects-info-dev-4:0,cs-objects-info-dev-5:0}
+
+ru:
+  mvideo:
+    tp:
+      client:
+        catalog:
+          base-url: ${CATALOG_HOST:https://catalog-service-18367950-staging2.web.staging.ya.tp.mvideo.ru}
+    lards:
+      cache:
+        ttl.cron: 0 0 0 * * *
+      zone-pickup-item:
+        host: ${ZONE_PICKUP_ITEM_HOST:https://zone-pickup-item-dev.lards.yc.mvideo.ru}
+      zone:
+        host: ${ZONE_HOST:https://zone-info-dev.lards.yc.mvideo.ru}
+      zone.handover.option:
+        host: ${ZONE_HANDOVER_OPTION_HOST:https://zone-handover-option-dev.lards.yc.mvideo.ru}
+      handover.option:
+        baseUrl: ${HANDOVER_OPTION_HOST:https://handover-option-dev.lards.yc.mvideo.ru}
+      price.rules:
+        host: ${PRICE_RULES_HOST:https://handover-price-rules-dev.lards.yc.mvideo.ru}
+      yandex-geocoder:
+        host: ${GEOCODING_HOST:https://yandex-geocoder-dev.lards.yc.mvideo.ru}
+      objects-public:
+        host: ${OBJECTS_PUBLIC_HOST:https://objects-public-dev.lards.yc.mvideo.ru}
+      availability-chains:
+        host: ${SEAMLESS_HOST:https://availability-chains-dev.lards.yc.mvideo.ru}
+      pickup-point-restriction:
+        host: ${PICKUP_POINT_RESTRICTION_HOST:https://pickup-point-restriction-dev.lards.yc.mvideo.ru}
+      delivery-time-calculation:
+        host: ${DELIVERY_TIME_CALCULATION_HOST:https://delivery-time-calculation-dev.lards.yc.mvideo.ru}
+    msp:
+      base-url: ${MSP_HOST:http://uat3.sp.mvideo.ru}
+      max-in-memory-size: -1
+      username: ${MSP_USER:TEP}
+      password: ${MSP_PASSWORD:weNDY234kj2}
+      request-timeout: 3000
+
+mvideo:
+  pickup-points:
+    client:
+      ms-pickup-points:
+        base-url: ${MS_PICKUP_POINTS_HOST:https://ms-pickup-points-dev.lards.yc.mvideo.ru}
+        maxInMemorySize: 16777216
+  security:
+    server:
+      realm: ${AUTH_SERVER_REALM:master}
+      url: ${AUTH_SERVER_URL:https://auth-app-tech-platform.sew-uat.yc.mvideo.ru}
+      public-key: ${AUTH_SERVER_PUBLIC_KEY:MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAlCGhXuczjFlEC1XCQ7pRbdXaPmlMkodL9EbO1TdRrlklgInOMuhMZNVW0yDXkSTNO1qmG/a17dysJWaCR6ailrL0KWLdKjP0Egg1JtQ4H+EmBTgDFPSHn5UT55nfKP71qU7Sxq0RMOAO00WqWCdLsdx7CDsPyAkHaxkGg5dme6kOZq2YgkZsWgWLD/l880ABmfclh6X1IzME+yCtAJ/iYWOlb1UtFxRNzf2gduf3V0cGYq4Q0LAV3c27NIOq2bhg0qaoDf3Gtwi2TyEmKsYIlQFkWgsAth6H5VTzRuTWnA9aMkMaLvFkYRK0rFw6dgmcbpC5ZsuYy+vshGDyaqb2cQIDAQAB}
+      resource-id: ${AUTH_RESOURCE_ID:d466cd05-17b7-48ac-883f-40f367a158c2}
+      resource: ${AUTH_RESOURCE_NAME:clop-hoa-dev}
+      secret: ${AUTH_RESOURCE_SECRET:ZGYxYTkwNDgtYjMwZS00NGU0LTg5OTgtNjc0ZmQ0YzdjYjc2}
+  logging:
+    log-jwt: ${LOGGING_STARTER_LOG_JWT:false}
+    request-response:
+      enabled: ${LOGGING_STARTER_ENABLED:true}
+      log-request: ${LOGGING_STARTER_LOG_REQUEST:true}
+      log-response: ${LOGGING_STARTER_LOG_RESPONSE:false}
+      log-headers: ${LOGGING_STARTER_LOG_HEADERS:false}
+      negative-url-pattern: /(actuator|swagger|webjars|contracts|favicon|.{2}/api-docs).*
+
+management:
+  info:
+    git:
+      enabled: true
+  endpoint:
+    health:
+      show-details: always
+  endpoints:
+    web:
+      exposure:
+        include: health,info,metrics,prometheus,env
+
+server:
+  error:
+    include-message: always
+
+logging.level:
+  io.jaegertracing: WARN
+
+opentracing:
+  jaeger:
+    udp-sender:
+      host: ${JAEGER_AGENT_HOST:jaeger-agent.tracing}
+      port: ${JAEGER_AGENT_PORT:5775}
+    enabled: false
